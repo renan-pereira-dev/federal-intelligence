@@ -1,0 +1,18 @@
+# Configuração local do Streamlit (vale só para este projeto).
+
+[theme]
+base = "dark"
+primaryColor = "#4FB3A9"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#161B26"
+textColor = "#E6E9EF"
+
+[server]
+# O navegador é aberto pelo iniciar.bat; headless evita o pedido de e-mail
+# do Streamlit no primeiro uso.
+headless = true
+port = 8501
+address = "localhost"
+
+[browser]
+gatherUsageStats = false

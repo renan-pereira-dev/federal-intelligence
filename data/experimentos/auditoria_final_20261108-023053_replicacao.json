@@ -1,0 +1,5695 @@
+{
+ "criado_em": "2026-11-08T02:30:53",
+ "concursos_avaliados": [
+  1004,
+  6115
+ ],
+ "duracao_segundos": 1509.0,
+ "trechos": {
+  "principal_inedito": {
+   "concursos": 1572,
+   "intervalo": [
+    1004,
+    2577
+   ],
+   "estrategias": {
+    "motor": {
+     "exato": {
+      "taxa_concurso": 0.0006361323155216285,
+      "ic95": [
+       0.00011230180110237496,
+       0.0035945805048535006
+      ],
+      "acertos_concursos": 1,
+      "taxa_esperada": 0.0006603314567508514,
+      "z_vs_esperado": -0.03735024920070258,
+      "p_vs_esperado": 0.9702057403511624,
+      "taxa_por_premio": 0.0001272264631043257,
+      "taxa_por_premio_esperada": 0.00013210236518762568,
+      "vs_aleatoria": {
+       "n": 1572,
+       "diferenca": -0.0019083969465648854,
+       "ic95": [
+        -0.004695659793144532,
+        0.0008788659000147612
+       ],
+       "z": -1.3419825187485386,
+       "p": 0.1796016638336796
+      },
+      "vs_estrutura": {
+       "n": 1572,
+       "diferenca": 0.0,
+       "ic95": [
+        -0.0017638299220805254,
+        0.0017638299220805254
+       ],
+       "z": 0.0,
+       "p": 1.0
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.006361323155216285,
+      "ic95": [
+       0.00345900508917062,
+       0.01167034608206729
+      ],
+      "acertos_concursos": 10,
+      "taxa_esperada": 0.004964638786836359,
+      "z_vs_esperado": 0.7878829596684903,
+      "p_vs_esperado": 0.43076516942442455,
+      "taxa_por_premio": 0.001272264631043257,
+      "taxa_por_premio_esperada": 0.0009949059208522659,
+      "vs_aleatoria": {
+       "n": 1572,
+       "diferenca": -0.001272264631043257,
+       "ic95": [
+        -0.00712188836226696,
+        0.004577359100180446
+       ],
+       "z": -0.426290440449087,
+       "p": 0.6698962228103872
+      },
+      "vs_estrutura": {
+       "n": 1572,
+       "diferenca": -0.001272264631043257,
+       "ic95": [
+        -0.007121888362266961,
+        0.004577359100180447
+       ],
+       "z": -0.4262904404490869,
+       "p": 0.6698962228103873
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.05216284987277354,
+      "ic95": [
+       0.04222199723604808,
+       0.06428710485744611
+      ],
+      "acertos_concursos": 82,
+      "taxa_esperada": 0.04312784944955806,
+      "z_vs_esperado": 1.764329642010469,
+      "p_vs_esperado": 0.07767649616685939,
+      "taxa_por_premio": 0.010687022900763359,
+      "taxa_por_premio_esperada": 0.008782122139180356,
+      "vs_aleatoria": {
+       "n": 1572,
+       "diferenca": 0.001272264631043257,
+       "ic95": [
+        -0.014002821012402324,
+        0.01654735027448884
+       ],
+       "z": 0.1632487525799755,
+       "p": 0.8703225820169004
+      },
+      "vs_estrutura": {
+       "n": 1572,
+       "diferenca": 0.0057251908396946565,
+       "ic95": [
+        -0.009699422324360558,
+        0.02114980400374987
+       ],
+       "z": 0.7274979233807486,
+       "p": 0.4669209869908588
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.34096692111959287,
+      "ic95": [
+       0.31794677033638463,
+       0.3647624278502255
+      ],
+      "acertos_concursos": 536,
+      "taxa_esperada": 0.3146046974681362,
+      "z_vs_esperado": 2.2698120190866033,
+      "p_vs_esperado": 0.02321899101616446,
+      "taxa_por_premio": 0.08155216284987277,
+      "taxa_por_premio_esperada": 0.07331666463847449,
+      "vs_aleatoria": {
+       "n": 1572,
+       "diferenca": -0.05216284987277354,
+       "ic95": [
+        -0.08580816908435791,
+        -0.018517530661189163
+       ],
+       "z": -3.0387343067749617,
+       "p": 0.002375742791394169
+      },
+      "vs_estrutura": {
+       "n": 1572,
+       "diferenca": -0.061068702290076333,
+       "ic95": [
+        -0.09495392268503983,
+        -0.02718348189511284
+       ],
+       "z": -3.5323558499368755,
+       "p": 0.00041187470803473366
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.8956743002544529,
+      "ic95": [
+       0.8795864205031216,
+       0.9098330944085926
+      ],
+      "acertos_concursos": 1408,
+      "taxa_esperada": 0.89791417872164,
+      "z_vs_esperado": -0.31593654692707784,
+      "p_vs_esperado": 0.7520506711432613,
+      "taxa_por_premio": 0.4306615776081425,
+      "taxa_por_premio_esperada": 0.422899988230078,
+      "vs_aleatoria": {
+       "n": 1572,
+       "diferenca": -0.09096692111959287,
+       "ic95": [
+        -0.10722823396775247,
+        -0.07470560827143327
+       ],
+       "z": -10.964377049949011,
+       "p": 5.668959902086884e-28
+      },
+      "vs_estrutura": {
+       "n": 1572,
+       "diferenca": -0.09287531806615776,
+       "ic95": [
+        -0.10886889894349283,
+        -0.07688173718882269
+       ],
+       "z": -11.38179278335577,
+       "p": 5.152939236277678e-30
+      }
+     }
+    },
+    "motor_diversificado": {
+     "exato": {
+      "taxa_concurso": 0.0,
+      "ic95": [
+       0.0,
+       0.0024377190987023164
+      ],
+      "acertos_concursos": 0,
+      "taxa_esperada": 0.0006603314567508514,
+      "z_vs_esperado": -1.019190897358105,
+      "p_vs_esperado": 0.30811234726735337,
+      "taxa_por_premio": 0.0,
+      "taxa_por_premio_esperada": 0.00013210236518762568,
+      "vs_aleatoria": {
+       "n": 1572,
+       "diferenca": -0.002544529262086514,
+       "ic95": [
+        -0.005035785860364833,
+        -5.3272663808195085e-05
+       ],
+       "z": -2.0019123510345027,
+       "p": 0.04529415905682251
+      },
+      "vs_estrutura": {
+       "n": 1572,
+       "diferenca": -0.0006361323155216285,
+       "ic95": [
+        -0.0018829516539440204,
+        0.0006106870229007633
+       ],
+       "z": -1.0000000000000002,
+       "p": 0.31731050786291404
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.005089058524173028,
+      "ic95": [
+       0.0025809339699333035,
+       0.010010090786797488
+      ],
+      "acertos_concursos": 8,
+      "taxa_esperada": 0.0049638253574791754,
+      "z_vs_esperado": 0.07065098319488636,
+      "p_vs_esperado": 0.9436755330358351,
+      "taxa_por_premio": 0.0010178117048346056,
+      "taxa_por_premio_esperada": 0.0009947426017263394,
+      "vs_aleatoria": {
+       "n": 1572,
+       "diferenca": -0.002544529262086514,
+       "ic95": [
+        -0.008120829773238868,
+        0.00303177124906584
+       ],
+       "z": -0.8943702628140707,
+       "p": 0.3711238176558004
+      },
+      "vs_estrutura": {
+       "n": 1572,
+       "diferenca": -0.002544529262086514,
+       "ic95": [
+        -0.008120829773238868,
+        0.00303177124906584
+       ],
+       "z": -0.8943702628140707,
+       "p": 0.3711238176558004
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.061068702290076333,
+      "ic95": [
+       0.05026763513538544,
+       0.07400975185965858
+      ],
+      "acertos_concursos": 96,
+      "taxa_esperada": 0.04897115176469815,
+      "z_vs_esperado": 2.222576603070032,
+      "p_vs_esperado": 0.026244363335428622,
+      "taxa_por_premio": 0.012468193384223919,
+      "taxa_por_premio_esperada": 0.009991922675766577,
+      "vs_aleatoria": {
+       "n": 1572,
+       "diferenca": 0.010178117048346057,
+       "ic95": [
+        -0.0055900267463027155,
+        0.02594626084299483
+       ],
+       "z": 1.265152682177365,
+       "p": 0.20581660082141673
+      },
+      "vs_estrutura": {
+       "n": 1572,
+       "diferenca": 0.014631043256997456,
+       "ic95": [
+        -0.001373392248088098,
+        0.03063547876208301
+       ],
+       "z": 1.791806076171989,
+       "p": 0.07316403517529631
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.37213740458015265,
+      "ic95": [
+       0.34858127331088573,
+       0.39631692203114877
+      ],
+      "acertos_concursos": 585,
+      "taxa_esperada": 0.3446860187012635,
+      "z_vs_esperado": 2.3005274505128908,
+      "p_vs_esperado": 0.021418355941839353,
+      "taxa_por_premio": 0.08956743002544529,
+      "taxa_por_premio_esperada": 0.08139506529877222,
+      "vs_aleatoria": {
+       "n": 1572,
+       "diferenca": -0.02099236641221374,
+       "ic95": [
+        -0.05492735518310513,
+        0.012942622358677651
+       ],
+       "z": -1.2124665325727806,
+       "p": 0.2253338461544282
+      },
+      "vs_estrutura": {
+       "n": 1572,
+       "diferenca": -0.02989821882951654,
+       "ic95": [
+        -0.06418180021130311,
+        0.004385362552270029
+       ],
+       "z": -1.7092878440344164,
+       "p": 0.08739764390188297
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9134860050890585,
+      "ic95": [
+       0.8985616031449268,
+       0.926394481569887
+      ],
+      "acertos_concursos": 1436,
+      "taxa_esperada": 0.9200626567892656,
+      "z_vs_esperado": -1.019498141585922,
+      "p_vs_esperado": 0.30796653499559246,
+      "taxa_por_premio": 0.4580152671755725,
+      "taxa_por_premio_esperada": 0.4522255100548761,
+      "vs_aleatoria": {
+       "n": 1572,
+       "diferenca": -0.07315521628498728,
+       "ic95": [
+        -0.08825565825760168,
+        -0.05805477431237289
+       ],
+       "z": -9.49536604151133,
+       "p": 2.1943905295928905e-21
+      },
+      "vs_estrutura": {
+       "n": 1572,
+       "diferenca": -0.07506361323155217,
+       "ic95": [
+        -0.0898809653321505,
+        -0.06024626113095384
+       ],
+       "z": -9.929215485667061,
+       "p": 3.1069027801437067e-23
+      }
+     }
+    },
+    "estrutura": {
+     "exato": {
+      "taxa_concurso": 0.0006361323155216285,
+      "ic95": [
+       0.00011230180110237496,
+       0.0035945805048535006
+      ],
+      "acertos_concursos": 1,
+      "taxa_esperada": 0.0006603314567508514,
+      "z_vs_esperado": -0.03735024920070258,
+      "p_vs_esperado": 0.9702057403511624,
+      "taxa_por_premio": 0.0001272264631043257,
+      "taxa_por_premio_esperada": 0.00013210236518762568,
+      "vs_aleatoria": {
+       "n": 1572,
+       "diferenca": -0.0019083969465648854,
+       "ic95": [
+        -0.004695659793144532,
+        0.0008788659000147612
+       ],
+       "z": -1.3419825187485386,
+       "p": 0.1796016638336796
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.007633587786259542,
+      "ic95": [
+       0.004372101992870214,
+       0.013295575592874816
+      ],
+      "acertos_concursos": 12,
+      "taxa_esperada": 0.005038274304484126,
+      "z_vs_esperado": 1.4533566889176686,
+      "p_vs_esperado": 0.1461247451760228,
+      "taxa_por_premio": 0.0015267175572519084,
+      "taxa_por_premio_esperada": 0.001009692152752198,
+      "vs_aleatoria": {
+       "n": 1572,
+       "diferenca": 0.0,
+       "ic95": [
+        -0.006110086081907448,
+        0.006110086081907448
+       ],
+       "z": 0.0,
+       "p": 1.0
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.04643765903307888,
+      "ic95": [
+       0.03709498600086725,
+       0.057991647227344914
+      ],
+      "acertos_concursos": 73,
+      "taxa_esperada": 0.048832823479295136,
+      "z_vs_esperado": -0.4406373727390373,
+      "p_vs_esperado": 0.6594755422732321,
+      "taxa_por_premio": 0.009414758269720101,
+      "taxa_por_premio_esperada": 0.00996320021297857,
+      "vs_aleatoria": {
+       "n": 1572,
+       "diferenca": -0.004452926208651399,
+       "ic95": [
+        -0.019777392279803588,
+        0.01087153986250079
+       ],
+       "z": -0.569529491496374,
+       "p": 0.5689968626236013
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.4020356234096692,
+      "ic95": [
+       0.37806509666039945,
+       0.4264837694225524
+      ],
+      "acertos_concursos": 632,
+      "taxa_esperada": 0.3949104605091967,
+      "z_vs_esperado": 0.5784664516414703,
+      "p_vs_esperado": 0.562949240949176,
+      "taxa_por_premio": 0.09974554707379135,
+      "taxa_por_premio_esperada": 0.09568095545347557,
+      "vs_aleatoria": {
+       "n": 1572,
+       "diferenca": 0.008905852417302799,
+       "ic95": [
+        -0.02561017019509756,
+        0.043421875029703155
+       ],
+       "z": 0.5057208049122777,
+       "p": 0.6130526609144133
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9885496183206107,
+      "ic95": [
+       0.9819724339505989,
+       0.992744909220135
+      ],
+      "acertos_concursos": 1554,
+      "taxa_esperada": 0.9901959669855115,
+      "z_vs_esperado": -0.668775381988727,
+      "p_vs_esperado": 0.5036387728287292,
+      "taxa_por_premio": 0.6452926208651399,
+      "taxa_por_premio_esperada": 0.6510812415602938,
+      "vs_aleatoria": {
+       "n": 1572,
+       "diferenca": 0.0019083969465648854,
+       "ic95": [
+        -0.005677535433858021,
+        0.009494329326987792
+       ],
+       "z": 0.49307821737512636,
+       "p": 0.6219573214079801
+      }
+     }
+    },
+    "aleatoria": {
+     "exato": {
+      "taxa_concurso": 0.002544529262086514,
+      "ic95": [
+       0.0009899489793242199,
+       0.0065244229483923345
+      ],
+      "acertos_concursos": 4,
+      "taxa_esperada": 0.0006603314567508514,
+      "z_vs_esperado": 2.9081716952715047,
+      "p_vs_esperado": 0.003635486771063481,
+      "taxa_por_premio": 0.0005089058524173028,
+      "taxa_por_premio_esperada": 0.00013210236518762568
+     },
+     "milhar": {
+      "taxa_concurso": 0.007633587786259542,
+      "ic95": [
+       0.004372101992870214,
+       0.013295575592874816
+      ],
+      "acertos_concursos": 12,
+      "taxa_esperada": 0.004993168932062461,
+      "z_vs_esperado": 1.4852450385053761,
+      "p_vs_esperado": 0.13747892527873284,
+      "taxa_por_premio": 0.0015267175572519084,
+      "taxa_por_premio_esperada": 0.0010006346452395658
+     },
+     "centena": {
+      "taxa_concurso": 0.05089058524173028,
+      "ic95": [
+       0.04107932468882547,
+       0.06289145099016161
+      ],
+      "acertos_concursos": 80,
+      "taxa_esperada": 0.04871590209913599,
+      "z_vs_esperado": 0.4005328978684151,
+      "p_vs_esperado": 0.6887640578819786,
+      "taxa_por_premio": 0.010178117048346057,
+      "taxa_por_premio_esperada": 0.009938905293857148
+     },
+     "dezena": {
+      "taxa_concurso": 0.3931297709923664,
+      "ic95": [
+       0.36927274809562705,
+       0.417507833085775
+      ],
+      "acertos_concursos": 618,
+      "taxa_esperada": 0.3941749597924412,
+      "z_vs_esperado": -0.08488528612825134,
+      "p_vs_esperado": 0.9323525895324127,
+      "taxa_por_premio": 0.09427480916030534,
+      "taxa_por_premio_esperada": 0.0954639385711785
+     },
+     "unidade": {
+      "taxa_concurso": 0.9866412213740458,
+      "ic95": [
+       0.9796637941811561,
+       0.991246059367817
+      ],
+      "acertos_concursos": 1551,
+      "taxa_esperada": 0.9898266690277517,
+      "z_vs_esperado": -1.2713268570419116,
+      "p_vs_esperado": 0.20361239162044642,
+      "taxa_por_premio": 0.6538167938931297,
+      "taxa_por_premio_esperada": 0.6501907785024956
+     }
+    }
+   },
+   "posicao": {
+    "motor": {
+     "media": 0.4983610941475827,
+     "ic95": [
+      0.49198190435887434,
+      0.504740283936291
+     ],
+     "n": 7860,
+     "p_vs_05": 0.6147297637327265
+    },
+    "estrutura": {
+     "media": 0.4995342875318066,
+     "ic95": [
+      0.4968747185505825,
+      0.5021938565130307
+     ],
+     "n": 7860,
+     "p_vs_05": 0.8862684070580586
+    },
+    "aleatoria": {
+     "media": 0.5016632824427482,
+     "ic95": [
+      0.49529965411669175,
+      0.5080269107688046
+     ],
+     "n": 7860,
+     "p_vs_05": 0.6094770979083302
+    },
+    "motor_vs_estrutura": {
+     "n": 7860,
+     "diferenca": -0.0011731933842239204,
+     "ic95": [
+      -0.008175098301875634,
+      0.005828711533427794
+     ],
+     "z": -0.32840477843136323,
+     "p": 0.7426056305011164
+    }
+   },
+   "p_holm": {
+    "motor|unidade|estrutura": 2.1642344792366246e-28,
+    "motor|unidade|aleatoria": 2.3242735598556222e-26,
+    "motor_diversificado|unidade|estrutura": 1.2427611120574827e-21,
+    "motor_diversificado|unidade|aleatoria": 8.558123065412273e-20,
+    "motor|dezena|estrutura": 0.01565123890531988,
+    "motor|dezena|aleatoria": 0.08790248328158426,
+    "motor_diversificado|dezena|esperado": 0.7710608139062167,
+    "motor|dezena|esperado": 0.8126646855657561,
+    "motor_diversificado|centena|esperado": 0.8923083534045732,
+    "motor_diversificado|exato|aleatoria": 1.0,
+    "motor_diversificado|centena|estrutura": 1.0,
+    "motor|centena|esperado": 1.0,
+    "motor_diversificado|dezena|estrutura": 1.0,
+    "estrutura|milhar|esperado": 1.0,
+    "motor|exato|aleatoria": 1.0,
+    "estrutura|exato|aleatoria": 1.0,
+    "motor_diversificado|centena|aleatoria": 1.0,
+    "motor_diversificado|dezena|aleatoria": 1.0,
+    "motor_diversificado|unidade|esperado": 1.0,
+    "motor_diversificado|exato|esperado": 1.0,
+    "motor_diversificado|exato|estrutura": 1.0,
+    "motor_diversificado|milhar|aleatoria": 1.0,
+    "motor_diversificado|milhar|estrutura": 1.0,
+    "motor|milhar|esperado": 1.0,
+    "motor|centena|estrutura": 1.0,
+    "estrutura|unidade|esperado": 1.0,
+    "estrutura|dezena|esperado": 1.0,
+    "estrutura|centena|aleatoria": 1.0,
+    "estrutura|dezena|aleatoria": 1.0,
+    "posicao|vs_05": 1.0,
+    "estrutura|unidade|aleatoria": 1.0,
+    "estrutura|centena|esperado": 1.0,
+    "motor|milhar|aleatoria": 1.0,
+    "motor|milhar|estrutura": 1.0,
+    "posicao|vs_estrutura": 1.0,
+    "motor|unidade|esperado": 1.0,
+    "motor|centena|aleatoria": 1.0,
+    "motor_diversificado|milhar|esperado": 1.0,
+    "motor|exato|esperado": 1.0,
+    "estrutura|exato|esperado": 1.0,
+    "motor|exato|estrutura": 1.0,
+    "estrutura|milhar|aleatoria": 1.0
+   },
+   "vantagens_comprovadas": [],
+   "sinais_nominais": [
+    "motor_diversificado|centena|esperado",
+    "motor_diversificado|dezena|esperado",
+    "motor|dezena|esperado"
+   ],
+   "desfavoraveis_nominais": [
+    "motor_diversificado|exato|aleatoria",
+    "motor_diversificado|unidade|aleatoria",
+    "motor_diversificado|unidade|estrutura",
+    "motor|dezena|aleatoria",
+    "motor|dezena|estrutura",
+    "motor|unidade|aleatoria",
+    "motor|unidade|estrutura"
+   ],
+   "testes": 42
+  },
+  "secundario_ja_usado": {
+   "concursos": 3500,
+   "intervalo": [
+    2578,
+    6115
+   ],
+   "estrategias": {
+    "motor": {
+     "exato": {
+      "taxa_concurso": 0.0,
+      "ic95": [
+       0.0,
+       0.0010963563465531526
+      ],
+      "acertos_concursos": 0,
+      "taxa_esperada": 0.0005379510916788551,
+      "z_vs_esperado": -1.372535539761618,
+      "p_vs_esperado": 0.16989678305094447,
+      "taxa_por_premio": 0.0,
+      "taxa_por_premio_esperada": 0.00010761364160824971,
+      "vs_aleatoria": {
+       "n": 3500,
+       "diferenca": 0.0,
+       "ic95": [
+        0.0,
+        0.0
+       ],
+       "z": 0.0,
+       "p": 1.0
+      },
+      "vs_estrutura": {
+       "n": 3500,
+       "diferenca": -0.0014285714285714286,
+       "ic95": [
+        -0.0026800535450452008,
+        -0.0001770893120976566
+       ],
+       "z": -2.237347192694528,
+       "p": 0.025263657039103694
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.002857142857142857,
+      "ic95": [
+       0.0015527098190990934,
+       0.005251667348330899
+      ],
+      "acertos_concursos": 10,
+      "taxa_esperada": 0.005091410030798157,
+      "z_vs_esperado": -1.8572016330075158,
+      "p_vs_esperado": 0.06328247275873532,
+      "taxa_por_premio": 0.0005714285714285715,
+      "taxa_por_premio_esperada": 0.0010203632096968244,
+      "vs_aleatoria": {
+       "n": 3500,
+       "diferenca": -0.002,
+       "ic95": [
+        -0.004909506528028256,
+        0.0009095065280282561
+       ],
+       "z": -1.3473075115100515,
+       "p": 0.17788121389999068
+      },
+      "vs_estrutura": {
+       "n": 3500,
+       "diferenca": -0.002,
+       "ic95": [
+        -0.004909506528028256,
+        0.0009095065280282561
+       ],
+       "z": -1.3473075115100515,
+       "p": 0.17788121389999068
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.04257142857142857,
+      "ic95": [
+       0.03636935162049086,
+       0.04977651495712719
+      ],
+      "acertos_concursos": 149,
+      "taxa_esperada": 0.039752107773642346,
+      "z_vs_esperado": 0.8545908524546482,
+      "p_vs_esperado": 0.39277769349034797,
+      "taxa_por_premio": 0.008628571428571428,
+      "taxa_por_premio_esperada": 0.008086732977043905,
+      "vs_aleatoria": {
+       "n": 3500,
+       "diferenca": -0.006571428571428572,
+       "ic95": [
+        -0.016318250854241902,
+        0.0031753937113847587
+       ],
+       "z": -1.321456329691312,
+       "p": 0.18634925447239892
+      },
+      "vs_estrutura": {
+       "n": 3500,
+       "diferenca": -0.009714285714285713,
+       "ic95": [
+        -0.01975940653205083,
+        0.0003308351034794037
+       ],
+       "z": -1.8954475854911719,
+       "p": 0.05803312951657882
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.30857142857142855,
+      "ic95": [
+       0.2934856407869863,
+       0.3240769642142655
+      ],
+      "acertos_concursos": 1080,
+      "taxa_esperada": 0.30052303631689686,
+      "z_vs_esperado": 1.049919522337216,
+      "p_vs_esperado": 0.2937551150699026,
+      "taxa_por_premio": 0.07057142857142858,
+      "taxa_por_premio_esperada": 0.06966855901638952,
+      "vs_aleatoria": {
+       "n": 3500,
+       "diferenca": -0.07428571428571429,
+       "ic95": [
+        -0.09599693072145893,
+        -0.05257449784996964
+       ],
+       "z": -6.706211069790122,
+       "p": 1.9974275157328627e-11
+      },
+      "vs_estrutura": {
+       "n": 3500,
+       "diferenca": -0.09028571428571429,
+       "ic95": [
+        -0.11234653824619627,
+        -0.06822489032523231
+       ],
+       "z": -8.021459230942243,
+       "p": 1.0449626521980552e-15
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9051428571428571,
+      "ic95": [
+       0.8949863311106127,
+       0.9144110212897231
+      ],
+      "acertos_concursos": 3168,
+      "taxa_esperada": 0.9043372953436514,
+      "z_vs_esperado": 0.17583926268415737,
+      "p_vs_esperado": 0.8604202230248245,
+      "taxa_por_premio": 0.4440571428571429,
+      "taxa_por_premio_esperada": 0.43771616631137256,
+      "vs_aleatoria": {
+       "n": 3500,
+       "diferenca": -0.086,
+       "ic95": [
+        -0.09609875680169083,
+        -0.07590124319830915
+       ],
+       "z": -16.69116340852746,
+       "p": 1.519800717053401e-62
+      },
+      "vs_estrutura": {
+       "n": 3500,
+       "diferenca": -0.08485714285714285,
+       "ic95": [
+        -0.09502837837181004,
+        -0.07468590734247567
+       ],
+       "z": -16.35199575903657,
+       "p": 4.209635532491657e-60
+      }
+     }
+    },
+    "motor_diversificado": {
+     "exato": {
+      "taxa_concurso": 0.0005714285714285715,
+      "ic95": [
+       0.00015672031462098796,
+       0.0020812401961075324
+      ],
+      "acertos_concursos": 2,
+      "taxa_esperada": 0.0005379510916788551,
+      "z_vs_esperado": 0.08541488519845977,
+      "p_vs_esperado": 0.9319315597319258,
+      "taxa_por_premio": 0.00011428571428571428,
+      "taxa_por_premio_esperada": 0.00010761364160824971,
+      "vs_aleatoria": {
+       "n": 3500,
+       "diferenca": 0.0005714285714285715,
+       "ic95": [
+        -0.0002204178459942563,
+        0.0013632749888513992
+       ],
+       "z": 1.4144156939488253,
+       "p": 0.1572398847932093
+      },
+      "vs_estrutura": {
+       "n": 3500,
+       "diferenca": -0.0008571428571428571,
+       "ic95": [
+        -0.002338703098505107,
+        0.0006244173842193926
+       ],
+       "z": -1.1339397164541152,
+       "p": 0.2568198358571169
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.0037142857142857142,
+      "ic95": [
+       0.0021719816790114212,
+       0.006344801734681622
+      ],
+      "acertos_concursos": 13,
+      "taxa_esperada": 0.005094085629673279,
+      "z_vs_esperado": -1.1466386556873627,
+      "p_vs_esperado": 0.25153099334078366,
+      "taxa_por_premio": 0.0007428571428571429,
+      "taxa_por_premio_esperada": 0.0010209005434013052,
+      "vs_aleatoria": {
+       "n": 3500,
+       "diferenca": -0.001142857142857143,
+       "ic95": [
+        -0.004210307999595101,
+        0.0019245937138808148
+       ],
+       "z": -0.7302480478471626,
+       "p": 0.46523857788766765
+      },
+      "vs_estrutura": {
+       "n": 3500,
+       "diferenca": -0.001142857142857143,
+       "ic95": [
+        -0.004210307999595101,
+        0.0019245937138808148
+       ],
+       "z": -0.7302480478471626,
+       "p": 0.46523857788766765
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.052,
+      "ic95": [
+       0.045123180936327945,
+       0.05985915435018367
+      ],
+      "acertos_concursos": 182,
+      "taxa_esperada": 0.049061052204868796,
+      "z_vs_esperado": 0.8049727635664939,
+      "p_vs_esperado": 0.4208353970971478,
+      "taxa_por_premio": 0.010514285714285714,
+      "taxa_por_premio_esperada": 0.010010640628960439,
+      "vs_aleatoria": {
+       "n": 3500,
+       "diferenca": 0.002857142857142857,
+       "ic95": [
+        -0.007347561604079789,
+        0.013061847318365502
+       ],
+       "z": 0.5487665048291906,
+       "p": 0.5831656995909423
+      },
+      "vs_estrutura": {
+       "n": 3500,
+       "diferenca": -0.00028571428571428574,
+       "ic95": [
+        -0.010808658180545966,
+        0.010237229609117396
+       ],
+       "z": -0.05321704701619123,
+       "p": 0.9575589733063412
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.3597142857142857,
+      "ic95": [
+       0.34397669621990873,
+       0.3757594814750385
+      ],
+      "acertos_concursos": 1259,
+      "taxa_esperada": 0.35478250928136956,
+      "z_vs_esperado": 0.6127300293132795,
+      "p_vs_esperado": 0.5400548632256268,
+      "taxa_por_premio": 0.08502857142857143,
+      "taxa_por_premio_esperada": 0.08427065451658422,
+      "vs_aleatoria": {
+       "n": 3500,
+       "diferenca": -0.023142857142857142,
+       "ic95": [
+        -0.045258043598399814,
+        -0.0010276706873144671
+       ],
+       "z": -2.0510792477913538,
+       "p": 0.040259229894484716
+      },
+      "vs_estrutura": {
+       "n": 3500,
+       "diferenca": -0.039142857142857146,
+       "ic95": [
+        -0.06179418144405166,
+        -0.016491532841662628
+       ],
+       "z": -3.3869984368178496,
+       "p": 0.000706617904162022
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9402857142857143,
+      "ic95": [
+       0.9319422306150623,
+       0.9476637778820586
+      ],
+      "acertos_concursos": 3291,
+      "taxa_esperada": 0.9400475151782077,
+      "z_vs_esperado": 0.06374327430364177,
+      "p_vs_esperado": 0.9491746468781268,
+      "taxa_por_premio": 0.5050857142857142,
+      "taxa_por_premio_esperada": 0.4996307800519447,
+      "vs_aleatoria": {
+       "n": 3500,
+       "diferenca": -0.05085714285714286,
+       "ic95": [
+        -0.059144575324213466,
+        -0.04256971039007225
+       ],
+       "z": -12.02785065170302,
+       "p": 2.5367899000525696e-33
+      },
+      "vs_estrutura": {
+       "n": 3500,
+       "diferenca": -0.04971428571428571,
+       "ic95": [
+        -0.058159239636967355,
+        -0.041269331791604066
+       ],
+       "z": -11.538251231696302,
+       "p": 8.462822787704635e-31
+      }
+     }
+    },
+    "estrutura": {
+     "exato": {
+      "taxa_concurso": 0.0014285714285714286,
+      "ic95": [
+       0.0006103498670054076,
+       0.0033400168899861645
+      ],
+      "acertos_concursos": 5,
+      "taxa_esperada": 0.0005379510916788551,
+      "z_vs_esperado": 2.2723405226385767,
+      "p_vs_esperado": 0.023065951071095565,
+      "taxa_por_premio": 0.00028571428571428574,
+      "taxa_por_premio_esperada": 0.00010761364160824971,
+      "vs_aleatoria": {
+       "n": 3500,
+       "diferenca": 0.0014285714285714286,
+       "ic95": [
+        0.0001770893120976566,
+        0.0026800535450452008
+       ],
+       "z": 2.237347192694528,
+       "p": 0.025263657039103694
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.004857142857142857,
+      "ic95": [
+       0.0030348354679433794,
+       0.007765156274100401
+      ],
+      "acertos_concursos": 17,
+      "taxa_esperada": 0.00511696095543793,
+      "z_vs_esperado": -0.21543291157368194,
+      "p_vs_esperado": 0.829429812633901,
+      "taxa_por_premio": 0.0009714285714285714,
+      "taxa_por_premio_esperada": 0.0010254946224226287,
+      "vs_aleatoria": {
+       "n": 3500,
+       "diferenca": 0.0,
+       "ic95": [
+        -0.003265799637247937,
+        0.003265799637247937
+       ],
+       "z": 0.0,
+       "p": 1.0
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.05228571428571428,
+      "ic95": [
+       0.045389587012024085,
+       0.060163550356575224
+      ],
+      "acertos_concursos": 183,
+      "taxa_esperada": 0.04885845412452209,
+      "z_vs_esperado": 0.940572602480636,
+      "p_vs_esperado": 0.3469239275250694,
+      "taxa_por_premio": 0.010571428571428572,
+      "taxa_por_premio_esperada": 0.009968528415815607,
+      "vs_aleatoria": {
+       "n": 3500,
+       "diferenca": 0.003142857142857143,
+       "ic95": [
+        -0.00701554047322,
+        0.013301254758934287
+       ],
+       "z": 0.606394850133736,
+       "p": 0.5442525873779052
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.39885714285714285,
+      "ic95": [
+       0.38275427830394465,
+       0.4151817846370152
+      ],
+      "acertos_concursos": 1396,
+      "taxa_esperada": 0.39497422101876745,
+      "z_vs_esperado": 0.47035371586018393,
+      "p_vs_esperado": 0.6381023260491139,
+      "taxa_por_premio": 0.09725714285714286,
+      "taxa_por_premio_esperada": 0.09569733071837622,
+      "vs_aleatoria": {
+       "n": 3500,
+       "diferenca": 0.016,
+       "ic95": [
+        -0.006868170665981561,
+        0.03886817066598156
+       ],
+       "z": 1.3713383749864518,
+       "p": 0.17026949823464654
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.99,
+      "ic95": [
+       0.9861247429447023,
+       0.9928008278356756
+      ],
+      "acertos_concursos": 3465,
+      "taxa_esperada": 0.9900738366473403,
+      "z_vs_esperado": -0.04449354791018964,
+      "p_vs_esperado": 0.9645109949073901,
+      "taxa_por_premio": 0.6566285714285715,
+      "taxa_por_premio_esperada": 0.6510855556952334,
+      "vs_aleatoria": {
+       "n": 3500,
+       "diferenca": -0.001142857142857143,
+       "ic95": [
+        -0.005552769021561361,
+        0.003267054735847075
+       ],
+       "z": -0.5079466578044612,
+       "p": 0.6114907524583485
+      }
+     }
+    },
+    "aleatoria": {
+     "exato": {
+      "taxa_concurso": 0.0,
+      "ic95": [
+       0.0,
+       0.0010963563465531526
+      ],
+      "acertos_concursos": 0,
+      "taxa_esperada": 0.0005379510916788551,
+      "z_vs_esperado": -1.372535539761618,
+      "p_vs_esperado": 0.16989678305094447,
+      "taxa_por_premio": 0.0,
+      "taxa_por_premio_esperada": 0.00010761364160824971
+     },
+     "milhar": {
+      "taxa_concurso": 0.004857142857142857,
+      "ic95": [
+       0.0030348354679433794,
+       0.007765156274100401
+      ],
+      "acertos_concursos": 17,
+      "taxa_esperada": 0.004999268293055778,
+      "z_vs_esperado": -0.11921780407357858,
+      "p_vs_esperado": 0.9051028016330287,
+      "taxa_por_premio": 0.0009714285714285714,
+      "taxa_por_premio_esperada": 0.0010018594772319598
+     },
+     "centena": {
+      "taxa_concurso": 0.04914285714285714,
+      "ic95": [
+       0.042462570628439694,
+       0.05681174383719509
+      ],
+      "acertos_concursos": 172,
+      "taxa_esperada": 0.04880271438462632,
+      "z_vs_esperado": 0.0933990960554793,
+      "p_vs_esperado": 0.925586508623416,
+      "taxa_por_premio": 0.01017142857142857,
+      "taxa_por_premio_esperada": 0.009956944353067838
+     },
+     "dezena": {
+      "taxa_concurso": 0.38285714285714284,
+      "ic95": [
+       0.3668902046781058,
+       0.3990809416659438
+      ],
+      "acertos_concursos": 1340,
+      "taxa_esperada": 0.39518153093020814,
+      "z_vs_esperado": -1.4928285547834181,
+      "p_vs_esperado": 0.13548207065540668,
+      "taxa_por_premio": 0.09262857142857144,
+      "taxa_por_premio_esperada": 0.09576300464457693
+     },
+     "unidade": {
+      "taxa_concurso": 0.9911428571428571,
+      "ic95": [
+       0.9874556558261877,
+       0.9937531232825411
+      ],
+      "acertos_concursos": 3469,
+      "taxa_esperada": 0.9904208106074376,
+      "z_vs_esperado": 0.4423941629167062,
+      "p_vs_esperado": 0.6582040021788882,
+      "taxa_por_premio": 0.6528,
+      "taxa_por_premio_esperada": 0.6517429415854434
+     }
+    }
+   },
+   "posicao": {
+    "motor": {
+     "media": 0.4939638257142857,
+     "ic95": [
+      0.4896829099552231,
+      0.4982447414733483
+     ],
+     "n": 17500,
+     "p_vs_05": 0.005672721099482924
+    },
+    "estrutura": {
+     "media": 0.49299561428571426,
+     "ic95": [
+      0.49037567428237494,
+      0.4956155542890536
+     ],
+     "n": 17500,
+     "p_vs_05": 0.0013282145546017817
+    },
+    "aleatoria": {
+     "media": 0.5015577371428571,
+     "ic95": [
+      0.4972709129084201,
+      0.5058445613772942
+     ],
+     "n": 17500,
+     "p_vs_05": 0.475323130893893
+    },
+    "motor_vs_estrutura": {
+     "n": 17500,
+     "diferenca": 0.0009682114285714271,
+     "ic95": [
+      -0.0033942272353381622,
+      0.005330650092481017
+     ],
+     "z": 0.43500769780435045,
+     "p": 0.6635568399511573
+    }
+   },
+   "p_holm": {
+    "motor|unidade|aleatoria": 6.383163011624284e-61,
+    "motor|unidade|estrutura": 1.7259505683215794e-58,
+    "motor_diversificado|unidade|aleatoria": 1.0147159600210278e-31,
+    "motor_diversificado|unidade|estrutura": 3.3005008872048076e-29,
+    "motor|dezena|estrutura": 3.9708580783526097e-14,
+    "motor|dezena|aleatoria": 7.390481808211592e-10,
+    "motor_diversificado|dezena|estrutura": 0.025438244549832793,
+    "posicao|vs_05": 0.19854523848190234,
+    "estrutura|exato|esperado": 0.7842423364172492,
+    "motor|exato|estrutura": 0.8337006822904219,
+    "estrutura|exato|aleatoria": 0.8337006822904219,
+    "motor_diversificado|dezena|aleatoria": 1.0,
+    "motor|centena|estrutura": 1.0,
+    "motor|milhar|esperado": 1.0,
+    "motor_diversificado|exato|aleatoria": 1.0,
+    "motor|exato|esperado": 1.0,
+    "estrutura|dezena|aleatoria": 1.0,
+    "motor|milhar|aleatoria": 1.0,
+    "motor|milhar|estrutura": 1.0,
+    "motor|centena|aleatoria": 1.0,
+    "motor_diversificado|milhar|esperado": 1.0,
+    "motor_diversificado|exato|estrutura": 1.0,
+    "motor|dezena|esperado": 1.0,
+    "estrutura|centena|esperado": 1.0,
+    "motor|centena|esperado": 1.0,
+    "motor_diversificado|centena|esperado": 1.0,
+    "motor_diversificado|milhar|aleatoria": 1.0,
+    "motor_diversificado|milhar|estrutura": 1.0,
+    "motor_diversificado|dezena|esperado": 1.0,
+    "estrutura|centena|aleatoria": 1.0,
+    "motor_diversificado|centena|aleatoria": 1.0,
+    "estrutura|unidade|aleatoria": 1.0,
+    "estrutura|dezena|esperado": 1.0,
+    "posicao|vs_estrutura": 1.0,
+    "estrutura|milhar|esperado": 1.0,
+    "motor|unidade|esperado": 1.0,
+    "motor_diversificado|exato|esperado": 1.0,
+    "motor_diversificado|unidade|esperado": 1.0,
+    "motor_diversificado|centena|estrutura": 1.0,
+    "estrutura|unidade|esperado": 1.0,
+    "motor|exato|aleatoria": 1.0,
+    "estrutura|milhar|aleatoria": 1.0
+   },
+   "vantagens_comprovadas": [],
+   "sinais_nominais": [
+    "estrutura|exato|aleatoria",
+    "estrutura|exato|esperado",
+    "posicao|vs_05"
+   ],
+   "desfavoraveis_nominais": [
+    "motor_diversificado|dezena|aleatoria",
+    "motor_diversificado|dezena|estrutura",
+    "motor_diversificado|unidade|aleatoria",
+    "motor_diversificado|unidade|estrutura",
+    "motor|dezena|aleatoria",
+    "motor|dezena|estrutura",
+    "motor|exato|estrutura",
+    "motor|unidade|aleatoria",
+    "motor|unidade|estrutura"
+   ],
+   "testes": 42
+  },
+  "completo": {
+   "concursos": 5072,
+   "intervalo": [
+    1004,
+    6115
+   ],
+   "estrategias": {
+    "motor": {
+     "exato": {
+      "taxa_concurso": 0.0001971608832807571,
+      "ic95": [
+       3.480458502935931e-05,
+       0.001116030969643641
+      ],
+      "acertos_concursos": 1,
+      "taxa_esperada": 0.0005758812836924944,
+      "z_vs_esperado": -1.1242702377997351,
+      "p_vs_esperado": 0.2608984003552658,
+      "taxa_por_premio": 3.943217665615142e-05,
+      "taxa_por_premio_esperada": 0.00011520360088797745,
+      "vs_aleatoria": {
+       "n": 5072,
+       "diferenca": -0.0005914826498422713,
+       "ic95": [
+        -0.0014555101569077814,
+        0.0002725448572232388
+       ],
+       "z": -1.341746627521378,
+       "p": 0.17967816294926653
+      },
+      "vs_estrutura": {
+       "n": 5072,
+       "diferenca": -0.0009858044164037854,
+       "ic95": [
+        -0.002007956942883499,
+        3.6348110075928256e-05
+       ],
+       "z": -1.8903016977376388,
+       "p": 0.05871762186960516
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.003943217665615142,
+      "ic95": [
+       0.0025541426283388225,
+       0.006083136367936235
+      ],
+      "acertos_concursos": 20,
+      "taxa_esperada": 0.005052118943355737,
+      "z_vs_esperado": -1.113899910784144,
+      "p_vs_esperado": 0.26532212770664354,
+      "taxa_por_premio": 0.0007886435331230284,
+      "taxa_por_premio_esperada": 0.0010124730562931087,
+      "vs_aleatoria": {
+       "n": 5072,
+       "diferenca": -0.001774447949526814,
+       "ic95": [
+        -0.004479321079774192,
+        0.0009304251807205645
+       ],
+       "z": -1.2857970831166032,
+       "p": 0.19851388848707452
+      },
+      "vs_estrutura": {
+       "n": 5072,
+       "diferenca": -0.001774447949526814,
+       "ic95": [
+        -0.004479321079774192,
+        0.0009304251807205645
+       ],
+       "z": -1.2857970831166032,
+       "p": 0.19851388848707452
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.04554416403785489,
+      "ic95": [
+       0.040142073631964856,
+       0.05163412989999619
+      ],
+      "acertos_concursos": 231,
+      "taxa_esperada": 0.04079837471262885,
+      "z_vs_esperado": 1.7100730257293804,
+      "p_vs_esperado": 0.08725237009986857,
+      "taxa_por_premio": 0.009266561514195583,
+      "taxa_por_premio_esperada": 0.008302259744172947,
+      "vs_aleatoria": {
+       "n": 5072,
+       "diferenca": -0.004140378548895899,
+       "ic95": [
+        -0.01236521104114121,
+        0.004084453943349411
+       ],
+       "z": -0.986663492963198,
+       "p": 0.3238076326228593
+      },
+      "vs_estrutura": {
+       "n": 5072,
+       "diferenca": -0.004929022082018927,
+       "ic95": [
+        -0.013350922623930384,
+        0.003492878459892531
+       ],
+       "z": -1.147114387385586,
+       "p": 0.2513343483927071
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.3186119873817035,
+      "ic95": [
+       0.3059304670042967,
+       0.3315680610865511
+      ],
+      "acertos_concursos": 1616,
+      "taxa_esperada": 0.3048874628409008,
+      "z_vs_esperado": 2.144977640665717,
+      "p_vs_esperado": 0.03195463475058044,
+      "taxa_por_premio": 0.07397476340694006,
+      "taxa_por_premio_esperada": 0.0707992415948433,
+      "vs_aleatoria": {
+       "n": 5072,
+       "diferenca": -0.06742902208201892,
+       "ic95": [
+        -0.08568325207863194,
+        -0.04917479208540591
+       ],
+       "z": -7.240014139477752,
+       "p": 4.48637966414493e-13
+      },
+      "vs_estrutura": {
+       "n": 5072,
+       "diferenca": -0.08123028391167192,
+       "ic95": [
+        -0.09972671470541972,
+        -0.06273385311792412
+       ],
+       "z": -8.607679948754976,
+       "p": 7.455406200935753e-18
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9022082018927445,
+      "ic95": [
+       0.8937266968663824,
+       0.9100809147582594
+      ],
+      "acertos_concursos": 4576,
+      "taxa_esperada": 0.9023465344347785,
+      "z_vs_esperado": -0.03593063313419026,
+      "p_vs_esperado": 0.9713376699227028,
+      "taxa_por_premio": 0.4399053627760252,
+      "taxa_por_premio_esperada": 0.43312408588081364,
+      "vs_aleatoria": {
+       "n": 5072,
+       "diferenca": -0.08753943217665615,
+       "ic95": [
+        -0.09613907388063243,
+        -0.07893979047267986
+       ],
+       "z": -19.95167856666778,
+       "p": 1.4493978569138914e-88
+      },
+      "vs_estrutura": {
+       "n": 5072,
+       "diferenca": -0.08734227129337539,
+       "ic95": [
+        -0.09593474453186439,
+        -0.0787497980548864
+       ],
+       "z": -19.923350004534893,
+       "p": 2.55323994203562e-88
+      }
+     }
+    },
+    "motor_diversificado": {
+     "exato": {
+      "taxa_concurso": 0.0003943217665615142,
+      "ic95": [
+       0.00010814391242367914,
+       0.0014367149812810084
+      ],
+      "acertos_concursos": 2,
+      "taxa_esperada": 0.0005758812836924944,
+      "z_vs_esperado": -0.5389779934688886,
+      "p_vs_esperado": 0.5899020393306679,
+      "taxa_por_premio": 7.886435331230284e-05,
+      "taxa_por_premio_esperada": 0.00011520360088797745,
+      "vs_aleatoria": {
+       "n": 5072,
+       "diferenca": -0.0003943217665615142,
+       "ic95": [
+        -0.001340922256690842,
+        0.0005522787235678135
+       ],
+       "z": -0.8164697467618842,
+       "p": 0.4142315197519544
+      },
+      "vs_estrutura": {
+       "n": 5072,
+       "diferenca": -0.0007886435331230284,
+       "ic95": [
+        -0.0018815399305393441,
+        0.0003042528642932873
+       ],
+       "z": -1.4143530242897473,
+       "p": 0.15725827548239688
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.004140378548895899,
+      "ic95": [
+       0.0027097317977278048,
+       0.006321570537578939
+      ],
+      "acertos_concursos": 21,
+      "taxa_esperada": 0.005053713163606809,
+      "z_vs_esperado": -0.9173077421798616,
+      "p_vs_esperado": 0.3589814015005668,
+      "taxa_por_premio": 0.0008280757097791798,
+      "taxa_por_premio_esperada": 0.001012793231825389,
+      "vs_aleatoria": {
+       "n": 5072,
+       "diferenca": -0.0015772870662460567,
+       "ic95": [
+        -0.004309722058177221,
+        0.0011551479256851074
+       ],
+       "z": -1.131402086040974,
+       "p": 0.257885893902026
+      },
+      "vs_estrutura": {
+       "n": 5072,
+       "diferenca": -0.0015772870662460567,
+       "ic95": [
+        -0.004309722058177221,
+        0.0011551479256851074
+       ],
+       "z": -1.131402086040974,
+       "p": 0.257885893902026
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.05481072555205047,
+      "ic95": [
+       0.048876978993609675,
+       0.061418321472840674
+      ],
+      "acertos_concursos": 278,
+      "taxa_esperada": 0.04903318874036797,
+      "z_vs_esperado": 1.9054810688076993,
+      "p_vs_esperado": 0.05671756599849596,
+      "taxa_por_premio": 0.011119873817034701,
+      "taxa_por_premio_esperada": 0.01000483924441376,
+      "vs_aleatoria": {
+       "n": 5072,
+       "diferenca": 0.005126182965299685,
+       "ic95": [
+        -0.0034450512518285686,
+        0.013697417182427937
+       ],
+       "z": 1.1722137509565902,
+       "p": 0.24111124894787728
+      },
+      "vs_estrutura": {
+       "n": 5072,
+       "diferenca": 0.004337539432176656,
+       "ic95": [
+        -0.004457636212875299,
+        0.013132715077228612
+       ],
+       "z": 0.9666182496138228,
+       "p": 0.33373490807119366
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.3635646687697161,
+      "ic95": [
+       0.35043440818112737,
+       0.3769014412089451
+      ],
+      "acertos_concursos": 1844,
+      "taxa_esperada": 0.35165323420409694,
+      "z_vs_esperado": 1.7850524972015425,
+      "p_vs_esperado": 0.07425280205293698,
+      "taxa_por_premio": 0.08643533123028391,
+      "taxa_por_premio_esperada": 0.08337940328424975,
+      "vs_aleatoria": {
+       "n": 5072,
+       "diferenca": -0.022476340694006308,
+       "ic95": [
+        -0.04100868956182151,
+        -0.0039439918261911094
+       ],
+       "z": -2.37712057302998,
+       "p": 0.01744838362074739
+      },
+      "vs_estrutura": {
+       "n": 5072,
+       "diferenca": -0.03627760252365931,
+       "ic95": [
+        -0.05517660746521637,
+        -0.017378597582102254
+       ],
+       "z": -3.7623198240464664,
+       "p": 0.0001683445800930697
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9319794952681388,
+      "ic95": [
+       0.9247183037153451,
+       0.9385868321030814
+      ],
+      "acertos_concursos": 4727,
+      "taxa_esperada": 0.9338534699519819,
+      "z_vs_esperado": -0.5743161159910396,
+      "p_vs_esperado": 0.5657539054454384,
+      "taxa_por_premio": 0.4904968454258675,
+      "taxa_por_premio_esperada": 0.48493813722162293,
+      "vs_aleatoria": {
+       "n": 5072,
+       "diferenca": -0.05776813880126183,
+       "ic95": [
+        -0.06516255765960198,
+        -0.05037371994292168
+       ],
+       "z": -15.312298940540316,
+       "p": 6.328684161892603e-53
+      },
+      "vs_estrutura": {
+       "n": 5072,
+       "diferenca": -0.057570977917981075,
+       "ic95": [
+        -0.06499679387592237,
+        -0.05014516196003978
+       ],
+       "z": -15.195517550979803,
+       "p": 3.786610472930115e-52
+      }
+     }
+    },
+    "estrutura": {
+     "exato": {
+      "taxa_concurso": 0.0011829652996845426,
+      "ic95": [
+       0.0005422728424563635,
+       0.0025786794073750724
+      ],
+      "acertos_concursos": 6,
+      "taxa_esperada": 0.0005758812836924944,
+      "z_vs_esperado": 1.8021909838544976,
+      "p_vs_esperado": 0.07151536274928347,
+      "taxa_por_premio": 0.00023659305993690852,
+      "taxa_por_premio_esperada": 0.00011520360088797745,
+      "vs_aleatoria": {
+       "n": 5072,
+       "diferenca": 0.0003943217665615142,
+       "ic95": [
+        -0.0008277663407183075,
+        0.0016164098738413357
+       ],
+       "z": 0.6324181193292666,
+       "p": 0.5271136971021332
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.005717665615141956,
+      "ic95": [
+       0.003984046078934642,
+       0.008199442968625601
+      ],
+      "acertos_concursos": 29,
+      "taxa_esperada": 0.005092573058099724,
+      "z_vs_esperado": 0.6254240574783202,
+      "p_vs_esperado": 0.5316927767590336,
+      "taxa_por_premio": 0.0011435331230283913,
+      "taxa_por_premio_esperada": 0.001020596853826036,
+      "vs_aleatoria": {
+       "n": 5072,
+       "diferenca": 0.0,
+       "ic95": [
+        -0.002943293968261503,
+        0.002943293968261503
+       ],
+       "z": 0.0,
+       "p": 1.0
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.050473186119873815,
+      "ic95": [
+       0.04478127500494212,
+       0.056845512002811106
+      ],
+      "acertos_concursos": 256,
+      "taxa_esperada": 0.04885051024157715,
+      "z_vs_esperado": 0.5361252380563061,
+      "p_vs_esperado": 0.5918719986158087,
+      "taxa_por_premio": 0.010212933753943217,
+      "taxa_por_premio_esperada": 0.009966877009100343,
+      "vs_aleatoria": {
+       "n": 5072,
+       "diferenca": 0.0007886435331230284,
+       "ic95": [
+        -0.007678537303047021,
+        0.009255824369293078
+       ],
+       "z": 0.18255678658923255,
+       "p": 0.8551457937369791
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.3998422712933754,
+      "ic95": [
+       0.38644154472005565,
+       0.4133945990518473
+      ],
+      "acertos_concursos": 2028,
+      "taxa_esperada": 0.39495445928354556,
+      "z_vs_esperado": 0.7127608469804833,
+      "p_vs_esperado": 0.47599375724278603,
+      "taxa_por_premio": 0.09802839116719243,
+      "taxa_por_premio_esperada": 0.09569225541939674,
+      "vs_aleatoria": {
+       "n": 5072,
+       "diferenca": 0.013801261829652996,
+       "ic95": [
+        -0.005261846890497723,
+        0.03286437054980371
+       ],
+       "z": 1.4189959037229896,
+       "p": 0.15590021030301732
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9895504731861199,
+      "ic95": [
+       0.9863581037164721,
+       0.9920018470992071
+      ],
+      "acertos_concursos": 5019,
+      "taxa_esperada": 0.9901116893467892,
+      "z_vs_esperado": -0.4078451074453662,
+      "p_vs_esperado": 0.6833873949743494,
+      "taxa_por_premio": 0.653115141955836,
+      "taxa_por_premio_esperada": 0.6510842185855873,
+      "vs_aleatoria": {
+       "n": 5072,
+       "diferenca": -0.0001971608832807571,
+       "ic95": [
+        -0.0040425191486761335,
+        0.003648197382114619
+       ],
+       "z": -0.1004939733984841,
+       "p": 0.9199521671499304
+      }
+     }
+    },
+    "aleatoria": {
+     "exato": {
+      "taxa_concurso": 0.0007886435331230284,
+      "ic95": [
+       0.0003067294668779384,
+       0.0020261761048901237
+      ],
+      "acertos_concursos": 4,
+      "taxa_esperada": 0.0005758812836924944,
+      "z_vs_esperado": 0.6316064951928045,
+      "p_vs_esperado": 0.5276440412860933,
+      "taxa_por_premio": 0.0001577287066246057,
+      "taxa_por_premio_esperada": 0.00011520360088797745
+     },
+     "milhar": {
+      "taxa_concurso": 0.005717665615141956,
+      "ic95": [
+       0.003984046078934642,
+       0.008199442968625601
+      ],
+      "acertos_concursos": 29,
+      "taxa_esperada": 0.004997377875965579,
+      "z_vs_esperado": 0.7274658917998168,
+      "p_vs_esperado": 0.46694060241111446,
+      "taxa_por_premio": 0.0011435331230283913,
+      "taxa_por_premio_esperada": 0.001001479856590784
+     },
+     "centena": {
+      "taxa_concurso": 0.04968454258675079,
+      "ic95": [
+       0.044037877858218624,
+       0.05601281579340786
+      ],
+      "acertos_concursos": 252,
+      "taxa_esperada": 0.04877580805324013,
+      "z_vs_esperado": 0.3004610808260152,
+      "p_vs_esperado": 0.7638254787398675,
+      "taxa_por_premio": 0.010173501577287067,
+      "taxa_por_premio_esperada": 0.009951353382823514
+     },
+     "dezena": {
+      "taxa_concurso": 0.3860410094637224,
+      "ic95": [
+       0.3727338971252514,
+       0.3995206129144334
+      ],
+      "acertos_concursos": 1958,
+      "taxa_esperada": 0.3948695573835659,
+      "z_vs_esperado": -1.287513167193888,
+      "p_vs_esperado": 0.1979154831789337,
+      "taxa_por_premio": 0.09313880126182965,
+      "taxa_por_premio_esperada": 0.0956703130303454
+     },
+     "unidade": {
+      "taxa_concurso": 0.9897476340694006,
+      "ic95": [
+       0.9865811069522452,
+       0.9921728672024657
+      ],
+      "acertos_concursos": 5020,
+      "taxa_esperada": 0.990236664203008,
+      "z_vs_esperado": -0.35746386676851793,
+      "p_vs_esperado": 0.7207445718105259,
+      "taxa_por_premio": 0.653115141955836,
+      "taxa_por_premio_esperada": 0.6512618689579998
+     }
+    }
+   },
+   "posicao": {
+    "motor": {
+     "media": 0.49532670149842273,
+     "ic95": [
+      0.49177199267026017,
+      0.4988814103265853
+     ],
+     "n": 25360,
+     "p_vs_05": 0.00993640005489816
+    },
+    "estrutura": {
+     "media": 0.49502219045741325,
+     "ic95": [
+      0.4930348996721159,
+      0.4970094812427106
+     ],
+     "n": 25360,
+     "p_vs_05": 0.006032328658119026
+    },
+    "aleatoria": {
+     "media": 0.5015904495268139,
+     "ic95": [
+      0.49803511732310535,
+      0.5051457817305224
+     ],
+     "n": 25360,
+     "p_vs_05": 0.3802831153225694
+    },
+    "motor_vs_estrutura": {
+     "n": 25360,
+     "diferenca": 0.00030451104100946144,
+     "ic95": [
+      -0.003406469286225995,
+      0.004015491368244918
+     ],
+     "z": 0.1608312595995812,
+     "p": 0.8722263041231727
+    }
+   },
+   "p_holm": {
+    "motor|unidade|aleatoria": 6.087470999038344e-87,
+    "motor|unidade|estrutura": 1.0468283762346041e-86,
+    "motor_diversificado|unidade|aleatoria": 2.5314736647570412e-51,
+    "motor_diversificado|unidade|estrutura": 1.476778084442745e-50,
+    "motor|dezena|estrutura": 2.833054356355586e-16,
+    "motor|dezena|aleatoria": 1.659960475733624e-11,
+    "motor_diversificado|dezena|estrutura": 0.006060404883350509,
+    "posicao|vs_05": 0.3477740019214356,
+    "motor_diversificado|dezena|aleatoria": 0.5932450431054113,
+    "motor|dezena|esperado": 1.0,
+    "motor_diversificado|centena|esperado": 1.0,
+    "motor|exato|estrutura": 1.0,
+    "estrutura|exato|esperado": 1.0,
+    "motor_diversificado|dezena|esperado": 1.0,
+    "motor|centena|esperado": 1.0,
+    "estrutura|dezena|aleatoria": 1.0,
+    "motor_diversificado|exato|estrutura": 1.0,
+    "motor|exato|aleatoria": 1.0,
+    "motor|milhar|aleatoria": 1.0,
+    "motor|milhar|estrutura": 1.0,
+    "motor_diversificado|centena|aleatoria": 1.0,
+    "motor|centena|estrutura": 1.0,
+    "motor_diversificado|milhar|aleatoria": 1.0,
+    "motor_diversificado|milhar|estrutura": 1.0,
+    "motor|exato|esperado": 1.0,
+    "motor|milhar|esperado": 1.0,
+    "motor|centena|aleatoria": 1.0,
+    "motor_diversificado|centena|estrutura": 1.0,
+    "motor_diversificado|milhar|esperado": 1.0,
+    "motor_diversificado|exato|aleatoria": 1.0,
+    "estrutura|dezena|esperado": 1.0,
+    "estrutura|exato|aleatoria": 1.0,
+    "estrutura|milhar|esperado": 1.0,
+    "motor_diversificado|unidade|esperado": 1.0,
+    "motor_diversificado|exato|esperado": 1.0,
+    "estrutura|centena|esperado": 1.0,
+    "estrutura|unidade|esperado": 1.0,
+    "estrutura|centena|aleatoria": 1.0,
+    "posicao|vs_estrutura": 1.0,
+    "estrutura|unidade|aleatoria": 1.0,
+    "motor|unidade|esperado": 1.0,
+    "estrutura|milhar|aleatoria": 1.0
+   },
+   "vantagens_comprovadas": [],
+   "sinais_nominais": [
+    "motor|dezena|esperado",
+    "posicao|vs_05"
+   ],
+   "desfavoraveis_nominais": [
+    "motor_diversificado|dezena|aleatoria",
+    "motor_diversificado|dezena|estrutura",
+    "motor_diversificado|unidade|aleatoria",
+    "motor_diversificado|unidade|estrutura",
+    "motor|dezena|aleatoria",
+    "motor|dezena|estrutura",
+    "motor|unidade|aleatoria",
+    "motor|unidade|estrutura"
+   ],
+   "testes": 42
+  }
+ },
+ "periodos": [
+  {
+   "de": 1004,
+   "ate": 2273,
+   "concursos": 1268,
+   "intervalo": [
+    1004,
+    2273
+   ],
+   "estrategias": {
+    "motor": {
+     "exato": {
+      "taxa_concurso": 0.0007886435331230284,
+      "ic95": [
+       0.00013922851642383114,
+       0.004453685781330369
+      ],
+      "acertos_concursos": 1,
+      "taxa_esperada": 0.0006975533624774975,
+      "z_vs_esperado": 0.12285628812579694,
+      "p_vs_esperado": 0.9022209003435319,
+      "taxa_por_premio": 0.0001577287066246057,
+      "taxa_por_premio_esperada": 0.00013955050003345461,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.002365930599369085,
+       "ic95": [
+        -0.005821221903110855,
+        0.0010893607043726845
+       ],
+       "z": -1.3420645517620209,
+       "p": 0.179575066344152
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": 0.0,
+       "ic95": [
+        -0.0021868708464844264,
+        0.0021868708464844264
+       ],
+       "z": 0.0,
+       "p": 1.0
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.007097791798107256,
+      "ic95": [
+       0.0037386277007100876,
+       0.013434470934513255
+      ],
+      "acertos_concursos": 9,
+      "taxa_esperada": 0.004969415223085354,
+      "z_vs_esperado": 1.0777981800143874,
+      "p_vs_esperado": 0.2811238319361381,
+      "taxa_por_premio": 0.0014195583596214511,
+      "taxa_por_premio_esperada": 0.0009958649428139553,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.0007886435331230284,
+       "ic95": [
+        -0.007528892277524126,
+        0.005951605211278068
+       ],
+       "z": -0.22933001192354097,
+       "p": 0.818612428831128
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.0007886435331230284,
+       "ic95": [
+        -0.007528892277524126,
+        0.005951605211278068
+       ],
+       "z": -0.22933001192354097,
+       "p": 0.818612428831128
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.05362776025236593,
+      "ic95": [
+       0.04252174050191965,
+       0.06743021762213862
+      ],
+      "acertos_concursos": 68,
+      "taxa_esperada": 0.04238666918746872,
+      "z_vs_esperado": 1.9879382008835491,
+      "p_vs_esperado": 0.04681852518253879,
+      "taxa_por_premio": 0.011041009463722398,
+      "taxa_por_premio_esperada": 0.008628761245481254,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.00473186119873817,
+       "ic95": [
+        -0.012346158623074694,
+        0.021809881020551036
+       ],
+       "z": 0.5430634257539065,
+       "p": 0.5870861335009314
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": 0.00946372239747634,
+       "ic95": [
+        -0.007747828900471595,
+        0.026675273695424277
+       ],
+       "z": 1.0777004104949643,
+       "p": 0.28116747523461183
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.3477917981072555,
+      "ic95": [
+       0.3220726276218721,
+       0.37443042523668496
+      ],
+      "acertos_concursos": 441,
+      "taxa_esperada": 0.31295082470985847,
+      "z_vs_esperado": 2.697821847035574,
+      "p_vs_esperado": 0.006979478101739379,
+      "taxa_por_premio": 0.083596214511041,
+      "taxa_por_premio_esperada": 0.07286549135010469,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.04652996845425868,
+       "ic95": [
+        -0.08422589837795257,
+        -0.008834038530564789
+       ],
+       "z": -2.419325862366477,
+       "p": 0.01554930374022755
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.057570977917981075,
+       "ic95": [
+        -0.09522065471956079,
+        -0.019921301116401356
+       ],
+       "z": -2.997080620742762,
+       "p": 0.00272578616539015
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.8943217665615142,
+      "ic95": [
+       0.8761933252865904,
+       0.9100681958052311
+      ],
+      "acertos_concursos": 1134,
+      "taxa_esperada": 0.8956155060820892,
+      "z_vs_esperado": -0.16210660602875407,
+      "p_vs_esperado": 0.8712219041475022,
+      "taxa_por_premio": 0.43154574132492113,
+      "taxa_por_premio_esperada": 0.42074065829792684,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.09227129337539432,
+       "ic95": [
+        -0.11045024567214508,
+        -0.07409234107864356
+       ],
+       "z": -9.948413531405636,
+       "p": 2.5623534827978198e-23
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.09621451104100946,
+       "ic95": [
+        -0.11399834522125092,
+        -0.078430676860768
+       ],
+       "z": -10.604037336892112,
+       "p": 2.853877808624028e-26
+      }
+     }
+    },
+    "motor_diversificado": {
+     "exato": {
+      "taxa_concurso": 0.0,
+      "ic95": [
+       0.0,
+       0.003020391255570557
+      ],
+      "acertos_concursos": 0,
+      "taxa_esperada": 0.0006975533624774975,
+      "z_vs_esperado": -0.9408130018456446,
+      "p_vs_esperado": 0.34680069676025616,
+      "taxa_por_premio": 0.0,
+      "taxa_por_premio_esperada": 0.00013955050003345461,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.0031545741324921135,
+       "ic95": [
+        -0.0062423946100914965,
+        -6.675365489273045e-05
+       ],
+       "z": -2.0023720111123398,
+       "p": 0.045244736384524
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.0007886435331230284,
+       "ic95": [
+        -0.002334384858044164,
+        0.0007570977917981072
+       ],
+       "z": -1.0,
+       "p": 0.31731050786291415
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.005520504731861199,
+      "ic95": [
+       0.0026766720751441398,
+       0.011351380475711915
+      ],
+      "acertos_concursos": 7,
+      "taxa_esperada": 0.00496949508549084,
+      "z_vs_esperado": 0.27902602630177614,
+      "p_vs_esperado": 0.7802248515491232,
+      "taxa_por_premio": 0.0011041009463722397,
+      "taxa_por_premio_esperada": 0.0009958809956417325,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.002365930599369085,
+       "ic95": [
+        -0.008740368816885558,
+        0.004008507618147386
+       ],
+       "z": -0.727471789124988,
+       "p": 0.4669369909873914
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.002365930599369085,
+       "ic95": [
+        -0.008740368816885558,
+        0.004008507618147386
+       ],
+       "z": -0.727471789124988,
+       "p": 0.4669369909873914
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.06309148264984227,
+      "ic95": [
+       0.050984292504800466,
+       0.07783794212546152
+      ],
+      "acertos_concursos": 80,
+      "taxa_esperada": 0.04897265864361124,
+      "z_vs_esperado": 2.3296186725958905,
+      "p_vs_esperado": 0.01982631436019045,
+      "taxa_por_premio": 0.012933753943217666,
+      "taxa_por_premio_esperada": 0.009992236441881698,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.014195583596214511,
+       "ic95": [
+        -0.003553435232802533,
+        0.031944602425231554
+       ],
+       "z": 1.5675989820402552,
+       "p": 0.1169747498406521
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": 0.01892744479495268,
+       "ic95": [
+        0.0010575021433452785,
+        0.03679738744656008
+       ],
+       "z": 2.075988296177901,
+       "p": 0.03789503346682981
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.3832807570977918,
+      "ic95": [
+       0.3569111289120976,
+       0.41035546084472335
+      ],
+      "acertos_concursos": 486,
+      "taxa_esperada": 0.34649121297101015,
+      "z_vs_esperado": 2.765175390386813,
+      "p_vs_esperado": 0.005689219724150696,
+      "taxa_por_premio": 0.09290220820189274,
+      "taxa_por_premio_esperada": 0.08189480462294106,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.011041009463722398,
+       "ic95": [
+        -0.04897692932706335,
+        0.026894910399618555
+       ],
+       "z": -0.5704455994965313,
+       "p": 0.5683755092345562
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.022082018927444796,
+       "ic95": [
+        -0.060192022525294875,
+        0.016027984670405282
+       ],
+       "z": -1.1356796906792583,
+       "p": 0.2560906433764698
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9132492113564669,
+      "ic95": [
+       0.8964817359699908,
+       0.9275203381342383
+      ],
+      "acertos_concursos": 1158,
+      "taxa_esperada": 0.919443170794953,
+      "z_vs_esperado": -0.8610730848136122,
+      "p_vs_esperado": 0.389197791966975,
+      "taxa_por_premio": 0.461198738170347,
+      "taxa_por_premio_esperada": 0.4529171513048677,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.07334384858044164,
+       "ic95": [
+        -0.09015425963497731,
+        -0.05653343752590598
+       ],
+       "z": -8.55148293229147,
+       "p": 1.2151704676515202e-17
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.07728706624605679,
+       "ic95": [
+        -0.09368319276463163,
+        -0.060890939727481934
+       ],
+       "z": -9.238929064779999,
+       "p": 2.489766189669818e-20
+      }
+     }
+    },
+    "estrutura": {
+     "exato": {
+      "taxa_concurso": 0.0007886435331230284,
+      "ic95": [
+       0.00013922851642383114,
+       0.004453685781330369
+      ],
+      "acertos_concursos": 1,
+      "taxa_esperada": 0.0006975533624774975,
+      "z_vs_esperado": 0.12285628812579694,
+      "p_vs_esperado": 0.9022209003435319,
+      "taxa_por_premio": 0.0001577287066246057,
+      "taxa_por_premio_esperada": 0.00013955050003345461,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.002365930599369085,
+       "ic95": [
+        -0.005821221903110854,
+        0.0010893607043726836
+       ],
+       "z": -1.342064551762021,
+       "p": 0.17957506634415188
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.007886435331230283,
+      "ic95": [
+       0.004289349751721159,
+       0.014456271925685826
+      ],
+      "acertos_concursos": 10,
+      "taxa_esperada": 0.005037479148898671,
+      "z_vs_esperado": 1.4329651699788923,
+      "p_vs_esperado": 0.15186779126634312,
+      "taxa_por_premio": 0.0015772870662460567,
+      "taxa_por_premio_esperada": 0.0010095325108842145,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.0,
+       "ic95": [
+        -0.006915492823511216,
+        0.006915492823511216
+       ],
+       "z": 0.0,
+       "p": 1.0
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.04416403785488959,
+      "ic95": [
+       0.03416555615187852,
+       0.056916125465976034
+      ],
+      "acertos_concursos": 56,
+      "taxa_esperada": 0.0488329339743879,
+      "z_vs_esperado": -0.7714238766473295,
+      "p_vs_esperado": 0.44045572712970793,
+      "taxa_por_premio": 0.008832807570977918,
+      "taxa_por_premio_esperada": 0.00996322289763966,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.00473186119873817,
+       "ic95": [
+        -0.021384535120262685,
+        0.011920812722786342
+       ],
+       "z": -0.5569344594887594,
+       "p": 0.5775722096037261
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.40536277602523657,
+      "ic95": [
+       0.3786647652886376,
+       0.43263246964932534
+      ],
+      "acertos_concursos": 514,
+      "taxa_esperada": 0.3949522187542844,
+      "z_vs_esperado": 0.7590825745741666,
+      "p_vs_esperado": 0.4478031623102894,
+      "taxa_por_premio": 0.1,
+      "taxa_por_premio_esperada": 0.09569469840471301,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.011041009463722398,
+       "ic95": [
+        -0.027083539427712855,
+        0.04916555835515765
+       ],
+       "z": 0.5676232028481115,
+       "p": 0.5702908484585145
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9905362776025236,
+      "ic95": [
+       0.9835311885410893,
+       0.9945781436971366
+      ],
+      "acertos_concursos": 1256,
+      "taxa_esperada": 0.9902757781740752,
+      "z_vs_esperado": 0.095444082277936,
+      "p_vs_esperado": 0.9239621032760987,
+      "taxa_por_premio": 0.6458990536277602,
+      "taxa_por_premio_esperada": 0.6527600880320263,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.003943217665615142,
+       "ic95": [
+        -0.004088924650630706,
+        0.01197535998186099
+       ],
+       "z": 0.9622223213069271,
+       "p": 0.33593793892982104
+      }
+     }
+    },
+    "aleatoria": {
+     "exato": {
+      "taxa_concurso": 0.0031545741324921135,
+      "ic95": [
+       0.0012274152323953863,
+       0.008083068191909742
+      ],
+      "acertos_concursos": 4,
+      "taxa_esperada": 0.0006975533624774975,
+      "z_vs_esperado": 3.3138641580401216,
+      "p_vs_esperado": 0.0009201619939222245,
+      "taxa_por_premio": 0.0006309148264984228,
+      "taxa_por_premio_esperada": 0.00013955050003345461
+     },
+     "milhar": {
+      "taxa_concurso": 0.007886435331230283,
+      "ic95": [
+       0.004289349751721159,
+       0.014456271925685826
+      ],
+      "acertos_concursos": 10,
+      "taxa_esperada": 0.004994670461824593,
+      "z_vs_esperado": 1.460685292345384,
+      "p_vs_esperado": 0.14410182713021785,
+      "taxa_por_premio": 0.0015772870662460567,
+      "taxa_por_premio_esperada": 0.0010009361570453286
+     },
+     "centena": {
+      "taxa_concurso": 0.04889589905362776,
+      "ic95": [
+       0.0383286151589949,
+       0.062188204711961514
+      ],
+      "acertos_concursos": 62,
+      "taxa_esperada": 0.04871808026540708,
+      "z_vs_esperado": 0.02941331670594489,
+      "p_vs_esperado": 0.9765349522048514,
+      "taxa_por_premio": 0.009779179810725552,
+      "taxa_por_premio_esperada": 0.009939358756582176
+     },
+     "dezena": {
+      "taxa_concurso": 0.3943217665615142,
+      "ic95": [
+       0.3677807941944025,
+       0.42150111815298946
+      ],
+      "acertos_concursos": 500,
+      "taxa_esperada": 0.39403942479112075,
+      "z_vs_esperado": 0.020595955793429793,
+      "p_vs_esperado": 0.9835679665923295,
+      "taxa_por_premio": 0.0946372239747634,
+      "taxa_por_premio_esperada": 0.09542538978629596
+     },
+     "unidade": {
+      "taxa_concurso": 0.9865930599369085,
+      "ic95": [
+       0.9786340347098208,
+       0.9916126823174869
+      ],
+      "acertos_concursos": 1251,
+      "taxa_esperada": 0.9896968722210423,
+      "z_vs_esperado": -1.1060314152208244,
+      "p_vs_esperado": 0.2687129221485709,
+      "taxa_por_premio": 0.65,
+      "taxa_por_premio_esperada": 0.6499999627679739
+     }
+    }
+   },
+   "posicao": {
+    "motor": {
+     "media": 0.49806940851735015,
+     "ic95": [
+      0.49096393204645766,
+      0.5051748849882427
+     ],
+     "n": 6340,
+     "p_vs_05": 0.5943746260406477
+    },
+    "estrutura": {
+     "media": 0.4992623817034701,
+     "ic95": [
+      0.49643127318745817,
+      0.502093490219482
+     ],
+     "n": 6340,
+     "p_vs_05": 0.8387799400701779
+    },
+    "aleatoria": {
+     "media": 0.5016027287066246,
+     "ic95": [
+      0.49448248204268497,
+      0.5087229753705642
+     ],
+     "n": 6340,
+     "p_vs_05": 0.6584354412060245
+    },
+    "motor_vs_estrutura": {
+     "n": 6340,
+     "diferenca": -0.0011929731861198762,
+     "ic95": [
+      -0.008910310394402094,
+      0.006524364022162341
+     ],
+     "z": -0.3029837081999709,
+     "p": 0.7619022773813097
+    }
+   },
+   "p_holm": {
+    "motor|unidade|estrutura": 1.198628679622092e-24,
+    "motor|unidade|aleatoria": 1.0505649279471062e-21,
+    "motor_diversificado|unidade|estrutura": 9.959064758679271e-19,
+    "motor_diversificado|unidade|aleatoria": 4.739164823840928e-16,
+    "motor|dezena|estrutura": 0.1035798742848257,
+    "motor_diversificado|dezena|esperado": 0.21050112979357574,
+    "motor|dezena|esperado": 0.25126121166261767,
+    "motor|dezena|aleatoria": 0.5442256309079643,
+    "motor_diversificado|centena|esperado": 0.6740946882464753,
+    "motor_diversificado|centena|estrutura": 1.0,
+    "motor_diversificado|exato|aleatoria": 1.0,
+    "motor|centena|esperado": 1.0,
+    "motor_diversificado|centena|aleatoria": 1.0,
+    "estrutura|milhar|esperado": 1.0,
+    "estrutura|exato|aleatoria": 1.0,
+    "motor|exato|aleatoria": 1.0,
+    "motor_diversificado|dezena|estrutura": 1.0,
+    "motor|milhar|esperado": 1.0,
+    "motor|centena|estrutura": 1.0,
+    "motor_diversificado|exato|estrutura": 1.0,
+    "estrutura|unidade|aleatoria": 1.0,
+    "motor_diversificado|exato|esperado": 1.0,
+    "motor_diversificado|unidade|esperado": 1.0,
+    "estrutura|centena|esperado": 1.0,
+    "estrutura|dezena|esperado": 1.0,
+    "motor_diversificado|milhar|aleatoria": 1.0,
+    "motor_diversificado|milhar|estrutura": 1.0,
+    "motor_diversificado|dezena|aleatoria": 1.0,
+    "estrutura|dezena|aleatoria": 1.0,
+    "estrutura|centena|aleatoria": 1.0,
+    "motor|centena|aleatoria": 1.0,
+    "posicao|vs_05": 1.0,
+    "posicao|vs_estrutura": 1.0,
+    "motor_diversificado|milhar|esperado": 1.0,
+    "motor|milhar|aleatoria": 1.0,
+    "motor|milhar|estrutura": 1.0,
+    "motor|unidade|esperado": 1.0,
+    "motor|exato|esperado": 1.0,
+    "estrutura|exato|esperado": 1.0,
+    "estrutura|unidade|esperado": 1.0,
+    "motor|exato|estrutura": 1.0,
+    "estrutura|milhar|aleatoria": 1.0
+   },
+   "vantagens_comprovadas": [],
+   "sinais_nominais": [
+    "motor_diversificado|centena|esperado",
+    "motor_diversificado|centena|estrutura",
+    "motor_diversificado|dezena|esperado",
+    "motor|centena|esperado",
+    "motor|dezena|esperado"
+   ],
+   "desfavoraveis_nominais": [
+    "motor_diversificado|exato|aleatoria",
+    "motor_diversificado|unidade|aleatoria",
+    "motor_diversificado|unidade|estrutura",
+    "motor|dezena|aleatoria",
+    "motor|dezena|estrutura",
+    "motor|unidade|aleatoria",
+    "motor|unidade|estrutura"
+   ],
+   "testes": 42
+  },
+  {
+   "de": 2274,
+   "ate": 3561,
+   "concursos": 1268,
+   "intervalo": [
+    2274,
+    3561
+   ],
+   "estrategias": {
+    "motor": {
+     "exato": {
+      "taxa_concurso": 0.0,
+      "ic95": [
+       0.0,
+       0.003020391255570557
+      ],
+      "acertos_concursos": 0,
+      "taxa_esperada": 0.0005051972018832344,
+      "z_vs_esperado": -0.8005709909584262,
+      "p_vs_esperado": 0.4233800502172075,
+      "taxa_por_premio": 0.0,
+      "taxa_por_premio_esperada": 0.00010105986902799065,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.0,
+       "ic95": [
+        0.0,
+        0.0
+       ],
+       "z": 0.0,
+       "p": 1.0
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.0007886435331230284,
+       "ic95": [
+        -0.002334384858044164,
+        0.0007570977917981074
+       ],
+       "z": -0.9999999999999999,
+       "p": 0.31731050786291415
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.003943217665615142,
+      "ic95": [
+       0.0016854473446032722,
+       0.0091975591218855
+      ],
+      "acertos_concursos": 5,
+      "taxa_esperada": 0.004999936462869638,
+      "z_vs_esperado": -0.5334890792332021,
+      "p_vs_esperado": 0.593695068734905,
+      "taxa_por_premio": 0.0007886435331230284,
+      "taxa_por_premio_esperada": 0.0010019937638119604,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.0007886435331230284,
+       "ic95": [
+        -0.0038502068244960883,
+        0.005427493890742145
+       ],
+       "z": 0.33321646652867787,
+       "p": 0.738970889225332
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": 0.0007886435331230284,
+       "ic95": [
+        -0.0038502068244960883,
+        0.005427493890742145
+       ],
+       "z": 0.33321646652867787,
+       "p": 0.738970889225332
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.04889589905362776,
+      "ic95": [
+       0.0383286151589949,
+       0.062188204711961514
+      ],
+      "acertos_concursos": 62,
+      "taxa_esperada": 0.044514917573847526,
+      "z_vs_esperado": 0.7567353639152627,
+      "p_vs_esperado": 0.4492084235431174,
+      "taxa_por_premio": 0.009779179810725552,
+      "taxa_por_premio_esperada": 0.009068884712124258,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.0031545741324921135,
+       "ic95": [
+        -0.012765138313442994,
+        0.019074286578427222
+       ],
+       "z": 0.38838423248425463,
+       "p": 0.6977317108977378
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.005520504731861199,
+       "ic95": [
+        -0.022806564193306192,
+        0.011765554729583794
+       ],
+       "z": -0.6259488635094317,
+       "p": 0.5313484828784372
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.306782334384858,
+      "ic95": [
+       0.282014834109378,
+       0.3327170205556296
+      ],
+      "acertos_concursos": 389,
+      "taxa_esperada": 0.31518824162661074,
+      "z_vs_esperado": -0.6498854417445968,
+      "p_vs_esperado": 0.5157662226668327,
+      "taxa_por_premio": 0.07192429022082018,
+      "taxa_por_premio_esperada": 0.07349253598560697,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.07649842271293375,
+       "ic95": [
+        -0.1123517568406025,
+        -0.04064508858526499
+       ],
+       "z": -4.181951613856763,
+       "p": 2.8901748619856172e-05
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.09305993690851735,
+       "ic95": [
+        -0.13084343705020665,
+        -0.05527643676682805
+       ],
+       "z": -4.827437258504315,
+       "p": 1.3830123976397855e-06
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9014195583596214,
+      "ic95": [
+       0.8837794226784675,
+       0.9166348057930068
+      ],
+      "acertos_concursos": 1143,
+      "taxa_esperada": 0.8969801937641335,
+      "z_vs_esperado": 0.5648722049270268,
+      "p_vs_esperado": 0.5721606904453884,
+      "taxa_por_premio": 0.42665615141955837,
+      "taxa_por_premio_esperada": 0.42775913118723125,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.08675078864353312,
+       "ic95": [
+        -0.10427698702903743,
+        -0.06922459025802882
+       ],
+       "z": -9.701564594975475,
+       "p": 2.9691017817503925e-22
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.083596214511041,
+       "ic95": [
+        -0.10116883430037238,
+        -0.06602359472170963
+       ],
+       "z": -9.324083853513718,
+       "p": 1.1194650666740848e-20
+      }
+     }
+    },
+    "motor_diversificado": {
+     "exato": {
+      "taxa_concurso": 0.0,
+      "ic95": [
+       0.0,
+       0.003020391255570557
+      ],
+      "acertos_concursos": 0,
+      "taxa_esperada": 0.0005051972018832344,
+      "z_vs_esperado": -0.8005709909584262,
+      "p_vs_esperado": 0.4233800502172075,
+      "taxa_por_premio": 0.0,
+      "taxa_por_premio_esperada": 0.00010105986902799065,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.0,
+       "ic95": [
+        0.0,
+        0.0
+       ],
+       "z": 0.0,
+       "p": 1.0
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.0007886435331230284,
+       "ic95": [
+        -0.002334384858044164,
+        0.0007570977917981074
+       ],
+       "z": -0.9999999999999999,
+       "p": 0.31731050786291415
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.00473186119873817,
+      "ic95": [
+       0.002170404586313056,
+       0.010285124922359359
+      ],
+      "acertos_concursos": 6,
+      "taxa_esperada": 0.0050003634650977406,
+      "z_vs_esperado": -0.13554878026123052,
+      "p_vs_esperado": 0.8921779990322267,
+      "taxa_por_premio": 0.0009463722397476341,
+      "taxa_por_premio_esperada": 0.001002079522346006,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.0015772870662460567,
+       "ic95": [
+        -0.0033119334515754007,
+        0.006466507584067514
+       ],
+       "z": 0.632305832509223,
+       "p": 0.5271870531023499
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": 0.0015772870662460567,
+       "ic95": [
+        -0.0033119334515754007,
+        0.006466507584067514
+       ],
+       "z": 0.632305832509223,
+       "p": 0.5271870531023499
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.052050473186119876,
+      "ic95": [
+       0.04112093362880933,
+       0.06568597841088167
+      ],
+      "acertos_concursos": 66,
+      "taxa_esperada": 0.048994549833019214,
+      "z_vs_esperado": 0.5041232374136269,
+      "p_vs_esperado": 0.614174778502079,
+      "taxa_por_premio": 0.010410094637223975,
+      "taxa_por_premio_esperada": 0.009996794021953137,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.006309148264984227,
+       "ic95": [
+        -0.009607720952034757,
+        0.02222601748200321
+       ],
+       "z": 0.7769072190495173,
+       "p": 0.437213511799336
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.002365930599369085,
+       "ic95": [
+        -0.01992862094408368,
+        0.015196759745345512
+       ],
+       "z": -0.2640383610793979,
+       "p": 0.7917503594347238
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.3217665615141956,
+      "ic95": [
+       0.29662536410882473,
+       0.3479844283576721
+      ],
+      "acertos_concursos": 408,
+      "taxa_esperada": 0.33875501951164794,
+      "z_vs_esperado": -1.2845973732024225,
+      "p_vs_esperado": 0.19893301708837519,
+      "taxa_por_premio": 0.07602523659305993,
+      "taxa_por_premio_esperada": 0.07976207237052146,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.061514195583596214,
+       "ic95": [
+        -0.09768697937855123,
+        -0.025341411788641202
+       ],
+       "z": -3.3331087822072485,
+       "p": 0.0008588135666454294
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.07807570977917981,
+       "ic95": [
+        -0.11605651634485338,
+        -0.04009490321350624
+       ],
+       "z": -4.029097984072223,
+       "p": 5.599127875053966e-05
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.918769716088328,
+      "ic95": [
+       0.9024377692809483,
+       0.9325719661185662
+      ],
+      "acertos_concursos": 1165,
+      "taxa_esperada": 0.9156392331943252,
+      "z_vs_esperado": 0.43098010021551475,
+      "p_vs_esperado": 0.66648283996195,
+      "taxa_por_premio": 0.45205047318611985,
+      "taxa_por_premio_esperada": 0.45346888729237445,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.0694006309148265,
+       "ic95": [
+        -0.08561099043692628,
+        -0.05319027139272671
+       ],
+       "z": -8.391253531892062,
+       "p": 4.809858116667393e-17
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.06624605678233439,
+       "ic95": [
+        -0.08264287337841508,
+        -0.049849240186253696
+       ],
+       "z": -7.918748772515476,
+       "p": 2.399125374389421e-15
+      }
+     }
+    },
+    "estrutura": {
+     "exato": {
+      "taxa_concurso": 0.0007886435331230284,
+      "ic95": [
+       0.00013922851642383114,
+       0.004453685781330369
+      ],
+      "acertos_concursos": 1,
+      "taxa_esperada": 0.0005051972018832344,
+      "z_vs_esperado": 0.4491689768634541,
+      "p_vs_esperado": 0.6533097650560029,
+      "taxa_por_premio": 0.0001577287066246057,
+      "taxa_por_premio_esperada": 0.00010105986902799065,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.0007886435331230284,
+       "ic95": [
+        -0.0007570977917981074,
+        0.002334384858044164
+       ],
+       "z": 0.9999999999999999,
+       "p": 0.31731050786291415
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.0031545741324921135,
+      "ic95": [
+       0.0012274152323953863,
+       0.008083068191909742
+      ],
+      "acertos_concursos": 4,
+      "taxa_esperada": 0.005042788415976702,
+      "z_vs_esperado": -0.9492346275284429,
+      "p_vs_esperado": 0.3425012936143934,
+      "taxa_por_premio": 0.0006309148264984228,
+      "taxa_por_premio_esperada": 0.0010105986902799063,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.0,
+       "ic95": [
+        -0.004373741692968853,
+        0.004373741692968853
+       ],
+       "z": 0.0,
+       "p": 1.0
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.05441640378548896,
+      "ic95": [
+       0.043223249779558826,
+       0.06830123138668309
+      ],
+      "acertos_concursos": 69,
+      "taxa_esperada": 0.04884682238313646,
+      "z_vs_esperado": 0.9201162227186482,
+      "p_vs_esperado": 0.35751202766724266,
+      "taxa_por_premio": 0.011041009463722398,
+      "taxa_por_premio_esperada": 0.009966111218100327,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.008675078864353312,
+       "ic95": [
+        -0.007900808839604872,
+        0.025250966568311495
+       ],
+       "z": 1.0257764095537567,
+       "p": 0.30499698814682974
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.3998422712933754,
+      "ic95": [
+       0.3732210043723958,
+       0.4270685692702817
+      ],
+      "acertos_concursos": 507,
+      "taxa_esperada": 0.3952129268350073,
+      "z_vs_esperado": 0.3374772082375091,
+      "p_vs_esperado": 0.7357571906419729,
+      "taxa_por_premio": 0.09842271293375394,
+      "taxa_por_premio_esperada": 0.09576455881798426,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.016561514195583597,
+       "ic95": [
+        -0.02177590381925682,
+        0.054898932210424016
+       ],
+       "z": 0.8467071989766854,
+       "p": 0.39715834510968673
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9850157728706624,
+      "ic95": [
+       0.976715185495076,
+       0.9903864854478646
+      ],
+      "acertos_concursos": 1249,
+      "taxa_esperada": 0.9896646485782731,
+      "z_vs_esperado": -1.6545243303573287,
+      "p_vs_esperado": 0.09802102399802581,
+      "taxa_por_premio": 0.6572555205047319,
+      "taxa_por_premio_esperada": 0.649763272688408,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.0031545741324921135,
+       "ic95": [
+        -0.012169600299394501,
+        0.005860452034410275
+       ],
+       "z": -0.6858510652342391,
+       "p": 0.4928070309185787
+      }
+     }
+    },
+    "aleatoria": {
+     "exato": {
+      "taxa_concurso": 0.0,
+      "ic95": [
+       0.0,
+       0.003020391255570557
+      ],
+      "acertos_concursos": 0,
+      "taxa_esperada": 0.0005051972018832344,
+      "z_vs_esperado": -0.8005709909584262,
+      "p_vs_esperado": 0.4233800502172075,
+      "taxa_por_premio": 0.0,
+      "taxa_por_premio_esperada": 0.00010105986902799065
+     },
+     "milhar": {
+      "taxa_concurso": 0.0031545741324921135,
+      "ic95": [
+       0.0012274152323953863,
+       0.008083068191909742
+      ],
+      "acertos_concursos": 4,
+      "taxa_esperada": 0.004993134634554348,
+      "z_vs_esperado": -0.9288337594940654,
+      "p_vs_esperado": 0.35297524589180107,
+      "taxa_por_premio": 0.0006309148264984228,
+      "taxa_por_premio_esperada": 0.0010006276492057777
+     },
+     "centena": {
+      "taxa_concurso": 0.04574132492113565,
+      "ic95": [
+       0.03554963961404877,
+       0.058677088088173075
+      ],
+      "acertos_concursos": 58,
+      "taxa_esperada": 0.048783255339116184,
+      "z_vs_esperado": -0.5028507023756448,
+      "p_vs_esperado": 0.6150692430916866,
+      "taxa_por_premio": 0.00946372239747634,
+      "taxa_por_premio_esperada": 0.009952904388293264
+     },
+     "dezena": {
+      "taxa_concurso": 0.3832807570977918,
+      "ic95": [
+       0.3569111289120976,
+       0.41035546084472335
+      ],
+      "acertos_concursos": 486,
+      "taxa_esperada": 0.3949391815406682,
+      "z_vs_esperado": -0.8501133699417154,
+      "p_vs_esperado": 0.39526205902168365,
+      "taxa_por_premio": 0.09132492113564669,
+      "taxa_por_premio_esperada": 0.09569472026762851
+     },
+     "unidade": {
+      "taxa_concurso": 0.9881703470031545,
+      "ic95": [
+       0.9805736635601283,
+       0.9928180995515468
+      ],
+      "acertos_concursos": 1253,
+      "taxa_esperada": 0.9907036432721001,
+      "z_vs_esperado": -0.9489302937900118,
+      "p_vs_esperado": 0.34265606588450004,
+      "taxa_por_premio": 0.6599369085173502,
+      "taxa_por_premio_esperada": 0.6549686469280608
+     }
+    }
+   },
+   "posicao": {
+    "motor": {
+     "media": 0.498608667192429,
+     "ic95": [
+      0.4915206412918746,
+      0.5056966930929835
+     ],
+     "n": 6340,
+     "p_vs_05": 0.7011520326468401
+    },
+    "estrutura": {
+     "media": 0.4979273264984228,
+     "ic95": [
+      0.4946933748168695,
+      0.5011612781799761
+     ],
+     "n": 6340,
+     "p_vs_05": 0.5675270586266825
+    },
+    "aleatoria": {
+     "media": 0.500638548895899,
+     "ic95": [
+      0.4935575108304323,
+      0.5077195869613657
+     ],
+     "n": 6340,
+     "p_vs_05": 0.8601930632034783
+    },
+    "motor_vs_estrutura": {
+     "n": 6340,
+     "diferenca": 0.0006813406940063121,
+     "ic95": [
+      -0.00687166629190861,
+      0.008234347679921235
+     ],
+     "z": 0.17680743083419861,
+     "p": 0.8596596520536159
+    }
+   },
+   "p_holm": {
+    "motor|unidade|aleatoria": 1.2470227483351648e-20,
+    "motor|unidade|estrutura": 4.589806773363748e-19,
+    "motor_diversificado|unidade|aleatoria": 1.923943246666957e-15,
+    "motor_diversificado|unidade|estrutura": 9.356588960118741e-14,
+    "motor|dezena|estrutura": 5.2554471110311845e-05,
+    "motor|dezena|aleatoria": 0.0010693646989346783,
+    "motor_diversificado|dezena|estrutura": 0.0020156860350194275,
+    "motor_diversificado|dezena|aleatoria": 0.03005847483259003,
+    "estrutura|unidade|esperado": 1.0,
+    "motor_diversificado|dezena|esperado": 1.0,
+    "estrutura|centena|aleatoria": 1.0,
+    "motor|exato|estrutura": 1.0,
+    "motor_diversificado|exato|estrutura": 1.0,
+    "estrutura|exato|aleatoria": 1.0,
+    "estrutura|milhar|esperado": 1.0,
+    "estrutura|centena|esperado": 1.0,
+    "estrutura|dezena|aleatoria": 1.0,
+    "motor|exato|esperado": 1.0,
+    "motor_diversificado|exato|esperado": 1.0,
+    "motor_diversificado|centena|aleatoria": 1.0,
+    "motor|centena|esperado": 1.0,
+    "estrutura|unidade|aleatoria": 1.0,
+    "motor|dezena|esperado": 1.0,
+    "motor_diversificado|milhar|aleatoria": 1.0,
+    "motor_diversificado|milhar|estrutura": 1.0,
+    "motor|centena|estrutura": 1.0,
+    "motor|unidade|esperado": 1.0,
+    "motor|milhar|esperado": 1.0,
+    "motor_diversificado|centena|esperado": 1.0,
+    "estrutura|exato|esperado": 1.0,
+    "motor_diversificado|unidade|esperado": 1.0,
+    "motor|centena|aleatoria": 1.0,
+    "posicao|vs_05": 1.0,
+    "estrutura|dezena|esperado": 1.0,
+    "motor|milhar|aleatoria": 1.0,
+    "motor|milhar|estrutura": 1.0,
+    "motor_diversificado|centena|estrutura": 1.0,
+    "posicao|vs_estrutura": 1.0,
+    "motor_diversificado|milhar|esperado": 1.0,
+    "motor|exato|aleatoria": 1.0,
+    "motor_diversificado|exato|aleatoria": 1.0,
+    "estrutura|milhar|aleatoria": 1.0
+   },
+   "vantagens_comprovadas": [],
+   "sinais_nominais": [],
+   "desfavoraveis_nominais": [
+    "motor_diversificado|dezena|aleatoria",
+    "motor_diversificado|dezena|estrutura",
+    "motor_diversificado|unidade|aleatoria",
+    "motor_diversificado|unidade|estrutura",
+    "motor|dezena|aleatoria",
+    "motor|dezena|estrutura",
+    "motor|unidade|aleatoria",
+    "motor|unidade|estrutura"
+   ],
+   "testes": 42
+  },
+  {
+   "de": 3562,
+   "ate": 4829,
+   "concursos": 1268,
+   "intervalo": [
+    3562,
+    4829
+   ],
+   "estrategias": {
+    "motor": {
+     "exato": {
+      "taxa_concurso": 0.0,
+      "ic95": [
+       0.0,
+       0.003020391255570557
+      ],
+      "acertos_concursos": 0,
+      "taxa_esperada": 0.0005961284289755458,
+      "z_vs_esperado": -0.8696818209335055,
+      "p_vs_esperado": 0.3844743095891049,
+      "taxa_por_premio": 0.0,
+      "taxa_por_premio_esperada": 0.00011925442482133105,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.0,
+       "ic95": [
+        0.0,
+        0.0
+       ],
+       "z": 0.0,
+       "p": 1.0
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.002365930599369085,
+       "ic95": [
+        -0.005041119171135567,
+        0.0003092579723973964
+       ],
+       "z": -1.7334194769310611,
+       "p": 0.08302113823638886
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.002365930599369085,
+      "ic95": [
+       0.0008049489994362913,
+       0.0069330113826851945
+      ],
+      "acertos_concursos": 3,
+      "taxa_esperada": 0.005203269310909602,
+      "z_vs_esperado": -1.4043195506714055,
+      "p_vs_esperado": 0.16022371501986588,
+      "taxa_por_premio": 0.00047318611987381704,
+      "taxa_por_premio_esperada": 0.0010428274530105907,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.0031545741324921135,
+       "ic95": [
+        -0.008041479861017335,
+        0.0017323315960331071
+       ],
+       "z": -1.2652106758667614,
+       "p": 0.2057958164670849
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.003943217665615142,
+       "ic95": [
+        -0.009067286107273498,
+        0.0011808507760432147
+       ],
+       "z": -1.508314479520175,
+       "p": 0.13147405910594231
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.04022082018927445,
+      "ic95": [
+       0.030722614122756585,
+       0.052496452284179755
+      ],
+      "acertos_concursos": 51,
+      "taxa_esperada": 0.04359940368669633,
+      "z_vs_esperado": -0.5894647550177414,
+      "p_vs_esperado": 0.555549548522011,
+      "taxa_por_premio": 0.008201892744479496,
+      "taxa_por_premio_esperada": 0.008879755846598877,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.006309148264984227,
+       "ic95": [
+        -0.02222601748200321,
+        0.009607720952034757
+       ],
+       "z": -0.7769072190495173,
+       "p": 0.437213511799336
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.022870662460567823,
+       "ic95": [
+        -0.04038862756856579,
+        -0.005352697352569859
+       ],
+       "z": -2.5588872992016087,
+       "p": 0.010500777791871585
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.34069400630914826,
+      "ic95": [
+       0.31512374977033086,
+       0.3672265957085734
+      ],
+      "acertos_concursos": 432,
+      "taxa_esperada": 0.3283548834468609,
+      "z_vs_esperado": 0.9435772146501278,
+      "p_vs_esperado": 0.34538574039259773,
+      "taxa_por_premio": 0.07854889589905363,
+      "taxa_por_premio_esperada": 0.07710141009470295,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.055205047318611984,
+       "ic95": [
+        -0.09212806895702402,
+        -0.01828202568019994
+       ],
+       "z": -2.930472316272026,
+       "p": 0.0033844714862167964
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.08911671924290221,
+       "ic95": [
+        -0.12593578665894734,
+        -0.05229765182685709
+       ],
+       "z": -4.743975933512392,
+       "p": 2.0956375709472204e-06
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9258675078864353,
+      "ic95": [
+       0.9101256092613351,
+       0.9390368335178322
+      ],
+      "acertos_concursos": 1174,
+      "taxa_esperada": 0.9283453159694256,
+      "z_vs_esperado": -0.37227202930268455,
+      "p_vs_esperado": 0.7096903218197501,
+      "taxa_por_premio": 0.4867507886435331,
+      "taxa_por_premio_esperada": 0.4754752036062213,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.06624605678233439,
+       "ic95": [
+        -0.08111318675060575,
+        -0.05137892681406304
+       ],
+       "z": -8.733512895258059,
+       "p": 2.4688255805319176e-18
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.06545741324921135,
+       "ic95": [
+        -0.08057429418575895,
+        -0.05034053231266374
+       ],
+       "z": -8.48697099004569,
+       "p": 2.1209268615534104e-17
+      }
+     }
+    },
+    "motor_diversificado": {
+     "exato": {
+      "taxa_concurso": 0.0,
+      "ic95": [
+       0.0,
+       0.003020391255570557
+      ],
+      "acertos_concursos": 0,
+      "taxa_esperada": 0.0005961284289755458,
+      "z_vs_esperado": -0.8696818209335055,
+      "p_vs_esperado": 0.3844743095891049,
+      "taxa_por_premio": 0.0,
+      "taxa_por_premio_esperada": 0.00011925442482133105,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.0,
+       "ic95": [
+        0.0,
+        0.0
+       ],
+       "z": 0.0,
+       "p": 1.0
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.002365930599369085,
+       "ic95": [
+        -0.005041119171135567,
+        0.0003092579723973964
+       ],
+       "z": -1.7334194769310611,
+       "p": 0.08302113823638886
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.002365930599369085,
+      "ic95": [
+       0.0008049489994362913,
+       0.0069330113826851945
+      ],
+      "acertos_concursos": 3,
+      "taxa_esperada": 0.005209058019489747,
+      "z_vs_esperado": -1.406406574522975,
+      "p_vs_esperado": 0.15960342912586845,
+      "taxa_por_premio": 0.00047318611987381704,
+      "taxa_por_premio_esperada": 0.0010439900150645534,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.0031545741324921135,
+       "ic95": [
+        -0.008041479861017335,
+        0.0017323315960331071
+       ],
+       "z": -1.2652106758667614,
+       "p": 0.2057958164670849
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.003943217665615142,
+       "ic95": [
+        -0.009067286107273498,
+        0.0011808507760432147
+       ],
+       "z": -1.508314479520175,
+       "p": 0.13147405910594231
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.04889589905362776,
+      "ic95": [
+       0.0383286151589949,
+       0.062188204711961514
+      ],
+      "acertos_concursos": 62,
+      "taxa_esperada": 0.04907008202211657,
+      "z_vs_esperado": -0.028713273200418835,
+      "p_vs_esperado": 0.977093270249926,
+      "taxa_por_premio": 0.009936908517350157,
+      "taxa_por_premio_esperada": 0.010012520711645689,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.002365930599369085,
+       "ic95": [
+        -0.014216326890186027,
+        0.018948188088924196
+       ],
+       "z": 0.27964973874542215,
+       "p": 0.7797462429029947
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.014195583596214511,
+       "ic95": [
+        -0.03234427174964346,
+        0.0039531045572144385
+       ],
+       "z": -1.533077411070265,
+       "p": 0.12525678265602455
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.3746056782334385,
+      "ic95": [
+       0.3483808577962796,
+       0.4015879784965213
+      ],
+      "acertos_concursos": 475,
+      "taxa_esperada": 0.3595552921211184,
+      "z_vs_esperado": 1.1214557275205623,
+      "p_vs_esperado": 0.2620939264948563,
+      "taxa_por_premio": 0.08895899053627761,
+      "taxa_por_premio_esperada": 0.08558796501498445,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.021293375394321766,
+       "ic95": [
+        -0.05835503247982042,
+        0.01576828169117689
+       ],
+       "z": -1.1260968627654961,
+       "p": 0.26012452181583323
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.055205047318611984,
+       "ic95": [
+        -0.09251461648666678,
+        -0.017895478150557184
+       ],
+       "z": -2.900111021306676,
+       "p": 0.0037303050976644054
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.944006309148265,
+      "ic95": [
+       0.9299588790058508,
+       0.9553715937435403
+      ],
+      "acertos_concursos": 1197,
+      "taxa_esperada": 0.9464754705527552,
+      "z_vs_esperado": -0.41985764945486614,
+      "p_vs_esperado": 0.6745894474859966,
+      "taxa_por_premio": 0.5181388012618297,
+      "taxa_por_premio_esperada": 0.5074152151277392,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.04810725552050473,
+       "ic95": [
+        -0.06123444369893996,
+        -0.0349800673420695
+       ],
+       "z": -7.182819316560506,
+       "p": 6.828832464199414e-13
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.0473186119873817,
+       "ic95": [
+        -0.060724761999627,
+        -0.0339124619751364
+       ],
+       "z": -6.918054729400645,
+       "p": 4.5788741017767345e-12
+      }
+     }
+    },
+    "estrutura": {
+     "exato": {
+      "taxa_concurso": 0.002365930599369085,
+      "ic95": [
+       0.0008049489994362913,
+       0.0069330113826851945
+      ],
+      "acertos_concursos": 3,
+      "taxa_esperada": 0.0005961284289755458,
+      "z_vs_esperado": 2.5819348640778594,
+      "p_vs_esperado": 0.00982481260665933,
+      "taxa_por_premio": 0.00047318611987381704,
+      "taxa_por_premio_esperada": 0.00011925442482133105,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.002365930599369085,
+       "ic95": [
+        -0.0003092579723973964,
+        0.005041119171135567
+       ],
+       "z": 1.7334194769310611,
+       "p": 0.08302113823638886
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.006309148264984227,
+      "ic95": [
+       0.0032003567518656033,
+       0.012400218841174097
+      ],
+      "acertos_concursos": 8,
+      "taxa_esperada": 0.005252725619132091,
+      "z_vs_esperado": 0.5204139906936843,
+      "p_vs_esperado": 0.6027750608440625,
+      "taxa_por_premio": 0.0012618296529968455,
+      "taxa_por_premio_esperada": 0.0010527601174486897,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.0007886435331230284,
+       "ic95": [
+        -0.00520019149031797,
+        0.0067774785565640275
+       ],
+       "z": 0.258103841376649,
+       "p": 0.7963267670118144
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.06309148264984227,
+      "ic95": [
+       0.050984292504800466,
+       0.07783794212546152
+      ],
+      "acertos_concursos": 80,
+      "taxa_esperada": 0.04888130791560431,
+      "z_vs_esperado": 2.346786669618439,
+      "p_vs_esperado": 0.01893609319455587,
+      "taxa_por_premio": 0.012933753943217666,
+      "taxa_por_premio_esperada": 0.00997327994070996,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.016561514195583597,
+       "ic95": [
+        -0.0011137744311223718,
+        0.034236802822289567
+       ],
+       "z": 1.8364943571160977,
+       "p": 0.06628457590325333
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.42981072555205047,
+      "ic95": [
+       0.402814955575419,
+       0.4572304936702368
+      ],
+      "acertos_concursos": 545,
+      "taxa_esperada": 0.39467924868349713,
+      "z_vs_esperado": 2.561987833802677,
+      "p_vs_esperado": 0.01040749641954904,
+      "taxa_por_premio": 0.10504731861198738,
+      "taxa_por_premio_esperada": 0.09561552969927785,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.03391167192429022,
+       "ic95": [
+        -0.00457793209352253,
+        0.07240127594210297
+       ],
+       "z": 1.7268786901743227,
+       "p": 0.08418945229321749
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9913249211356467,
+      "ic95": [
+       0.9845327204594987,
+       0.9951491348209109
+      ],
+      "acertos_concursos": 1257,
+      "taxa_esperada": 0.9900462184319526,
+      "z_vs_esperado": 0.46314506519280785,
+      "p_vs_esperado": 0.6432603896787185,
+      "taxa_por_premio": 0.6582018927444795,
+      "taxa_por_premio_esperada": 0.6492110764421363,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.0007886435331230284,
+       "ic95": [
+        -0.007528892277524127,
+        0.005951605211278069
+       ],
+       "z": -0.22933001192354094,
+       "p": 0.818612428831128
+      }
+     }
+    },
+    "aleatoria": {
+     "exato": {
+      "taxa_concurso": 0.0,
+      "ic95": [
+       0.0,
+       0.003020391255570557
+      ],
+      "acertos_concursos": 0,
+      "taxa_esperada": 0.0005961284289755458,
+      "z_vs_esperado": -0.8696818209335055,
+      "p_vs_esperado": 0.3844743095891049,
+      "taxa_por_premio": 0.0,
+      "taxa_por_premio_esperada": 0.00011925442482133105
+     },
+     "milhar": {
+      "taxa_concurso": 0.005520504731861199,
+      "ic95": [
+       0.0026766720751441398,
+       0.011351380475711915
+      ],
+      "acertos_concursos": 7,
+      "taxa_esperada": 0.00500889425435018,
+      "z_vs_esperado": 0.25805894893611764,
+      "p_vs_esperado": 0.7963614127617888,
+      "taxa_por_premio": 0.0011041009463722397,
+      "taxa_por_premio_esperada": 0.0010037927635861853
+     },
+     "centena": {
+      "taxa_concurso": 0.04652996845425868,
+      "ic95": [
+       0.03624306463678105,
+       0.059556186107624434
+      ],
+      "acertos_concursos": 59,
+      "taxa_esperada": 0.04878862259810566,
+      "z_vs_esperado": -0.3733503365685269,
+      "p_vs_esperado": 0.7088877171623682,
+      "taxa_por_premio": 0.009621451104100946,
+      "taxa_por_premio_esperada": 0.009954015940294623
+     },
+     "dezena": {
+      "taxa_concurso": 0.39589905362776023,
+      "ic95": [
+       0.3693347761955285,
+       0.42309218223623074
+      ],
+      "acertos_concursos": 502,
+      "taxa_esperada": 0.39531509783785973,
+      "z_vs_esperado": 0.04257275103852061,
+      "p_vs_esperado": 0.9660421173110713,
+      "taxa_por_premio": 0.09605678233438486,
+      "taxa_por_premio_esperada": 0.0958043300306816
+     },
+     "unidade": {
+      "taxa_concurso": 0.9921135646687698,
+      "ic95": [
+       0.9855437280743143,
+       0.995710650248279
+      ],
+      "acertos_concursos": 1258,
+      "taxa_esperada": 0.9902819669070114,
+      "z_vs_esperado": 0.6706774212641639,
+      "p_vs_esperado": 0.5024260495780335,
+      "taxa_por_premio": 0.6534700315457413,
+      "taxa_por_premio_esperada": 0.6501576096404961
+     }
+    }
+   },
+   "posicao": {
+    "motor": {
+     "media": 0.49264648264984223,
+     "ic95": [
+      0.48556725050521804,
+      0.4997257147944664
+     ],
+     "n": 6340,
+     "p_vs_05": 0.042530504663908834
+    },
+    "estrutura": {
+     "media": 0.4882522870662461,
+     "ic95": [
+      0.48240913666551366,
+      0.4940954374669786
+     ],
+     "n": 6340,
+     "p_vs_05": 0.0011939351431482957
+    },
+    "aleatoria": {
+     "media": 0.5049039116719243,
+     "ic95": [
+      0.4977940671655283,
+      0.5120137561783202
+     ],
+     "n": 6340,
+     "p_vs_05": 0.17617498262348363
+    },
+    "motor_vs_estrutura": {
+     "n": 6340,
+     "diferenca": 0.004394195583596206,
+     "ic95": [
+      -0.003013585874680055,
+      0.011801977041872467
+     ],
+     "z": 1.162645441466987,
+     "p": 0.2449733858952967
+    }
+   },
+   "p_holm": {
+    "motor|unidade|aleatoria": 1.0369067438234054e-16,
+    "motor|unidade|estrutura": 8.695800132368983e-16,
+    "motor_diversificado|unidade|aleatoria": 2.7315329856797654e-11,
+    "motor_diversificado|unidade|estrutura": 1.7857608996929265e-10,
+    "motor|dezena|estrutura": 7.963422769599437e-05,
+    "motor|dezena|aleatoria": 0.12522544499002147,
+    "motor_diversificado|dezena|estrutura": 0.1342909835159186,
+    "estrutura|exato|esperado": 0.3438684412330765,
+    "estrutura|dezena|esperado": 0.3538548782646674,
+    "motor|centena|estrutura": 0.3538548782646674,
+    "estrutura|centena|esperado": 0.6059549822257878,
+    "posicao|vs_05": 1.0,
+    "estrutura|centena|aleatoria": 1.0,
+    "motor|exato|estrutura": 1.0,
+    "motor_diversificado|exato|estrutura": 1.0,
+    "estrutura|exato|aleatoria": 1.0,
+    "estrutura|dezena|aleatoria": 1.0,
+    "motor_diversificado|centena|estrutura": 1.0,
+    "motor|milhar|estrutura": 1.0,
+    "motor_diversificado|milhar|estrutura": 1.0,
+    "motor_diversificado|milhar|esperado": 1.0,
+    "motor|milhar|esperado": 1.0,
+    "motor|milhar|aleatoria": 1.0,
+    "motor_diversificado|milhar|aleatoria": 1.0,
+    "posicao|vs_estrutura": 1.0,
+    "motor_diversificado|dezena|aleatoria": 1.0,
+    "motor_diversificado|dezena|esperado": 1.0,
+    "motor|dezena|esperado": 1.0,
+    "motor|exato|esperado": 1.0,
+    "motor_diversificado|exato|esperado": 1.0,
+    "motor|centena|aleatoria": 1.0,
+    "motor|centena|esperado": 1.0,
+    "estrutura|milhar|esperado": 1.0,
+    "estrutura|unidade|esperado": 1.0,
+    "motor_diversificado|unidade|esperado": 1.0,
+    "motor|unidade|esperado": 1.0,
+    "motor_diversificado|centena|aleatoria": 1.0,
+    "estrutura|milhar|aleatoria": 1.0,
+    "estrutura|unidade|aleatoria": 1.0,
+    "motor_diversificado|centena|esperado": 1.0,
+    "motor|exato|aleatoria": 1.0,
+    "motor_diversificado|exato|aleatoria": 1.0
+   },
+   "vantagens_comprovadas": [],
+   "sinais_nominais": [
+    "estrutura|centena|esperado",
+    "estrutura|dezena|esperado",
+    "estrutura|exato|esperado",
+    "posicao|vs_05"
+   ],
+   "desfavoraveis_nominais": [
+    "motor_diversificado|dezena|estrutura",
+    "motor_diversificado|unidade|aleatoria",
+    "motor_diversificado|unidade|estrutura",
+    "motor|centena|estrutura",
+    "motor|dezena|aleatoria",
+    "motor|dezena|estrutura",
+    "motor|unidade|aleatoria",
+    "motor|unidade|estrutura"
+   ],
+   "testes": 42
+  },
+  {
+   "de": 4830,
+   "ate": 6115,
+   "concursos": 1268,
+   "intervalo": [
+    4830,
+    6115
+   ],
+   "estrategias": {
+    "motor": {
+     "exato": {
+      "taxa_concurso": 0.0,
+      "ic95": [
+       0.0,
+       0.003020391255570557
+      ],
+      "acertos_concursos": 0,
+      "taxa_esperada": 0.0005046461414336999,
+      "z_vs_esperado": -0.8001339997047917,
+      "p_vs_esperado": 0.42363316416311847,
+      "taxa_por_premio": 0.0,
+      "taxa_por_premio_esperada": 0.00010094960966913344,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.0,
+       "ic95": [
+        0.0,
+        0.0
+       ],
+       "z": 0.0,
+       "p": 1.0
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.0007886435331230284,
+       "ic95": [
+        -0.002334384858044164,
+        0.0007570977917981072
+       ],
+       "z": -1.0,
+       "p": 0.31731050786291415
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.002365930599369085,
+      "ic95": [
+       0.0008049489994362913,
+       0.0069330113826851945
+      ],
+      "acertos_concursos": 3,
+      "taxa_esperada": 0.005035854776558355,
+      "z_vs_esperado": -1.3431308766413808,
+      "p_vs_esperado": 0.17922959914635017,
+      "taxa_por_premio": 0.00047318611987381704,
+      "taxa_por_premio_esperada": 0.0010092060655359284,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.003943217665615142,
+       "ic95": [
+        -0.009067286107273498,
+        0.0011808507760432147
+       ],
+       "z": -1.508314479520175,
+       "p": 0.13147405910594231
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.0031545741324921135,
+       "ic95": [
+        -0.008041479861017335,
+        0.0017323315960331071
+       ],
+       "z": -1.2652106758667614,
+       "p": 0.2057958164670849
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.03943217665615142,
+      "ic95": [
+       0.030037199599743155,
+       0.051609343765009544
+      ],
+      "acertos_concursos": 50,
+      "taxa_esperada": 0.03269250840250282,
+      "z_vs_esperado": 1.351048513959099,
+      "p_vs_esperado": 0.17667989254437177,
+      "taxa_por_premio": 0.008044164037854889,
+      "taxa_por_premio_esperada": 0.0066316371724873995,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.018138801261829655,
+       "ic95": [
+        -0.03497790612257724,
+        -0.0012996964010820664
+       ],
+       "z": -2.111279118883506,
+       "p": 0.034748327756847164
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.0007886435331230284,
+       "ic95": [
+        -0.016018374752200325,
+        0.014441087685954267
+       ],
+       "z": -0.10149498390259742,
+       "p": 0.9191575392644078
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.27917981072555204,
+      "ic95": [
+       0.2551837719107757,
+       0.3045097762778044
+      ],
+      "acertos_concursos": 354,
+      "taxa_esperada": 0.2630559015802731,
+      "z_vs_esperado": 1.3167257456976398,
+      "p_vs_esperado": 0.18793057047795791,
+      "taxa_por_premio": 0.061829652996845424,
+      "taxa_por_premio_esperada": 0.05973752894895859,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.0914826498422713,
+       "ic95": [
+        -0.12699449711481214,
+        -0.05597080256973043
+       ],
+       "z": -5.049188016459456,
+       "p": 4.43691894797678e-07
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.08517350157728706,
+       "ic95": [
+        -0.12086713503365387,
+        -0.049479868120920256
+       ],
+       "z": -4.677026318868776,
+       "p": 2.9106491272205108e-06
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.887223974763407,
+      "ic95": [
+       0.8686308317593003,
+       0.9034779819528684
+      ],
+      "acertos_concursos": 1125,
+      "taxa_esperada": 0.8884451219234664,
+      "z_vs_esperado": -0.1487439221227952,
+      "p_vs_esperado": 0.8817557018832685,
+      "taxa_por_premio": 0.41466876971608835,
+      "taxa_por_premio_esperada": 0.40852135043187493,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.10488958990536278,
+       "ic95": [
+        -0.12285987322189132,
+        -0.08691930658883423
+       ],
+       "z": -11.440197830683129,
+       "p": 2.6328449459181137e-30
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.10410094637223975,
+       "ic95": [
+        -0.12215148717091391,
+        -0.0860504055735656
+       ],
+       "z": -11.30369761024428,
+       "p": 1.2580687408149881e-29
+      }
+     }
+    },
+    "motor_diversificado": {
+     "exato": {
+      "taxa_concurso": 0.0015772870662460567,
+      "ic95": [
+       0.000432655624989653,
+       0.00573278171494819
+      ],
+      "acertos_concursos": 2,
+      "taxa_esperada": 0.0005046461414336999,
+      "z_vs_esperado": 1.7007094733328405,
+      "p_vs_esperado": 0.0889975553488826,
+      "taxa_por_premio": 0.0003154574132492114,
+      "taxa_por_premio_esperada": 0.00010094960966913344,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.0015772870662460567,
+       "ic95": [
+        -0.0006078584380790613,
+        0.003762432570571175
+       ],
+       "z": 1.4147719882832586,
+       "p": 0.1571353596176993
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": 0.0007886435331230284,
+       "ic95": [
+        -0.0018893632523001268,
+        0.0034666503185461833
+       ],
+       "z": 0.5771984347966808,
+       "p": 0.5638054142894442
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.003943217665615142,
+      "ic95": [
+       0.0016854473446032722,
+       0.0091975591218855
+      ],
+      "acertos_concursos": 5,
+      "taxa_esperada": 0.005035936084348912,
+      "z_vs_esperado": -0.5496980305553004,
+      "p_vs_esperado": 0.5825265079047609,
+      "taxa_por_premio": 0.0007886435331230284,
+      "taxa_por_premio_esperada": 0.0010092223942492647,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.002365930599369085,
+       "ic95": [
+        -0.00793985689871388,
+        0.0032079956999757084
+       ],
+       "z": -0.8319492805831511,
+       "p": 0.40543757368973177
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.0015772870662460567,
+       "ic95": [
+        -0.006933300637092367,
+        0.0037787265046002536
+       ],
+       "z": -0.5771984347966808,
+       "p": 0.5638054142894442
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.055205047318611984,
+      "ic95": [
+       0.04392547644224457,
+       0.06917152776618099
+      ],
+      "acertos_concursos": 70,
+      "taxa_esperada": 0.04909546446272482,
+      "z_vs_esperado": 1.0068901171476472,
+      "p_vs_esperado": 0.3139875817447202,
+      "taxa_por_premio": 0.011198738170347004,
+      "taxa_por_premio_esperada": 0.010017805802174515,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.002365930599369085,
+       "ic95": [
+        -0.020596676953820645,
+        0.015864815755082477
+       ],
+       "z": -0.25436281568533237,
+       "p": 0.7992152751856544
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": 0.01498422712933754,
+       "ic95": [
+        -0.0017217557458351004,
+        0.03169021000451018
+       ],
+       "z": 1.7579980413572691,
+       "p": 0.07874784258414796
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.3746056782334385,
+      "ic95": [
+       0.3483808577962796,
+       0.4015879784965213
+      ],
+      "acertos_concursos": 475,
+      "taxa_esperada": 0.3618114122126112,
+      "z_vs_esperado": 0.9525086791961932,
+      "p_vs_esperado": 0.3408390663742322,
+      "taxa_por_premio": 0.08785488958990537,
+      "taxa_por_premio_esperada": 0.08627277112855199,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.003943217665615142,
+       "ic95": [
+        -0.033071801303324835,
+        0.04095823663455511
+       ],
+       "z": 0.20879920745389827,
+       "p": 0.8346049900603814
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": 0.01025236593059937,
+       "ic95": [
+        -0.027399514689023026,
+        0.04790424655022176
+       ],
+       "z": 0.533695446104819,
+       "p": 0.5935522603437615
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9518927444794952,
+      "ic95": [
+       0.9386882759695847,
+       0.9623674272016427
+      ],
+      "acertos_concursos": 1207,
+      "taxa_esperada": 0.9538560052658949,
+      "z_vs_esperado": -0.35113303552202385,
+      "p_vs_esperado": 0.7254885451263906,
+      "taxa_por_premio": 0.5305993690851735,
+      "taxa_por_premio_esperada": 0.5259512951615105,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.04022082018927445,
+       "ic95": [
+        -0.05268298516298514,
+        -0.027758655215563754
+       ],
+       "z": -6.325771464049631,
+       "p": 2.5197050688672214e-10
+      },
+      "vs_estrutura": {
+       "n": 1268,
+       "diferenca": -0.03943217665615142,
+       "ic95": [
+        -0.05218637707758515,
+        -0.02667797623471768
+       ],
+       "z": -6.059734337887149,
+       "p": 1.3634655293046813e-09
+      }
+     }
+    },
+    "estrutura": {
+     "exato": {
+      "taxa_concurso": 0.0007886435331230284,
+      "ic95": [
+       0.00013922851642383114,
+       0.004453685781330369
+      ],
+      "acertos_concursos": 1,
+      "taxa_esperada": 0.0005046461414336999,
+      "z_vs_esperado": 0.45028773681402445,
+      "p_vs_esperado": 0.6525029802510394,
+      "taxa_por_premio": 0.0001577287066246057,
+      "taxa_por_premio_esperada": 0.00010094960966913344,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": 0.0007886435331230284,
+       "ic95": [
+        -0.0007570977917981072,
+        0.002334384858044164
+       ],
+       "z": 1.0,
+       "p": 0.31731050786291415
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.005520504731861199,
+      "ic95": [
+       0.0026766720751441398,
+       0.011351380475711915
+      ],
+      "acertos_concursos": 7,
+      "taxa_esperada": 0.005037299048391432,
+      "z_vs_esperado": 0.24304656617431963,
+      "p_vs_esperado": 0.8079693241543957,
+      "taxa_por_premio": 0.0011041009463722397,
+      "taxa_por_premio_esperada": 0.0010094960966913343,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.0007886435331230284,
+       "ic95": [
+        -0.006777478556564027,
+        0.005200191490317969
+       ],
+       "z": -0.25810384137664905,
+       "p": 0.7963267670118143
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.04022082018927445,
+      "ic95": [
+       0.030722614122756585,
+       0.052496452284179755
+      ],
+      "acertos_concursos": 51,
+      "taxa_esperada": 0.04884097669317992,
+      "z_vs_esperado": -1.4241637245800445,
+      "p_vs_esperado": 0.15439908308981753,
+      "taxa_por_premio": 0.008044164037854889,
+      "taxa_por_premio_esperada": 0.009964893979951426,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.017350157728706624,
+       "ic95": [
+        -0.03412064107693269,
+        -0.0005796743804805625
+       ],
+       "z": -2.0277477066194445,
+       "p": 0.042586003939686166
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.3643533123028391,
+      "ic95": [
+       0.33831135676623625,
+       0.39121467997817727
+      ],
+      "acertos_concursos": 462,
+      "taxa_esperada": 0.39497344286139346,
+      "z_vs_esperado": -2.232460576853418,
+      "p_vs_esperado": 0.025584538001522973,
+      "taxa_por_premio": 0.08864353312302839,
+      "taxa_por_premio_esperada": 0.09569423475561191,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.006309148264984227,
+       "ic95": [
+        -0.04386828187691591,
+        0.031249985346947454
+       ],
+       "z": -0.3292389735912521,
+       "p": 0.7419750668598591
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9913249211356467,
+      "ic95": [
+       0.9845327204594987,
+       0.9951491348209109
+      ],
+      "acertos_concursos": 1257,
+      "taxa_esperada": 0.9904601122028558,
+      "z_vs_esperado": 0.3194369698677182,
+      "p_vs_esperado": 0.7493951801968852,
+      "taxa_por_premio": 0.6511041009463723,
+      "taxa_por_premio_esperada": 0.6526024371797786,
+      "vs_aleatoria": {
+       "n": 1268,
+       "diferenca": -0.0007886435331230284,
+       "ic95": [
+        -0.007528892277524126,
+        0.005951605211278068
+       ],
+       "z": -0.22933001192354097,
+       "p": 0.818612428831128
+      }
+     }
+    },
+    "aleatoria": {
+     "exato": {
+      "taxa_concurso": 0.0,
+      "ic95": [
+       0.0,
+       0.003020391255570557
+      ],
+      "acertos_concursos": 0,
+      "taxa_esperada": 0.0005046461414336999,
+      "z_vs_esperado": -0.8001339997047917,
+      "p_vs_esperado": 0.42363316416311847,
+      "taxa_por_premio": 0.0,
+      "taxa_por_premio_esperada": 0.00010094960966913344
+     },
+     "milhar": {
+      "taxa_concurso": 0.006309148264984227,
+      "ic95": [
+       0.0032003567518656033,
+       0.012400218841174097
+      ],
+      "acertos_concursos": 8,
+      "taxa_esperada": 0.004992812153133191,
+      "z_vs_esperado": 0.6650293244373785,
+      "p_vs_esperado": 0.5060317371894073,
+      "taxa_por_premio": 0.0012618296529968455,
+      "taxa_por_premio_esperada": 0.0010005628565258442
+     },
+     "centena": {
+      "taxa_concurso": 0.057570977917981075,
+      "ic95": [
+       0.04603632082484267,
+       0.07177825251013381
+      ],
+      "acertos_concursos": 73,
+      "taxa_esperada": 0.04881327401033157,
+      "z_vs_esperado": 1.447279136885803,
+      "p_vs_esperado": 0.14781875993699123,
+      "taxa_por_premio": 0.011829652996845425,
+      "taxa_por_premio_esperada": 0.009959134446123992
+     },
+     "dezena": {
+      "taxa_concurso": 0.37066246056782337,
+      "ic95": [
+       0.3445064588689919,
+       0.39759976221289073
+      ],
+      "acertos_concursos": 470,
+      "taxa_esperada": 0.39518452536461474,
+      "z_vs_esperado": -1.7876859002697223,
+      "p_vs_esperado": 0.0738266977945146,
+      "taxa_por_premio": 0.09053627760252365,
+      "taxa_por_premio_esperada": 0.09575681203677548
+     },
+     "unidade": {
+      "taxa_concurso": 0.9921135646687698,
+      "ic95": [
+       0.9855437280743143,
+       0.995710650248279
+      ],
+      "acertos_concursos": 1258,
+      "taxa_esperada": 0.9902641744118791,
+      "z_vs_esperado": 0.6759800410696308,
+      "p_vs_esperado": 0.49905331717414936,
+      "taxa_por_premio": 0.6490536277602523,
+      "taxa_por_premio_esperada": 0.6499212564954687
+     }
+    }
+   },
+   "posicao": {
+    "motor": {
+     "media": 0.4919822476340694,
+     "ic95": [
+      0.4848175044631824,
+      0.4991469908049564
+     ],
+     "n": 6340,
+     "p_vs_05": 0.02700089835031573
+    },
+    "estrutura": {
+     "media": 0.4946467665615142,
+     "ic95": [
+      0.4914007267920753,
+      0.49789280633095306
+     ],
+     "n": 6340,
+     "p_vs_05": 0.13979331530748465
+    },
+    "aleatoria": {
+     "media": 0.4992166088328076,
+     "ic95": [
+      0.49208424578256876,
+      0.5063489718830465
+     ],
+     "n": 6340,
+     "p_vs_05": 0.8289256407228776
+    },
+    "motor_vs_estrutura": {
+     "n": 6340,
+     "diferenca": -0.0026645189274447935,
+     "ic95": [
+      -0.009655277972776622,
+      0.004326240117887034
+     ],
+     "z": -0.7470515095609196,
+     "p": 0.4550324687790417
+    }
+   },
+   "p_holm": {
+    "motor|unidade|aleatoria": 1.1057948772856077e-28,
+    "motor|unidade|estrutura": 5.158081837341451e-28,
+    "motor_diversificado|unidade|aleatoria": 1.0078820275468885e-08,
+    "motor_diversificado|unidade|estrutura": 5.3175155642882566e-08,
+    "motor|dezena|aleatoria": 1.6860292002311763e-05,
+    "motor|dezena|estrutura": 0.0001076940177071589,
+    "estrutura|dezena|esperado": 0.921043368054827,
+    "posicao|vs_05": 0.9450314422610505,
+    "motor|centena|aleatoria": 1.0,
+    "estrutura|centena|aleatoria": 1.0,
+    "motor_diversificado|centena|estrutura": 1.0,
+    "motor_diversificado|exato|esperado": 1.0,
+    "motor|milhar|aleatoria": 1.0,
+    "estrutura|centena|esperado": 1.0,
+    "motor_diversificado|exato|aleatoria": 1.0,
+    "motor|centena|esperado": 1.0,
+    "motor|milhar|esperado": 1.0,
+    "motor|dezena|esperado": 1.0,
+    "motor|milhar|estrutura": 1.0,
+    "motor_diversificado|centena|esperado": 1.0,
+    "motor|exato|estrutura": 1.0,
+    "estrutura|exato|aleatoria": 1.0,
+    "motor_diversificado|dezena|esperado": 1.0,
+    "motor_diversificado|milhar|aleatoria": 1.0,
+    "motor|exato|esperado": 1.0,
+    "posicao|vs_estrutura": 1.0,
+    "motor_diversificado|exato|estrutura": 1.0,
+    "motor_diversificado|milhar|estrutura": 1.0,
+    "motor_diversificado|milhar|esperado": 1.0,
+    "motor_diversificado|dezena|estrutura": 1.0,
+    "estrutura|exato|esperado": 1.0,
+    "motor_diversificado|unidade|esperado": 1.0,
+    "estrutura|dezena|aleatoria": 1.0,
+    "estrutura|unidade|esperado": 1.0,
+    "estrutura|milhar|aleatoria": 1.0,
+    "motor_diversificado|centena|aleatoria": 1.0,
+    "estrutura|milhar|esperado": 1.0,
+    "estrutura|unidade|aleatoria": 1.0,
+    "motor_diversificado|dezena|aleatoria": 1.0,
+    "motor|unidade|esperado": 1.0,
+    "motor|centena|estrutura": 1.0,
+    "motor|exato|aleatoria": 1.0
+   },
+   "vantagens_comprovadas": [],
+   "sinais_nominais": [
+    "posicao|vs_05"
+   ],
+   "desfavoraveis_nominais": [
+    "estrutura|centena|aleatoria",
+    "estrutura|dezena|esperado",
+    "motor_diversificado|unidade|aleatoria",
+    "motor_diversificado|unidade|estrutura",
+    "motor|centena|aleatoria",
+    "motor|dezena|aleatoria",
+    "motor|dezena|estrutura",
+    "motor|unidade|aleatoria",
+    "motor|unidade|estrutura"
+   ],
+   "testes": 42
+  }
+ ],
+ "meta_70": {
+  "exato": {
+   "taxa_acaso_10": 0.0005207248376911666,
+   "multiplicador_necessario": 1344.2800291680314,
+   "numeros_necessarios_pelo_acaso": 20544,
+   "atingivel_por_cobertura": false,
+   "menor_diferenca_detectavel": 0.0016120132592380735
+  },
+  "milhar": {
+   "taxa_acaso_10": 0.004990009995000988,
+   "multiplicador_necessario": 140.2802801399722,
+   "numeros_necessarios_pelo_acaso": 2140,
+   "atingivel_por_cobertura": false,
+   "menor_diferenca_detectavel": 0.004978998492316483
+  },
+  "centena": {
+   "taxa_acaso_10": 0.04900995010000009,
+   "multiplicador_necessario": 14.282813970871574,
+   "numeros_necessarios_pelo_acaso": 214,
+   "atingivel_por_cobertura": false,
+   "menor_diferenca_detectavel": 0.015254840919858053
+  },
+  "dezena": {
+   "taxa_acaso_10": 0.40950999999999993,
+   "multiplicador_necessario": 1.709359966789578,
+   "numeros_necessarios_pelo_acaso": 22,
+   "atingivel_por_cobertura": false,
+   "menor_diferenca_detectavel": 0.034746902511102525
+  },
+  "unidade": {
+   "taxa_acaso_10": 1.0,
+   "multiplicador_necessario": 0.7,
+   "numeros_necessarios_pelo_acaso": 3,
+   "atingivel_por_cobertura": true,
+   "menor_diferenca_detectavel": 0.0
+  }
+ },
+ "replicacao": {
+  "janela_1": {
+   "de": 1004,
+   "ate": 1789,
+   "concursos": 786,
+   "intervalo": [
+    1004,
+    1789
+   ],
+   "estrategias": {
+    "motor": {
+     "exato": {
+      "taxa_concurso": 0.0,
+      "ic95": [
+       0.0,
+       0.004863582150308717
+      ],
+      "acertos_concursos": 0,
+      "taxa_esperada": 0.0007589124579815827,
+      "z_vs_esperado": -0.772634037859966,
+      "p_vs_esperado": 0.4397389943129938,
+      "taxa_por_premio": 0.0,
+      "taxa_por_premio_esperada": 0.0001518291100290311,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.002544529262086514,
+       "ic95": [
+        -0.006068819980415238,
+        0.0009797614562422098
+       ],
+       "z": -1.4151151968684967,
+       "p": 0.15703472318463982
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": -0.001272264631043257,
+       "ic95": [
+        -0.003765903307888041,
+        0.001221374045801527
+       ],
+       "z": -1.0,
+       "p": 0.31731050786291415
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.005089058524173028,
+      "ic95": [
+       0.0019807620822122193,
+       0.013011435008042464
+      ],
+      "acertos_concursos": 4,
+      "taxa_esperada": 0.004960140002369146,
+      "z_vs_esperado": 0.05144695233395836,
+      "p_vs_esperado": 0.9589693717322042,
+      "taxa_por_premio": 0.0010178117048346056,
+      "taxa_por_premio_esperada": 0.000994002611255781,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.002544529262086514,
+       "ic95": [
+        -0.010433120163420241,
+        0.005344061639247213
+       ],
+       "z": -0.6322139677501044,
+       "p": 0.5272470714219586
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": -0.003816793893129771,
+       "ic95": [
+        -0.012088215475375029,
+        0.004454627689115488
+       ],
+       "z": -0.904429299866937,
+       "p": 0.3657678076385402
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.047073791348600506,
+      "ic95": [
+       0.034342702096266185,
+       0.06421056824854272
+      ],
+      "acertos_concursos": 37,
+      "taxa_esperada": 0.04088390405916926,
+      "z_vs_esperado": 0.8769127487961329,
+      "p_vs_esperado": 0.3805340310366637,
+      "taxa_por_premio": 0.009923664122137405,
+      "taxa_por_premio_esperada": 0.008318126270257594,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": 0.0,
+       "ic95": [
+        -0.02087656249808475,
+        0.02087656249808475
+       ],
+       "z": 0.0,
+       "p": 1.0
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": 0.0,
+       "ic95": [
+        -0.02146474976343988,
+        0.02146474976343988
+       ],
+       "z": 0.0,
+       "p": 1.0
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.3524173027989822,
+      "ic95": [
+       0.3198112367479593,
+       0.38645892999360765
+      ],
+      "acertos_concursos": 277,
+      "taxa_esperada": 0.3038700306971626,
+      "z_vs_esperado": 2.9842050856602307,
+      "p_vs_esperado": 0.002843161344752873,
+      "taxa_por_premio": 0.08422391857506362,
+      "taxa_por_premio_esperada": 0.07041250254624723,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.05343511450381679,
+       "ic95": [
+        -0.10206039672250125,
+        -0.0048098322851323275
+       ],
+       "z": -2.1538759190427257,
+       "p": 0.031249903908576925
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": -0.05725190839694656,
+       "ic95": [
+        -0.10579183476627851,
+        -0.008711982027614605
+       ],
+       "z": -2.311782255378803,
+       "p": 0.02078968576887996
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.8816793893129771,
+      "ic95": [
+       0.8572217560537385,
+       0.902424364442209
+      ],
+      "acertos_concursos": 693,
+      "taxa_esperada": 0.888230789420568,
+      "z_vs_esperado": -0.6249273185553098,
+      "p_vs_esperado": 0.5320187616074088,
+      "taxa_por_premio": 0.41603053435114506,
+      "taxa_por_premio_esperada": 0.4054703881897191,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.10559796437659033,
+       "ic95": [
+        -0.12956193147453482,
+        -0.08163399727864583
+       ],
+       "z": -8.63680079897414,
+       "p": 5.780905546049479e-18
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": -0.10941475826972011,
+       "ic95": [
+        -0.13316406260018523,
+        -0.08566545393925498
+       ],
+       "z": -9.029861389815762,
+       "p": 1.7188938045386933e-19
+      }
+     }
+    },
+    "motor_diversificado": {
+     "exato": {
+      "taxa_concurso": 0.0,
+      "ic95": [
+       0.0,
+       0.004863582150308717
+      ],
+      "acertos_concursos": 0,
+      "taxa_esperada": 0.0007589124579815827,
+      "z_vs_esperado": -0.772634037859966,
+      "p_vs_esperado": 0.4397389943129938,
+      "taxa_por_premio": 0.0,
+      "taxa_por_premio_esperada": 0.0001518291100290311,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.002544529262086514,
+       "ic95": [
+        -0.006068819980415238,
+        0.0009797614562422098
+       ],
+       "z": -1.4151151968684967,
+       "p": 0.15703472318463982
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": -0.001272264631043257,
+       "ic95": [
+        -0.003765903307888041,
+        0.001221374045801527
+       ],
+       "z": -1.0,
+       "p": 0.31731050786291415
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.005089058524173028,
+      "ic95": [
+       0.0019807620822122193,
+       0.013011435008042464
+      ],
+      "acertos_concursos": 4,
+      "taxa_esperada": 0.004962033824630404,
+      "z_vs_esperado": 0.05068156857677077,
+      "p_vs_esperado": 0.9595792639168662,
+      "taxa_por_premio": 0.0010178117048346056,
+      "taxa_por_premio_esperada": 0.0009943829140714117,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.002544529262086514,
+       "ic95": [
+        -0.010433120163420241,
+        0.005344061639247213
+       ],
+       "z": -0.6322139677501044,
+       "p": 0.5272470714219586
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": -0.003816793893129771,
+       "ic95": [
+        -0.012088215475375029,
+        0.004454627689115488
+       ],
+       "z": -0.904429299866937,
+       "p": 0.3657678076385402
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.061068702290076333,
+      "ic95": [
+       0.04636804926209839,
+       0.08003891216756193
+      ],
+      "acertos_concursos": 48,
+      "taxa_esperada": 0.04896089949261919,
+      "z_vs_esperado": 1.573087101005659,
+      "p_vs_esperado": 0.1156986512840616,
+      "taxa_por_premio": 0.01272264631043257,
+      "taxa_por_premio_esperada": 0.009989788394129959,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": 0.013994910941475827,
+       "ic95": [
+        -0.008161527826691262,
+        0.03615134970964291
+       ],
+       "z": 1.2380159885939015,
+       "p": 0.21571013243862325
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": 0.013994910941475827,
+       "ic95": [
+        -0.008716592741860315,
+        0.03670641462481197
+       ],
+       "z": 1.2077591086766548,
+       "p": 0.22713993450016678
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.3944020356234097,
+      "ic95": [
+       0.360828586657092,
+       0.42900265333902915
+      ],
+      "acertos_concursos": 310,
+      "taxa_esperada": 0.34582000984766326,
+      "z_vs_esperado": 2.874876672980236,
+      "p_vs_esperado": 0.004041853381914694,
+      "taxa_por_premio": 0.09541984732824428,
+      "taxa_por_premio_esperada": 0.08167075585778731,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.011450381679389313,
+       "ic95": [
+        -0.06053072828786546,
+        0.03762996492908684
+       ],
+       "z": -0.45726547676269264,
+       "p": 0.6474802407273084
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": -0.015267175572519083,
+       "ic95": [
+        -0.0645323747067933,
+        0.033998023561755124
+       ],
+       "z": -0.6073996380402178,
+       "p": 0.5435857286319972
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9083969465648855,
+      "ic95": [
+       0.8861954981384742,
+       0.9266258507921895
+      ],
+      "acertos_concursos": 714,
+      "taxa_esperada": 0.9180888948006245,
+      "z_vs_esperado": -1.0458907397811847,
+      "p_vs_esperado": 0.2956114802413975,
+      "taxa_por_premio": 0.45216284987277355,
+      "taxa_por_premio_esperada": 0.4447831459771325,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.07888040712468193,
+       "ic95": [
+        -0.10050545905149531,
+        -0.05725535519786855
+       ],
+       "z": -7.149374646017735,
+       "p": 8.717411235259965e-13
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": -0.08269720101781171,
+       "ic95": [
+        -0.10410744842156598,
+        -0.061286953614057435
+       ],
+       "z": -7.570511023916948,
+       "p": 3.717588817122006e-14
+      }
+     }
+    },
+    "estrutura": {
+     "exato": {
+      "taxa_concurso": 0.001272264631043257,
+      "ic95": [
+       0.0002246212622969081,
+       0.0071711146229983
+      ],
+      "acertos_concursos": 1,
+      "taxa_esperada": 0.0007589124579815827,
+      "z_vs_esperado": 0.5226338797648976,
+      "p_vs_esperado": 0.601229059040014,
+      "taxa_por_premio": 0.0002544529262086514,
+      "taxa_por_premio_esperada": 0.0001518291100290311,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.001272264631043257,
+       "ic95": [
+        -0.005593207142345972,
+        0.003048677880259458
+       ],
+       "z": -0.5771052658816745,
+       "p": 0.5638683472885381
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.008905852417302799,
+      "ic95": [
+       0.004320562964367516,
+       0.018268095330846643
+      ],
+      "acertos_concursos": 7,
+      "taxa_esperada": 0.005039478824872684,
+      "z_vs_esperado": 1.5308040552767812,
+      "p_vs_esperado": 0.125817827071499,
+      "taxa_por_premio": 0.0017811704834605599,
+      "taxa_por_premio_esperada": 0.0010099341073506682,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": 0.001272264631043257,
+       "ic95": [
+        -0.007723962125915299,
+        0.010268491388001812
+       ],
+       "z": 0.27718717460250336,
+       "p": 0.7816363871311783
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.047073791348600506,
+      "ic95": [
+       0.034342702096266185,
+       0.06421056824854272
+      ],
+      "acertos_concursos": 37,
+      "taxa_esperada": 0.04884869681793807,
+      "z_vs_esperado": -0.2308548221589147,
+      "p_vs_esperado": 0.8174275894027663,
+      "taxa_por_premio": 0.009414758269720101,
+      "taxa_por_premio_esperada": 0.009966498636643952,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": 0.0,
+       "ic95": [
+        -0.02146474976343988,
+        0.02146474976343988
+       ],
+       "z": 0.0,
+       "p": 1.0
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.40966921119592875,
+      "ic95": [
+       0.37580980460962515,
+       0.44440728020633397
+      ],
+      "acertos_concursos": 322,
+      "taxa_esperada": 0.39493556236514565,
+      "z_vs_esperado": 0.845802910636881,
+      "p_vs_esperado": 0.3976627014780463,
+      "taxa_por_premio": 0.1005089058524173,
+      "taxa_por_premio_esperada": 0.09568754910568812,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": 0.003816793893129771,
+       "ic95": [
+        -0.0457741326900062,
+        0.05340772047626574
+       ],
+       "z": 0.15085251569141547,
+       "p": 0.8800920587052012
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9910941475826972,
+      "ic95": [
+       0.9817319046691533,
+       0.9956794370356323
+      ],
+      "acertos_concursos": 779,
+      "taxa_esperada": 0.9903254541443341,
+      "z_vs_esperado": 0.22246139969490858,
+      "p_vs_esperado": 0.8239547189819736,
+      "taxa_por_premio": 0.656234096692112,
+      "taxa_por_premio_esperada": 0.6522897437236289,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": 0.003816793893129771,
+       "ic95": [
+        -0.005843487451732101,
+        0.013477075237991642
+       ],
+       "z": 0.7743993951597812,
+       "p": 0.43869464121798374
+      }
+     }
+    },
+    "aleatoria": {
+     "exato": {
+      "taxa_concurso": 0.002544529262086514,
+      "ic95": [
+       0.0006980792703764407,
+       0.009229810349905259
+      ],
+      "acertos_concursos": 2,
+      "taxa_esperada": 0.0007589124579815827,
+      "z_vs_esperado": 1.8179017973897613,
+      "p_vs_esperado": 0.06907914356067744,
+      "taxa_por_premio": 0.0005089058524173028,
+      "taxa_por_premio_esperada": 0.0001518291100290311
+     },
+     "milhar": {
+      "taxa_concurso": 0.007633587786259542,
+      "ic95": [
+       0.0035031016825693446,
+       0.016553402877658323
+      ],
+      "acertos_concursos": 6,
+      "taxa_esperada": 0.00499686069173358,
+      "z_vs_esperado": 1.0483729998875484,
+      "p_vs_esperado": 0.29446678827699324,
+      "taxa_por_premio": 0.0015267175572519084,
+      "taxa_por_premio_esperada": 0.0010013760420025223
+     },
+     "centena": {
+      "taxa_concurso": 0.047073791348600506,
+      "ic95": [
+       0.034342702096266185,
+       0.06421056824854272
+      ],
+      "acertos_concursos": 37,
+      "taxa_esperada": 0.04866216500983266,
+      "z_vs_esperado": -0.2069705411292725,
+      "p_vs_esperado": 0.8360328651250561,
+      "taxa_por_premio": 0.009414758269720101,
+      "taxa_por_premio_esperada": 0.00992774326863133
+     },
+     "dezena": {
+      "taxa_concurso": 0.405852417302799,
+      "ic95": [
+       0.3720612892735623,
+       0.4405593343374373
+      ],
+      "acertos_concursos": 319,
+      "taxa_esperada": 0.3941905627243102,
+      "z_vs_esperado": 0.6697224410940998,
+      "p_vs_esperado": 0.5030347433041841,
+      "taxa_por_premio": 0.09694656488549619,
+      "taxa_por_premio_esperada": 0.09547006330590134
+     },
+     "unidade": {
+      "taxa_concurso": 0.9872773536895675,
+      "ic95": [
+       0.9767400123842646,
+       0.9930748681155616
+      ],
+      "acertos_concursos": 776,
+      "taxa_esperada": 0.9897119899895416,
+      "z_vs_esperado": -0.683433008393988,
+      "p_vs_esperado": 0.49433326820687273,
+      "taxa_por_premio": 0.6600508905852417,
+      "taxa_por_premio_esperada": 0.6500000456947178
+     }
+    }
+   },
+   "posicao": {
+    "motor": {
+     "media": 0.5022209669211196,
+     "ic95": [
+      0.49315183056343187,
+      0.5112901032788074
+     ],
+     "n": 3930,
+     "p_vs_05": 0.6295835973959825
+    },
+    "estrutura": {
+     "media": 0.5017559796437658,
+     "ic95": [
+      0.4982165937534914,
+      0.5052953655340403
+     ],
+     "n": 3930,
+     "p_vs_05": 0.7029548765444551
+    },
+    "aleatoria": {
+     "media": 0.49804783715012724,
+     "ic95": [
+      0.489035699130739,
+      0.5070599751695155
+     ],
+     "n": 3930,
+     "p_vs_05": 0.6716106062056453
+    },
+    "motor_vs_estrutura": {
+     "n": 3930,
+     "diferenca": 0.00046498727735368953,
+     "ic95": [
+      -0.009373399881263886,
+      0.010303374435971267
+     ],
+     "z": 0.09263460046039616,
+     "p": 0.9261938547294422
+    }
+   },
+   "p_holm": {
+    "motor|unidade|estrutura": 7.219353979062511e-18,
+    "motor|unidade|aleatoria": 2.370171273880286e-16,
+    "motor_diversificado|unidade|estrutura": 1.4870355268488023e-12,
+    "motor_diversificado|unidade|aleatoria": 3.399790381751386e-11,
+    "motor|dezena|esperado": 0.10804013110060917,
+    "motor_diversificado|dezena|esperado": 0.1495485751308437,
+    "motor|dezena|estrutura": 0.7484286876796785,
+    "motor|dezena|aleatoria": 1.0,
+    "motor_diversificado|centena|esperado": 1.0,
+    "estrutura|milhar|esperado": 1.0,
+    "motor|exato|aleatoria": 1.0,
+    "motor_diversificado|exato|aleatoria": 1.0,
+    "motor_diversificado|centena|aleatoria": 1.0,
+    "motor_diversificado|centena|estrutura": 1.0,
+    "motor_diversificado|unidade|esperado": 1.0,
+    "motor|exato|estrutura": 1.0,
+    "motor_diversificado|exato|estrutura": 1.0,
+    "motor|milhar|estrutura": 1.0,
+    "motor_diversificado|milhar|estrutura": 1.0,
+    "motor|centena|esperado": 1.0,
+    "estrutura|dezena|esperado": 1.0,
+    "estrutura|unidade|aleatoria": 1.0,
+    "motor|exato|esperado": 1.0,
+    "motor_diversificado|exato|esperado": 1.0,
+    "motor|milhar|aleatoria": 1.0,
+    "motor_diversificado|milhar|aleatoria": 1.0,
+    "motor|unidade|esperado": 1.0,
+    "motor_diversificado|dezena|estrutura": 1.0,
+    "estrutura|exato|aleatoria": 1.0,
+    "estrutura|exato|esperado": 1.0,
+    "posicao|vs_05": 1.0,
+    "motor_diversificado|dezena|aleatoria": 1.0,
+    "estrutura|milhar|aleatoria": 1.0,
+    "estrutura|centena|esperado": 1.0,
+    "estrutura|unidade|esperado": 1.0,
+    "estrutura|dezena|aleatoria": 1.0,
+    "posicao|vs_estrutura": 1.0,
+    "motor|milhar|esperado": 1.0,
+    "motor_diversificado|milhar|esperado": 1.0,
+    "motor|centena|aleatoria": 1.0,
+    "motor|centena|estrutura": 1.0,
+    "estrutura|centena|aleatoria": 1.0
+   },
+   "vantagens_comprovadas": [],
+   "sinais_nominais": [
+    "motor_diversificado|dezena|esperado",
+    "motor|dezena|esperado"
+   ],
+   "desfavoraveis_nominais": [
+    "motor_diversificado|unidade|aleatoria",
+    "motor_diversificado|unidade|estrutura",
+    "motor|dezena|aleatoria",
+    "motor|dezena|estrutura",
+    "motor|unidade|aleatoria",
+    "motor|unidade|estrutura"
+   ],
+   "testes": 42
+  },
+  "janela_2": {
+   "de": 1790,
+   "ate": 2577,
+   "concursos": 786,
+   "intervalo": [
+    1790,
+    2577
+   ],
+   "estrategias": {
+    "motor": {
+     "exato": {
+      "taxa_concurso": 0.001272264631043257,
+      "ic95": [
+       0.0002246212622969081,
+       0.0071711146229983
+      ],
+      "acertos_concursos": 1,
+      "taxa_esperada": 0.0005617504555201203,
+      "z_vs_esperado": 0.8406895547605342,
+      "p_vs_esperado": 0.40052187368278125,
+      "taxa_por_premio": 0.0002544529262086514,
+      "taxa_por_premio_esperada": 0.00011237562034622027,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.001272264631043257,
+       "ic95": [
+        -0.005593207142345973,
+        0.0030486778802594587
+       ],
+       "z": -0.5771052658816744,
+       "p": 0.5638683472885382
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": 0.001272264631043257,
+       "ic95": [
+        -0.001221374045801527,
+        0.003765903307888041
+       ],
+       "z": 1.0,
+       "p": 0.31731050786291415
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.007633587786259542,
+      "ic95": [
+       0.0035031016825693446,
+       0.016553402877658323
+      ],
+      "acertos_concursos": 6,
+      "taxa_esperada": 0.0049691375713035715,
+      "z_vs_esperado": 1.0623321511921882,
+      "p_vs_esperado": 0.28808492348148085,
+      "taxa_por_premio": 0.0015267175572519084,
+      "taxa_por_premio_esperada": 0.0009958092304487506,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": 0.0,
+       "ic95": [
+        -0.00864371806643188,
+        0.00864371806643188
+       ],
+       "z": 0.0,
+       "p": 1.0
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": 0.001272264631043257,
+       "ic95": [
+        -0.007002986756515328,
+        0.009547516018601841
+       ],
+       "z": 0.3013369093045126,
+       "p": 0.7631575985595704
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.05725190839694656,
+      "ic95": [
+       0.043060694962204146,
+       0.07574980526249671
+      ],
+      "acertos_concursos": 45,
+      "taxa_esperada": 0.04537179483994687,
+      "z_vs_esperado": 1.600897410885913,
+      "p_vs_esperado": 0.10939964315588768,
+      "taxa_por_premio": 0.011450381679389313,
+      "taxa_por_premio_esperada": 0.00924611800810312,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": 0.002544529262086514,
+       "ic95": [
+        -0.019772744947481373,
+        0.024861803471654398
+       ],
+       "z": 0.22347161695720963,
+       "p": 0.8231684709751887
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": 0.011450381679389313,
+       "ic95": [
+        -0.010713206287540267,
+        0.033613969646318895
+       ],
+       "z": 1.0125954391991951,
+       "p": 0.31125343922019255
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.32951653944020354,
+      "ic95": [
+       0.29755507724844615,
+       0.36313632226336395
+      ],
+      "acertos_concursos": 259,
+      "taxa_esperada": 0.32533936423910975,
+      "z_vs_esperado": 0.25193190593367165,
+      "p_vs_esperado": 0.8010936974331917,
+      "taxa_por_premio": 0.07888040712468193,
+      "taxa_por_premio_esperada": 0.07622082673070171,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.05089058524173028,
+       "ic95": [
+        -0.09743604905369227,
+        -0.004345121429768277
+       ],
+       "z": -2.142970311279982,
+       "p": 0.032115482377492316
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": -0.0648854961832061,
+       "ic95": [
+        -0.11220875664068172,
+        -0.017562235725730478
+       ],
+       "z": -2.6873797639823045,
+       "p": 0.007201502407513954
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9096692111959288,
+      "ic95": [
+       0.8875865553799214,
+       0.9277669472857288
+      ],
+      "acertos_concursos": 715,
+      "taxa_esperada": 0.9075975680227121,
+      "z_vs_esperado": 0.21698911959376785,
+      "p_vs_esperado": 0.8282168242478416,
+      "taxa_por_premio": 0.44529262086513993,
+      "taxa_por_premio_esperada": 0.4403295882704369,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.07633587786259542,
+       "ic95": [
+        -0.09829101353793253,
+        -0.054380742187258316
+       ],
+       "z": -6.814729948526713,
+       "p": 9.444100128846026e-12
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": -0.07633587786259542,
+       "ic95": [
+        -0.0977163213063551,
+        -0.05495543441883574
+       ],
+       "z": -6.997905399120997,
+       "p": 2.5981741631204905e-12
+      }
+     }
+    },
+    "motor_diversificado": {
+     "exato": {
+      "taxa_concurso": 0.0,
+      "ic95": [
+       0.0,
+       0.004863582150308717
+      ],
+      "acertos_concursos": 0,
+      "taxa_esperada": 0.0005617504555201203,
+      "z_vs_esperado": -0.6646703987151611,
+      "p_vs_esperado": 0.5062613309388335,
+      "taxa_por_premio": 0.0,
+      "taxa_por_premio_esperada": 0.00011237562034622027,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.002544529262086514,
+       "ic95": [
+        -0.006068819980415238,
+        0.0009797614562422098
+       ],
+       "z": -1.4151151968684967,
+       "p": 0.15703472318463982
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": 0.0,
+       "ic95": [
+        0.0,
+        0.0
+       ],
+       "z": 0.0,
+       "p": 1.0
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.005089058524173028,
+      "ic95": [
+       0.0019807620822122193,
+       0.013011435008042464
+      ],
+      "acertos_concursos": 4,
+      "taxa_esperada": 0.004965616890327947,
+      "z_vs_esperado": 0.04923427162667083,
+      "p_vs_esperado": 0.9607325995653562,
+      "taxa_por_premio": 0.0010178117048346056,
+      "taxa_por_premio_esperada": 0.0009951022893812669,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.002544529262086514,
+       "ic95": [
+        -0.010433120163420243,
+        0.005344061639247215
+       ],
+       "z": -0.6322139677501043,
+       "p": 0.5272470714219587
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": -0.001272264631043257,
+       "ic95": [
+        -0.008757414942958407,
+        0.006212885680871892
+       ],
+       "z": -0.33314476970159357,
+       "p": 0.7390250063394972
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.061068702290076333,
+      "ic95": [
+       0.04636804926209839,
+       0.08003891216756193
+      ],
+      "acertos_concursos": 48,
+      "taxa_esperada": 0.04898140403677711,
+      "z_vs_esperado": 1.5701111855161414,
+      "p_vs_esperado": 0.11638924677408988,
+      "taxa_por_premio": 0.012213740458015267,
+      "taxa_por_premio_esperada": 0.009994056957403193,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": 0.006361323155216285,
+       "ic95": [
+        -0.01609130554735562,
+        0.028813951857788185
+       ],
+       "z": 0.5553110751257251,
+       "p": 0.5786819048097123
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": 0.015267175572519083,
+       "ic95": [
+        -0.007302805687981815,
+        0.03783715683301998
+       ],
+       "z": 1.3258169679788785,
+       "p": 0.18490033121861837
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.34987277353689566,
+      "ic95": [
+       0.3173341401253148,
+       0.38387171914627916
+      ],
+      "acertos_concursos": 275,
+      "taxa_esperada": 0.3435520275548638,
+      "z_vs_esperado": 0.3750789751935504,
+      "p_vs_esperado": 0.7076017328683166,
+      "taxa_por_premio": 0.08371501272264631,
+      "taxa_por_premio_esperada": 0.08111937473975712,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.030534351145038167,
+       "ic95": [
+        -0.07743313845085979,
+        0.016364436160783462
+       ],
+       "z": -1.2760954319355258,
+       "p": 0.20192178621472223
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": -0.044529262086514,
+       "ic95": [
+        -0.09222931799003098,
+        0.0031707938170029773
+       ],
+       "z": -1.8297117694390874,
+       "p": 0.06729305005091851
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9185750636132316,
+      "ic95": [
+       0.8973581633797658,
+       0.9357204154307899
+      ],
+      "acertos_concursos": 722,
+      "taxa_esperada": 0.9220364187779064,
+      "z_vs_esperado": -0.3855879097939373,
+      "p_vs_esperado": 0.6998018886822734,
+      "taxa_por_premio": 0.4638676844783715,
+      "taxa_por_premio_esperada": 0.4596678741326197,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.06743002544529263,
+       "ic95": [
+        -0.08851818937915648,
+        -0.04634186151142878
+       ],
+       "z": -6.267157742478637,
+       "p": 3.6769763083975766e-10
+      },
+      "vs_estrutura": {
+       "n": 786,
+       "diferenca": -0.06743002544529263,
+       "ic95": [
+        -0.08791919422860012,
+        -0.046940856661985136
+       ],
+       "z": -6.450376355943074,
+       "p": 1.1157272771603949e-10
+      }
+     }
+    },
+    "estrutura": {
+     "exato": {
+      "taxa_concurso": 0.0,
+      "ic95": [
+       0.0,
+       0.004863582150308717
+      ],
+      "acertos_concursos": 0,
+      "taxa_esperada": 0.0005617504555201203,
+      "z_vs_esperado": -0.6646703987151611,
+      "p_vs_esperado": 0.5062613309388335,
+      "taxa_por_premio": 0.0,
+      "taxa_por_premio_esperada": 0.00011237562034622027,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.002544529262086514,
+       "ic95": [
+        -0.006068819980415238,
+        0.0009797614562422098
+       ],
+       "z": -1.4151151968684967,
+       "p": 0.15703472318463982
+      }
+     },
+     "milhar": {
+      "taxa_concurso": 0.006361323155216285,
+      "ic95": [
+       0.0027201478146870644,
+       0.014804203010554112
+      ],
+      "acertos_concursos": 5,
+      "taxa_esperada": 0.005037069784095568,
+      "z_vs_esperado": 0.5244331035154388,
+      "p_vs_esperado": 0.5999773370276207,
+      "taxa_por_premio": 0.001272264631043257,
+      "taxa_por_premio_esperada": 0.0010094501981537279,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.001272264631043257,
+       "ic95": [
+        -0.009547516018601841,
+        0.007002986756515326
+       ],
+       "z": -0.3013369093045127,
+       "p": 0.7631575985595704
+      }
+     },
+     "centena": {
+      "taxa_concurso": 0.04580152671755725,
+      "ic95": [
+       0.033264827271074764,
+       0.06275628933874766
+      ],
+      "acertos_concursos": 36,
+      "taxa_esperada": 0.0488169501406522,
+      "z_vs_esperado": -0.39232554953115245,
+      "p_vs_esperado": 0.6948176879825148,
+      "taxa_por_premio": 0.009414758269720101,
+      "taxa_por_premio_esperada": 0.009959901789313191,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": -0.008905852417302799,
+       "ic95": [
+        -0.03079251053079124,
+        0.012980805696185642
+       ],
+       "z": -0.797539334118621,
+       "p": 0.42513786812447385
+      }
+     },
+     "dezena": {
+      "taxa_concurso": 0.3944020356234097,
+      "ic95": [
+       0.360828586657092,
+       0.42900265333902915
+      ],
+      "acertos_concursos": 310,
+      "taxa_esperada": 0.3948853586532477,
+      "z_vs_esperado": -0.027746958922332535,
+      "p_vs_esperado": 0.9778639703014889,
+      "taxa_por_premio": 0.09898218829516539,
+      "taxa_por_premio_esperada": 0.09567436180126304,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": 0.013994910941475827,
+       "ic95": [
+        -0.034056572780104016,
+        0.06204639466305567
+       ],
+       "z": 0.5708465862204759,
+       "p": 0.5681036407380721
+      }
+     },
+     "unidade": {
+      "taxa_concurso": 0.9860050890585241,
+      "ic95": [
+       0.9751149321873597,
+       0.99216779457748
+      ],
+      "acertos_concursos": 775,
+      "taxa_esperada": 0.9900664798266888,
+      "z_vs_esperado": -1.1579995101208065,
+      "p_vs_esperado": 0.24686423632787646,
+      "taxa_por_premio": 0.6343511450381679,
+      "taxa_por_premio_esperada": 0.6498727393969587,
+      "vs_aleatoria": {
+       "n": 786,
+       "diferenca": 0.0,
+       "ic95": [
+        -0.011703649588423046,
+        0.011703649588423046
+       ],
+       "z": 0.0,
+       "p": 1.0
+      }
+     }
+    },
+    "aleatoria": {
+     "exato": {
+      "taxa_concurso": 0.002544529262086514,
+      "ic95": [
+       0.0006980792703764407,
+       0.009229810349905259
+      ],
+      "acertos_concursos": 2,
+      "taxa_esperada": 0.0005617504555201203,
+      "z_vs_esperado": 2.3460495082362294,
+      "p_vs_esperado": 0.018973587035026145,
+      "taxa_por_premio": 0.0005089058524173028,
+      "taxa_por_premio_esperada": 0.00011237562034622027
+     },
+     "milhar": {
+      "taxa_concurso": 0.007633587786259542,
+      "ic95": [
+       0.0035031016825693446,
+       0.016553402877658323
+      ],
+      "acertos_concursos": 6,
+      "taxa_esperada": 0.004989477172391343,
+      "z_vs_esperado": 1.0520821829816072,
+      "p_vs_esperado": 0.2927618458012907,
+      "taxa_por_premio": 0.0015267175572519084,
+      "taxa_por_premio_esperada": 0.0009998932484766095
+     },
+     "centena": {
+      "taxa_concurso": 0.054707379134860054,
+      "ic95": [
+       0.04086659889089674,
+       0.07287959386383114
+      ],
+      "acertos_concursos": 43,
+      "taxa_esperada": 0.048769639188439316,
+      "z_vs_esperado": 0.7728940592559853,
+      "p_vs_esperado": 0.43958508086339065,
+      "taxa_por_premio": 0.01094147582697201,
+      "taxa_por_premio_esperada": 0.009950067319082965
+     },
+     "dezena": {
+      "taxa_concurso": 0.38040712468193383,
+      "ic95": [
+       0.3471262186576533,
+       0.4148513302536165
+      ],
+      "acertos_concursos": 299,
+      "taxa_esperada": 0.39415935686057224,
+      "z_vs_esperado": -0.7897530458317789,
+      "p_vs_esperado": 0.429672005496221,
+      "taxa_por_premio": 0.0916030534351145,
+      "taxa_por_premio_esperada": 0.09545781383645566
+     },
+     "unidade": {
+      "taxa_concurso": 0.9860050890585241,
+      "ic95": [
+       0.9751149321873597,
+       0.99216779457748
+      ],
+      "acertos_concursos": 775,
+      "taxa_esperada": 0.9899413480659618,
+      "z_vs_esperado": -1.1168379117098663,
+      "p_vs_esperado": 0.2640636356499111,
+      "taxa_por_premio": 0.6475826972010178,
+      "taxa_por_premio_esperada": 0.6503815113102734
+     }
+    }
+   },
+   "posicao": {
+    "motor": {
+     "media": 0.4945012213740458,
+     "ic95": [
+      0.48552800592562456,
+      0.5034744368224671
+     ],
+     "n": 3930,
+     "p_vs_05": 0.23242547987817086
+    },
+    "estrutura": {
+     "media": 0.4973125954198474,
+     "ic95": [
+      0.493342718279108,
+      0.5012824725605868
+     ],
+     "n": 3930,
+     "p_vs_05": 0.5594852389059144
+    },
+    "aleatoria": {
+     "media": 0.5052787277353689,
+     "ic95": [
+      0.49629209974480704,
+      0.5142653557259307
+     ],
+     "n": 3930,
+     "p_vs_05": 0.25165153522184114
+    },
+    "motor_vs_estrutura": {
+     "n": 3930,
+     "diferenca": -0.0028113740458015303,
+     "ic95": [
+      -0.012777944993405201,
+      0.00715519690180214
+     ],
+     "z": -0.5528775301695792,
+     "p": 0.5803472746952383
+    }
+   },
+   "p_holm": {
+    "motor|unidade|estrutura": 1.091233148510606e-10,
+    "motor|unidade|aleatoria": 3.8720810528268705e-10,
+    "motor_diversificado|unidade|estrutura": 4.46290910864158e-09,
+    "motor_diversificado|unidade|aleatoria": 1.4340207602750549e-08,
+    "motor|dezena|estrutura": 0.27365709148553025,
+    "motor|dezena|aleatoria": 1.0,
+    "motor_diversificado|dezena|estrutura": 1.0,
+    "motor|centena|esperado": 1.0,
+    "motor_diversificado|centena|esperado": 1.0,
+    "motor_diversificado|exato|aleatoria": 1.0,
+    "estrutura|exato|aleatoria": 1.0,
+    "motor_diversificado|centena|estrutura": 1.0,
+    "motor_diversificado|dezena|aleatoria": 1.0,
+    "posicao|vs_05": 1.0,
+    "estrutura|unidade|esperado": 1.0,
+    "motor|milhar|esperado": 1.0,
+    "motor|centena|estrutura": 1.0,
+    "motor|exato|estrutura": 1.0,
+    "motor|exato|esperado": 1.0,
+    "estrutura|centena|aleatoria": 1.0,
+    "motor_diversificado|exato|esperado": 1.0,
+    "estrutura|exato|esperado": 1.0,
+    "motor_diversificado|milhar|aleatoria": 1.0,
+    "motor|exato|aleatoria": 1.0,
+    "estrutura|dezena|aleatoria": 1.0,
+    "motor_diversificado|centena|aleatoria": 1.0,
+    "posicao|vs_estrutura": 1.0,
+    "estrutura|milhar|esperado": 1.0,
+    "estrutura|centena|esperado": 1.0,
+    "motor_diversificado|unidade|esperado": 1.0,
+    "motor_diversificado|dezena|esperado": 1.0,
+    "motor_diversificado|milhar|estrutura": 1.0,
+    "motor|milhar|estrutura": 1.0,
+    "estrutura|milhar|aleatoria": 1.0,
+    "motor|dezena|esperado": 1.0,
+    "motor|centena|aleatoria": 1.0,
+    "motor|unidade|esperado": 1.0,
+    "motor_diversificado|milhar|esperado": 1.0,
+    "estrutura|dezena|esperado": 1.0,
+    "motor|milhar|aleatoria": 1.0,
+    "motor_diversificado|exato|estrutura": 1.0,
+    "estrutura|unidade|aleatoria": 1.0
+   },
+   "vantagens_comprovadas": [],
+   "sinais_nominais": [],
+   "desfavoraveis_nominais": [
+    "motor_diversificado|unidade|aleatoria",
+    "motor_diversificado|unidade|estrutura",
+    "motor|dezena|aleatoria",
+    "motor|dezena|estrutura",
+    "motor|unidade|aleatoria",
+    "motor|unidade|estrutura"
+   ],
+   "testes": 42
+  }
+ },
+ "sinais_replicados": [],
+ "conclusao": "sem_vantagem"
+}

@@ -1,0 +1,136 @@
+# Auditoria final — o Federal Intelligence prevê melhor que o acaso?
+
+Gerado em 2026-11-08T02:30:53. Concursos avaliados: 1004–6115 (25,1 min).
+
+## Conclusão: **NÃO HÁ VANTAGEM SOBRE O ACASO**
+
+
+## Análise principal: concursos inéditos (< 2578)
+
+1572 concursos (1004–2577); 42 testes com correção de Holm.
+
+Taxa = concursos em que ao menos um dos 5 prêmios coincide com algum dos 10 candidatos no nível.
+
+| Estratégia | Nível | Taxa observada [IC95%] | Esperada pelo acaso | p vs esperado | Dif. vs aleatória (p) | Dif. vs estrutura (p) |
+|---|---|---|---|---|---|---|
+| Motor padrão (10 primeiros do conjunto) | exato | 0,06% [0,01%–0,36%] | 0,07% | 0,970 | -0,19% (0,180) | 0,00% (1,000) |
+| Motor padrão (10 primeiros do conjunto) | milhar | 0,64% [0,35%–1,17%] | 0,50% | 0,431 | -0,13% (0,670) | -0,13% (0,670) |
+| Motor padrão (10 primeiros do conjunto) | centena | 5,22% [4,22%–6,43%] | 4,31% | 0,078 | 0,13% (0,870) | 0,57% (0,467) |
+| Motor padrão (10 primeiros do conjunto) | dezena | 34,10% [31,79%–36,48%] | 31,46% | 0,023 | -5,22% (0,002) | -6,11% (0,000) |
+| Motor padrão (10 primeiros do conjunto) | unidade | 89,57% [87,96%–90,98%] | 89,79% | 0,752 | -9,10% (0,000) | -9,29% (0,000) |
+| Motor diversificado por centena | exato | 0,00% [0,00%–0,24%] | 0,07% | 0,308 | -0,25% (0,045) | -0,06% (0,317) |
+| Motor diversificado por centena | milhar | 0,51% [0,26%–1,00%] | 0,50% | 0,944 | -0,25% (0,371) | -0,25% (0,371) |
+| Motor diversificado por centena | centena | 6,11% [5,03%–7,40%] | 4,90% | 0,026 | 1,02% (0,206) | 1,46% (0,073) |
+| Motor diversificado por centena | dezena | 37,21% [34,86%–39,63%] | 34,47% | 0,021 | -2,10% (0,225) | -2,99% (0,087) |
+| Motor diversificado por centena | unidade | 91,35% [89,86%–92,64%] | 92,01% | 0,308 | -7,32% (0,000) | -7,51% (0,000) |
+| Controle: estrutura do universo | exato | 0,06% [0,01%–0,36%] | 0,07% | 0,970 | -0,19% (0,180) | — |
+| Controle: estrutura do universo | milhar | 0,76% [0,44%–1,33%] | 0,50% | 0,146 | 0,00% (1,000) | — |
+| Controle: estrutura do universo | centena | 4,64% [3,71%–5,80%] | 4,88% | 0,659 | -0,45% (0,569) | — |
+| Controle: estrutura do universo | dezena | 40,20% [37,81%–42,65%] | 39,49% | 0,563 | 0,89% (0,613) | — |
+| Controle: estrutura do universo | unidade | 98,85% [98,20%–99,27%] | 99,02% | 0,504 | 0,19% (0,622) | — |
+| Seleção aleatória sem reposição | exato | 0,25% [0,10%–0,65%] | 0,07% | 0,004 | — | — |
+| Seleção aleatória sem reposição | milhar | 0,76% [0,44%–1,33%] | 0,50% | 0,137 | — | — |
+| Seleção aleatória sem reposição | centena | 5,09% [4,11%–6,29%] | 4,87% | 0,689 | — | — |
+| Seleção aleatória sem reposição | dezena | 39,31% [36,93%–41,75%] | 39,42% | 0,932 | — | — |
+| Seleção aleatória sem reposição | unidade | 98,66% [97,97%–99,12%] | 98,98% | 0,204 | — | — |
+
+Posição média das milhares sorteadas (0,5 = acaso): motor 0,4984 [0,4920–0,5047], p = 0,615; estrutura 0,4995; aleatório 0,5017; motor − estrutura = -0,00117 (p = 0,743).
+
+- Vantagens comprovadas (Holm, direção favorável, contra esperado, aleatória e estrutura): nenhuma
+- Sinais nominais favoráveis (p < 0,05 sem correção; NÃO são prova): motor_diversificado|centena|esperado, motor_diversificado|dezena|esperado, motor|dezena|esperado
+- Resultados nominais desfavoráveis: motor_diversificado|exato|aleatoria, motor_diversificado|unidade|aleatoria, motor_diversificado|unidade|estrutura, motor|dezena|aleatoria, motor|dezena|estrutura, motor|unidade|aleatoria, motor|unidade|estrutura
+
+## Secundária: concursos já usados antes (≥ 2578)
+
+3500 concursos (2578–6115); 42 testes com correção de Holm.
+
+Taxa = concursos em que ao menos um dos 5 prêmios coincide com algum dos 10 candidatos no nível.
+
+| Estratégia | Nível | Taxa observada [IC95%] | Esperada pelo acaso | p vs esperado | Dif. vs aleatória (p) | Dif. vs estrutura (p) |
+|---|---|---|---|---|---|---|
+| Motor padrão (10 primeiros do conjunto) | exato | 0,00% [0,00%–0,11%] | 0,05% | 0,170 | 0,00% (1,000) | -0,14% (0,025) |
+| Motor padrão (10 primeiros do conjunto) | milhar | 0,29% [0,16%–0,53%] | 0,51% | 0,063 | -0,20% (0,178) | -0,20% (0,178) |
+| Motor padrão (10 primeiros do conjunto) | centena | 4,26% [3,64%–4,98%] | 3,98% | 0,393 | -0,66% (0,186) | -0,97% (0,058) |
+| Motor padrão (10 primeiros do conjunto) | dezena | 30,86% [29,35%–32,41%] | 30,05% | 0,294 | -7,43% (0,000) | -9,03% (0,000) |
+| Motor padrão (10 primeiros do conjunto) | unidade | 90,51% [89,50%–91,44%] | 90,43% | 0,860 | -8,60% (0,000) | -8,49% (0,000) |
+| Motor diversificado por centena | exato | 0,06% [0,02%–0,21%] | 0,05% | 0,932 | 0,06% (0,157) | -0,09% (0,257) |
+| Motor diversificado por centena | milhar | 0,37% [0,22%–0,63%] | 0,51% | 0,252 | -0,11% (0,465) | -0,11% (0,465) |
+| Motor diversificado por centena | centena | 5,20% [4,51%–5,99%] | 4,91% | 0,421 | 0,29% (0,583) | -0,03% (0,958) |
+| Motor diversificado por centena | dezena | 35,97% [34,40%–37,58%] | 35,48% | 0,540 | -2,31% (0,040) | -3,91% (0,001) |
+| Motor diversificado por centena | unidade | 94,03% [93,19%–94,77%] | 94,00% | 0,949 | -5,09% (0,000) | -4,97% (0,000) |
+| Controle: estrutura do universo | exato | 0,14% [0,06%–0,33%] | 0,05% | 0,023 | 0,14% (0,025) | — |
+| Controle: estrutura do universo | milhar | 0,49% [0,30%–0,78%] | 0,51% | 0,829 | 0,00% (1,000) | — |
+| Controle: estrutura do universo | centena | 5,23% [4,54%–6,02%] | 4,89% | 0,347 | 0,31% (0,544) | — |
+| Controle: estrutura do universo | dezena | 39,89% [38,28%–41,52%] | 39,50% | 0,638 | 1,60% (0,170) | — |
+| Controle: estrutura do universo | unidade | 99,00% [98,61%–99,28%] | 99,01% | 0,965 | -0,11% (0,611) | — |
+| Seleção aleatória sem reposição | exato | 0,00% [0,00%–0,11%] | 0,05% | 0,170 | — | — |
+| Seleção aleatória sem reposição | milhar | 0,49% [0,30%–0,78%] | 0,50% | 0,905 | — | — |
+| Seleção aleatória sem reposição | centena | 4,91% [4,25%–5,68%] | 4,88% | 0,926 | — | — |
+| Seleção aleatória sem reposição | dezena | 38,29% [36,69%–39,91%] | 39,52% | 0,135 | — | — |
+| Seleção aleatória sem reposição | unidade | 99,11% [98,75%–99,38%] | 99,04% | 0,658 | — | — |
+
+Posição média das milhares sorteadas (0,5 = acaso): motor 0,4940 [0,4897–0,4982], p = 0,006; estrutura 0,4930; aleatório 0,5016; motor − estrutura = 0,00097 (p = 0,664).
+
+- Vantagens comprovadas (Holm, direção favorável, contra esperado, aleatória e estrutura): nenhuma
+- Sinais nominais favoráveis (p < 0,05 sem correção; NÃO são prova): estrutura|exato|aleatoria, estrutura|exato|esperado, posicao|vs_05
+- Resultados nominais desfavoráveis: motor_diversificado|dezena|aleatoria, motor_diversificado|dezena|estrutura, motor_diversificado|unidade|aleatoria, motor_diversificado|unidade|estrutura, motor|dezena|aleatoria, motor|dezena|estrutura, motor|exato|estrutura, motor|unidade|aleatoria, motor|unidade|estrutura
+
+## Histórico avaliado completo
+
+5072 concursos (1004–6115); 42 testes com correção de Holm.
+
+Taxa = concursos em que ao menos um dos 5 prêmios coincide com algum dos 10 candidatos no nível.
+
+| Estratégia | Nível | Taxa observada [IC95%] | Esperada pelo acaso | p vs esperado | Dif. vs aleatória (p) | Dif. vs estrutura (p) |
+|---|---|---|---|---|---|---|
+| Motor padrão (10 primeiros do conjunto) | exato | 0,02% [0,00%–0,11%] | 0,06% | 0,261 | -0,06% (0,180) | -0,10% (0,059) |
+| Motor padrão (10 primeiros do conjunto) | milhar | 0,39% [0,26%–0,61%] | 0,51% | 0,265 | -0,18% (0,199) | -0,18% (0,199) |
+| Motor padrão (10 primeiros do conjunto) | centena | 4,55% [4,01%–5,16%] | 4,08% | 0,087 | -0,41% (0,324) | -0,49% (0,251) |
+| Motor padrão (10 primeiros do conjunto) | dezena | 31,86% [30,59%–33,16%] | 30,49% | 0,032 | -6,74% (0,000) | -8,12% (0,000) |
+| Motor padrão (10 primeiros do conjunto) | unidade | 90,22% [89,37%–91,01%] | 90,23% | 0,971 | -8,75% (0,000) | -8,73% (0,000) |
+| Motor diversificado por centena | exato | 0,04% [0,01%–0,14%] | 0,06% | 0,590 | -0,04% (0,414) | -0,08% (0,157) |
+| Motor diversificado por centena | milhar | 0,41% [0,27%–0,63%] | 0,51% | 0,359 | -0,16% (0,258) | -0,16% (0,258) |
+| Motor diversificado por centena | centena | 5,48% [4,89%–6,14%] | 4,90% | 0,057 | 0,51% (0,241) | 0,43% (0,334) |
+| Motor diversificado por centena | dezena | 36,36% [35,04%–37,69%] | 35,17% | 0,074 | -2,25% (0,017) | -3,63% (0,000) |
+| Motor diversificado por centena | unidade | 93,20% [92,47%–93,86%] | 93,39% | 0,566 | -5,78% (0,000) | -5,76% (0,000) |
+| Controle: estrutura do universo | exato | 0,12% [0,05%–0,26%] | 0,06% | 0,072 | 0,04% (0,527) | — |
+| Controle: estrutura do universo | milhar | 0,57% [0,40%–0,82%] | 0,51% | 0,532 | 0,00% (1,000) | — |
+| Controle: estrutura do universo | centena | 5,05% [4,48%–5,68%] | 4,89% | 0,592 | 0,08% (0,855) | — |
+| Controle: estrutura do universo | dezena | 39,98% [38,64%–41,34%] | 39,50% | 0,476 | 1,38% (0,156) | — |
+| Controle: estrutura do universo | unidade | 98,96% [98,64%–99,20%] | 99,01% | 0,683 | -0,02% (0,920) | — |
+| Seleção aleatória sem reposição | exato | 0,08% [0,03%–0,20%] | 0,06% | 0,528 | — | — |
+| Seleção aleatória sem reposição | milhar | 0,57% [0,40%–0,82%] | 0,50% | 0,467 | — | — |
+| Seleção aleatória sem reposição | centena | 4,97% [4,40%–5,60%] | 4,88% | 0,764 | — | — |
+| Seleção aleatória sem reposição | dezena | 38,60% [37,27%–39,95%] | 39,49% | 0,198 | — | — |
+| Seleção aleatória sem reposição | unidade | 98,97% [98,66%–99,22%] | 99,02% | 0,721 | — | — |
+
+Posição média das milhares sorteadas (0,5 = acaso): motor 0,4953 [0,4918–0,4989], p = 0,010; estrutura 0,4950; aleatório 0,5016; motor − estrutura = 0,00030 (p = 0,872).
+
+- Vantagens comprovadas (Holm, direção favorável, contra esperado, aleatória e estrutura): nenhuma
+- Sinais nominais favoráveis (p < 0,05 sem correção; NÃO são prova): motor|dezena|esperado, posicao|vs_05
+- Resultados nominais desfavoráveis: motor_diversificado|dezena|aleatoria, motor_diversificado|dezena|estrutura, motor_diversificado|unidade|aleatoria, motor_diversificado|unidade|estrutura, motor|dezena|aleatoria, motor|dezena|estrutura, motor|unidade|aleatoria, motor|unidade|estrutura
+
+## Replicação no trecho inédito (regra do sinal promissor)
+
+- Janela 1: concursos 1004–1789 (786 concursos). Sinais com p < 0,05: motor_diversificado|dezena|esperado, motor|dezena|esperado
+- Janela 2: concursos 1790–2577 (786 concursos). Sinais com p < 0,05: nenhum
+- Replicados nas duas janelas: **nenhum**
+
+## Por período (motor padrão)
+
+| Período | Concursos | Exato | Milhar | Centena | Dezena | Posição média |
+|---|---|---|---|---|---|---|
+| 1004–2273 | 1268 | 0,08% (esp. 0,07%) | 0,71% (esp. 0,50%) | 5,36% (esp. 4,24%) | 34,78% (esp. 31,30%) | 0,4981 |
+| 2274–3561 | 1268 | 0,00% (esp. 0,05%) | 0,39% (esp. 0,50%) | 4,89% (esp. 4,45%) | 30,68% (esp. 31,52%) | 0,4986 |
+| 3562–4829 | 1268 | 0,00% (esp. 0,06%) | 0,24% (esp. 0,52%) | 4,02% (esp. 4,36%) | 34,07% (esp. 32,84%) | 0,4926 |
+| 4830–6115 | 1268 | 0,00% (esp. 0,05%) | 0,24% (esp. 0,50%) | 3,94% (esp. 3,27%) | 27,92% (esp. 26,31%) | 0,4920 |
+
+## A meta de 70%
+
+| Nível | Taxa do acaso com 10 números | Multiplicador necessário | Números necessários só pelo acaso | 70% atingível só por cobertura? | Menor diferença detectável (80% de poder) |
+|---|---|---|---|---|---|
+| exato | 0,052% | 1344,3× | 20544 | não | 0,16% |
+| milhar | 0,499% | 140,3× | 2140 | não | 0,50% |
+| centena | 4,901% | 14,3× | 214 | não | 1,53% |
+| dezena | 40,951% | 1,7× | 22 | não | 3,47% |
+| unidade | 100,000% | 0,7× | 3 | sim | 0,00% |

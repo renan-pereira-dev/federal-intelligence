@@ -1,0 +1,2237 @@
+{
+ "criado_em": "2026-11-08T00:17:46",
+ "duracao_segundos": 1405.2,
+ "divisao": {
+  "concursos_total": 6072,
+  "amostra_atributos": [
+   2578,
+   4597
+  ],
+  "ajuste": [
+   4598,
+   5097
+  ],
+  "teste_final": [
+   5098,
+   6115
+  ],
+  "bloco": 100,
+  "maior_janela": 4000
+ },
+ "atributos": {
+  "pares_correlacionados": [
+   {
+    "a": "freq_1_total",
+    "b": "posicao_5_total",
+    "r": 1.0,
+    "identicos": true
+   },
+   {
+    "a": "freq_1_500",
+    "b": "posicao_5_500",
+    "r": 1.0,
+    "identicos": true
+   },
+   {
+    "a": "freq_2_100",
+    "b": "tendencia_2",
+    "r": 0.9513260611409728,
+    "identicos": false
+   },
+   {
+    "a": "freq_1_100",
+    "b": "tendencia_1",
+    "r": 0.951156450850249,
+    "identicos": false
+   },
+   {
+    "a": "freq_3_100",
+    "b": "tendencia_3",
+    "r": 0.9481795142906069,
+    "identicos": false
+   }
+  ],
+  "utilidade": [
+   {
+    "atributo": "posicao_2_500",
+    "descricao": "Algarismo da 2ª posição (últimos 500)",
+    "auc": 0.5095480538322994,
+    "p": 0.00417744184696106,
+    "p_holm": 0.19216232496020877
+   },
+   {
+    "atributo": "soma_algarismos",
+    "descricao": "Soma dos algarismos da milhar",
+    "auc": 0.49084000400240146,
+    "p": 0.00593441964210735,
+    "p_holm": 0.2670488838948307
+   },
+   {
+    "atributo": "atraso_4",
+    "descricao": "Atraso da milhar",
+    "auc": 0.49397876392502166,
+    "p": 0.07088518600578973,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_2_100",
+    "descricao": "Frequência da dezena (últimos 100 concursos)",
+    "auc": 0.49415498465746116,
+    "p": 0.07664873452201316,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "tendencia_2",
+    "descricao": "Tendência da dezena (100 contra 1000)",
+    "auc": 0.4942318374357948,
+    "p": 0.08355876438047513,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "posicao_2_total",
+    "descricao": "Algarismo da 2ª posição (todo o histórico)",
+    "auc": 0.5052818190914549,
+    "p": 0.11310117852944516,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "tendencia_3",
+    "descricao": "Tendência da centena (100 contra 1000)",
+    "auc": 0.49485669901941165,
+    "p": 0.12189398406880893,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_2_250",
+    "descricao": "Frequência da dezena (últimos 250 concursos)",
+    "auc": 0.4949195900873858,
+    "p": 0.12596123882866028,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_2_50",
+    "descricao": "Frequência da dezena (últimos 50 concursos)",
+    "auc": 0.4951117753985725,
+    "p": 0.13481678562583851,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_4_1000",
+    "descricao": "Frequência da milhar (últimos 1000 concursos)",
+    "auc": 0.5042969281568941,
+    "p": 0.13597622503492043,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "repetiu_2",
+    "descricao": "Dezena saiu no concurso anterior",
+    "auc": 0.4982158044826896,
+    "p": 0.14980677500773754,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_3_total",
+    "descricao": "Frequência da centena (todo o histórico)",
+    "auc": 0.4953471616303115,
+    "p": 0.16279617122629308,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_3_50",
+    "descricao": "Frequência da centena (últimos 50 concursos)",
+    "auc": 0.49665718931358815,
+    "p": 0.16552488874400173,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_4_500",
+    "descricao": "Frequência da milhar (últimos 500 concursos)",
+    "auc": 0.5033384047094923,
+    "p": 0.16708906523106926,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "estabilidade_2",
+    "descricao": "Estabilidade da frequência da dezena entre janelas",
+    "auc": 0.4956504752851711,
+    "p": 0.19198037673608803,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_3_100",
+    "descricao": "Frequência da centena (últimos 100 concursos)",
+    "auc": 0.49669343439396973,
+    "p": 0.2523526404353311,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_4_total",
+    "descricao": "Frequência da milhar (todo o histórico)",
+    "auc": 0.5034144436661997,
+    "p": 0.30434585412450166,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "atraso_3",
+    "descricao": "Atraso da centena",
+    "auc": 0.5025991178040158,
+    "p": 0.43558516745808284,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_2_500",
+    "descricao": "Frequência da dezena (últimos 500 concursos)",
+    "auc": 0.4974147438463078,
+    "p": 0.43711802983075343,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "posicao_4_500",
+    "descricao": "Algarismo da 4ª posição (últimos 500)",
+    "auc": 0.5024934193849643,
+    "p": 0.45440875375688616,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "estabilidade_1",
+    "descricao": "Estabilidade da frequência da unidade entre janelas",
+    "auc": 0.4975561353478754,
+    "p": 0.46350066081647523,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_3_1000",
+    "descricao": "Frequência da centena (últimos 1000 concursos)",
+    "auc": 0.5023727820025349,
+    "p": 0.4724647716816567,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_3_250",
+    "descricao": "Frequência da centena (últimos 250 concursos)",
+    "auc": 0.49784105630044695,
+    "p": 0.49923630750212045,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "atraso_2",
+    "descricao": "Atraso da dezena",
+    "auc": 0.4977644803548796,
+    "p": 0.5022992378509087,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_1_1000",
+    "descricao": "Frequência da unidade (últimos 1000 concursos)",
+    "auc": 0.4978493679541058,
+    "p": 0.5187946618330641,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_2_total",
+    "descricao": "Frequência da dezena (todo o histórico)",
+    "auc": 0.4980773864318591,
+    "p": 0.564119780911275,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_1_250",
+    "descricao": "Frequência da unidade (últimos 250 concursos)",
+    "auc": 0.49814538890000665,
+    "p": 0.5778039254420306,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_1_100",
+    "descricao": "Frequência da unidade (últimos 100 concursos)",
+    "auc": 0.4982860766459876,
+    "p": 0.6067762341122033,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "atraso_1",
+    "descricao": "Atraso da unidade",
+    "auc": 0.4984152691614969,
+    "p": 0.6192820884700354,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "posicao_3_total",
+    "descricao": "Algarismo da 3ª posição (todo o histórico)",
+    "auc": 0.4983891551597625,
+    "p": 0.6289461685773575,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "repetiu_4",
+    "descricao": "Milhar saiu no concurso anterior",
+    "auc": 0.4999331132012541,
+    "p": 0.6614714861385255,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_1_total",
+    "descricao": "Frequência da unidade (todo o histórico)",
+    "auc": 0.4985554649456341,
+    "p": 0.6647807769427077,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "posicao_5_total",
+    "descricao": "Algarismo da 5ª posição (todo o histórico)",
+    "auc": 0.4985554649456341,
+    "p": 0.6647807769427077,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "estabilidade_3",
+    "descricao": "Estabilidade da frequência da centena entre janelas",
+    "auc": 0.49856102328063506,
+    "p": 0.6659148056786947,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "tendencia_1",
+    "descricao": "Tendência da unidade (100 contra 1000)",
+    "auc": 0.49859101460876526,
+    "p": 0.6725420683909192,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_2_1000",
+    "descricao": "Frequência da dezena (últimos 1000 concursos)",
+    "auc": 0.49891160863184575,
+    "p": 0.7438165357421251,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "posicao_3_500",
+    "descricao": "Algarismo da 3ª posição (últimos 500)",
+    "auc": 0.5009406660663065,
+    "p": 0.7777650038223467,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_1_50",
+    "descricao": "Frequência da unidade (últimos 50 concursos)",
+    "auc": 0.499093511106664,
+    "p": 0.7852429248398378,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "repetiu_3",
+    "descricao": "Centena saiu no concurso anterior",
+    "auc": 0.5000985741444867,
+    "p": 0.8214073531931911,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_4_250",
+    "descricao": "Frequência da milhar (últimos 250 concursos)",
+    "auc": 0.5003530468280969,
+    "p": 0.8509111171454745,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_3_500",
+    "descricao": "Frequência da centena (últimos 500 concursos)",
+    "auc": 0.5005023780935228,
+    "p": 0.8778305925690604,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "posicao_4_total",
+    "descricao": "Algarismo da 4ª posição (todo o histórico)",
+    "auc": 0.49967746147688613,
+    "p": 0.9229228710926681,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "algarismos_distintos",
+    "descricao": "Quantidade de algarismos distintos",
+    "auc": 0.500273607497832,
+    "p": 0.9265150747762841,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "algarismos_pares",
+    "descricao": "Quantidade de algarismos pares",
+    "auc": 0.4998865169101461,
+    "p": 0.971612962560066,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "freq_1_500",
+    "descricao": "Frequência da unidade (últimos 500 concursos)",
+    "auc": 0.4999600143419385,
+    "p": 0.990428225763222,
+    "p_holm": 1.0
+   },
+   {
+    "atributo": "posicao_5_500",
+    "descricao": "Algarismo da 5ª posição (últimos 500)",
+    "auc": 0.4999600143419385,
+    "p": 0.990428225763222,
+    "p_holm": 1.0
+   }
+  ],
+  "amostra": {
+   "linhas": 39982,
+   "positivos": 10000
+  },
+  "removidos_no_reduzido": [
+   {
+    "atributo": "tendencia_1",
+    "motivo": "|r| = 0.951 com freq_1_100"
+   },
+   {
+    "atributo": "tendencia_2",
+    "motivo": "|r| = 0.951 com freq_2_100"
+   },
+   {
+    "atributo": "posicao_5_500",
+    "motivo": "|r| = 1.000 com freq_1_500"
+   },
+   {
+    "atributo": "posicao_5_total",
+    "motivo": "|r| = 1.000 com freq_1_total"
+   },
+   {
+    "atributo": "soma_algarismos",
+    "motivo": "propriedade fixa da milhar, sem relação com o histórico"
+   },
+   {
+    "atributo": "algarismos_pares",
+    "motivo": "propriedade fixa da milhar, sem relação com o histórico"
+   },
+   {
+    "atributo": "algarismos_distintos",
+    "motivo": "propriedade fixa da milhar, sem relação com o histórico"
+   }
+  ],
+  "colunas": {
+   "atual": [
+    "freq_1_total",
+    "freq_1_50",
+    "freq_1_100",
+    "freq_1_500",
+    "freq_1_1000",
+    "atraso_1",
+    "tendencia_1",
+    "freq_2_total",
+    "freq_2_50",
+    "freq_2_100",
+    "freq_2_500",
+    "freq_2_1000",
+    "atraso_2",
+    "tendencia_2",
+    "repetiu_2",
+    "freq_3_total",
+    "freq_3_50",
+    "freq_3_100",
+    "freq_3_500",
+    "freq_3_1000",
+    "atraso_3",
+    "tendencia_3",
+    "repetiu_3",
+    "freq_4_total",
+    "freq_4_500",
+    "freq_4_1000",
+    "atraso_4",
+    "repetiu_4",
+    "posicao_2_500",
+    "posicao_2_total",
+    "posicao_3_500",
+    "posicao_3_total",
+    "posicao_4_500",
+    "posicao_4_total",
+    "posicao_5_500",
+    "posicao_5_total",
+    "soma_algarismos",
+    "algarismos_pares",
+    "algarismos_distintos"
+   ],
+   "reduzido": [
+    "freq_1_total",
+    "freq_1_50",
+    "freq_1_100",
+    "freq_1_500",
+    "freq_1_1000",
+    "atraso_1",
+    "freq_2_total",
+    "freq_2_50",
+    "freq_2_100",
+    "freq_2_500",
+    "freq_2_1000",
+    "atraso_2",
+    "repetiu_2",
+    "freq_3_total",
+    "freq_3_50",
+    "freq_3_100",
+    "freq_3_500",
+    "freq_3_1000",
+    "atraso_3",
+    "tendencia_3",
+    "repetiu_3",
+    "freq_4_total",
+    "freq_4_500",
+    "freq_4_1000",
+    "atraso_4",
+    "repetiu_4",
+    "posicao_2_500",
+    "posicao_2_total",
+    "posicao_3_500",
+    "posicao_3_total",
+    "posicao_4_500",
+    "posicao_4_total"
+   ],
+   "ampliado": [
+    "freq_1_total",
+    "freq_1_50",
+    "freq_1_100",
+    "freq_1_500",
+    "freq_1_1000",
+    "atraso_1",
+    "tendencia_1",
+    "freq_2_total",
+    "freq_2_50",
+    "freq_2_100",
+    "freq_2_500",
+    "freq_2_1000",
+    "atraso_2",
+    "tendencia_2",
+    "repetiu_2",
+    "freq_3_total",
+    "freq_3_50",
+    "freq_3_100",
+    "freq_3_500",
+    "freq_3_1000",
+    "atraso_3",
+    "tendencia_3",
+    "repetiu_3",
+    "freq_4_total",
+    "freq_4_500",
+    "freq_4_1000",
+    "atraso_4",
+    "repetiu_4",
+    "freq_1_250",
+    "freq_2_250",
+    "freq_3_250",
+    "freq_4_250",
+    "estabilidade_1",
+    "estabilidade_2",
+    "estabilidade_3",
+    "posicao_2_500",
+    "posicao_2_total",
+    "posicao_3_500",
+    "posicao_3_total",
+    "posicao_4_500",
+    "posicao_4_total",
+    "posicao_5_500",
+    "posicao_5_total",
+    "soma_algarismos",
+    "algarismos_pares",
+    "algarismos_distintos"
+   ]
+  },
+  "uso_pelos_modelos": {
+   "estatistico": {
+    "atributos": 4,
+    "zerados": []
+   },
+   "logistica": {
+    "atributos": 39,
+    "zerados": []
+   },
+   "floresta": {
+    "atributos": 39,
+    "zerados": [
+     "repetiu_3",
+     "repetiu_4"
+    ]
+   },
+   "gradiente": {
+    "atributos": 39,
+    "zerados": []
+   },
+   "rede_neural": {
+    "atributos": 39,
+    "zerados": []
+   },
+   "xgboost": {
+    "atributos": 39,
+    "zerados": [
+     "repetiu_2",
+     "repetiu_3",
+     "repetiu_4",
+     "posicao_5_500",
+     "posicao_5_total"
+    ]
+   }
+  }
+ },
+ "ajuste": {
+  "padrão do motor": {
+   "modelo:estatistico": 0.49142955999999993,
+   "modelo:logistica": 0.4936858,
+   "modelo:floresta": 0.49126196,
+   "modelo:gradiente": 0.49630473999999997,
+   "modelo:rede_neural": 0.4929788399999999,
+   "modelo:xgboost": 0.48559526000000003,
+   "conj:estatistico": 0.49142955999999993,
+   "conj:logistica": 0.4936858,
+   "conj:floresta": 0.49126196,
+   "conj:gradiente": 0.49630473999999997,
+   "conj:rede_neural": 0.4929788399999999,
+   "conj:xgboost": 0.48559526000000003,
+   "conj:estatistico+logistica": 0.4905790199999999,
+   "conj:estatistico+floresta": 0.4890842199999999,
+   "conj:estatistico+gradiente": 0.49232687999999997,
+   "conj:estatistico+rede_neural": 0.48994158,
+   "conj:estatistico+xgboost": 0.4861904,
+   "conj:logistica+floresta": 0.49095954,
+   "conj:logistica+gradiente": 0.49419056,
+   "conj:logistica+rede_neural": 0.49169468,
+   "conj:logistica+xgboost": 0.48796027999999997,
+   "conj:floresta+gradiente": 0.4928187,
+   "conj:floresta+rede_neural": 0.48961404000000003,
+   "conj:floresta+xgboost": 0.48712148,
+   "conj:gradiente+rede_neural": 0.49189988,
+   "conj:gradiente+xgboost": 0.4893863600000001,
+   "conj:rede_neural+xgboost": 0.48628279999999996,
+   "conj:estatistico+logistica+floresta": 0.48861894,
+   "conj:estatistico+logistica+gradiente": 0.49147389999999996,
+   "conj:estatistico+logistica+rede_neural": 0.48992994,
+   "conj:estatistico+logistica+xgboost": 0.48621536,
+   "conj:estatistico+floresta+gradiente": 0.4905239799999999,
+   "conj:estatistico+floresta+rede_neural": 0.48788962,
+   "conj:estatistico+floresta+xgboost": 0.48557191999999993,
+   "conj:estatistico+gradiente+rede_neural": 0.49036773999999994,
+   "conj:estatistico+gradiente+xgboost": 0.48749637999999995,
+   "conj:estatistico+rede_neural+xgboost": 0.48575176000000003,
+   "conj:logistica+floresta+gradiente": 0.49227906000000005,
+   "conj:logistica+floresta+rede_neural": 0.4893058800000001,
+   "conj:logistica+floresta+xgboost": 0.48798231999999997,
+   "conj:logistica+gradiente+rede_neural": 0.4921429,
+   "conj:logistica+gradiente+xgboost": 0.48975388000000003,
+   "conj:logistica+rede_neural+xgboost": 0.48751516,
+   "conj:floresta+gradiente+rede_neural": 0.49039222,
+   "conj:floresta+gradiente+xgboost": 0.4894291800000001,
+   "conj:floresta+rede_neural+xgboost": 0.48665166,
+   "conj:gradiente+rede_neural+xgboost": 0.48841258,
+   "conj:estatistico+logistica+floresta+gradiente": 0.49002299999999993,
+   "conj:estatistico+logistica+floresta+rede_neural": 0.48791026000000004,
+   "conj:estatistico+logistica+floresta+xgboost": 0.48608476,
+   "conj:estatistico+logistica+gradiente+rede_neural": 0.49079812,
+   "conj:estatistico+logistica+gradiente+xgboost": 0.48789827999999996,
+   "conj:estatistico+logistica+rede_neural+xgboost": 0.48644943999999996,
+   "conj:estatistico+floresta+gradiente+rede_neural": 0.48891424,
+   "conj:estatistico+floresta+gradiente+xgboost": 0.48755786000000007,
+   "conj:estatistico+floresta+rede_neural+xgboost": 0.4853679,
+   "conj:estatistico+gradiente+rede_neural+xgboost": 0.4870482,
+   "conj:logistica+floresta+gradiente+rede_neural": 0.49052916,
+   "conj:logistica+floresta+gradiente+xgboost": 0.48952644,
+   "conj:logistica+floresta+rede_neural+xgboost": 0.48717154,
+   "conj:logistica+gradiente+rede_neural+xgboost": 0.48899804,
+   "conj:floresta+gradiente+rede_neural+xgboost": 0.48846759999999995,
+   "conj:estatistico+logistica+floresta+gradiente+rede_neural": 0.4891611999999999,
+   "conj:estatistico+logistica+floresta+gradiente+xgboost": 0.4878066,
+   "conj:estatistico+logistica+floresta+rede_neural+xgboost": 0.48582397999999993,
+   "conj:estatistico+logistica+gradiente+rede_neural+xgboost": 0.48768490000000003,
+   "conj:estatistico+floresta+gradiente+rede_neural+xgboost": 0.48686398,
+   "conj:logistica+floresta+gradiente+rede_neural+xgboost": 0.48859183999999994,
+   "conj:estatistico+logistica+floresta+gradiente+rede_neural+xgboost": 0.4872734,
+   "ref_aleatorio": 0.5090178,
+   "ref_freq_historica": 0.4931259,
+   "ref_freq_recente": 0.4932407999999999,
+   "ref_ausencia": 0.5069696599999999,
+   "ref_estrutura": 0.49006900000000003,
+   "_n": 2500
+  },
+  "janela 500": {
+   "modelo:estatistico": 0.49142955999999993,
+   "modelo:logistica": 0.49681536,
+   "modelo:floresta": 0.5025436799999999,
+   "modelo:gradiente": 0.49640200000000007,
+   "modelo:rede_neural": 0.49451692,
+   "modelo:xgboost": 0.5022709399999999,
+   "conj:estatistico": 0.49142955999999993,
+   "conj:logistica": 0.49681536,
+   "conj:floresta": 0.5025436799999999,
+   "conj:gradiente": 0.49640200000000007,
+   "conj:rede_neural": 0.49451692,
+   "conj:xgboost": 0.5022709399999999,
+   "conj:estatistico+logistica": 0.4930804200000001,
+   "conj:estatistico+floresta": 0.4956563399999999,
+   "conj:estatistico+gradiente": 0.4917647,
+   "conj:estatistico+rede_neural": 0.49034204,
+   "conj:estatistico+xgboost": 0.49681669999999994,
+   "conj:logistica+floresta": 0.49947305999999997,
+   "conj:logistica+gradiente": 0.49530626,
+   "conj:logistica+rede_neural": 0.49269939999999995,
+   "conj:logistica+xgboost": 0.49883394,
+   "conj:floresta+gradiente": 0.49878036000000003,
+   "conj:floresta+rede_neural": 0.49603347999999997,
+   "conj:floresta+xgboost": 0.50226822,
+   "conj:gradiente+rede_neural": 0.49323472,
+   "conj:gradiente+xgboost": 0.49890836,
+   "conj:rede_neural+xgboost": 0.49709728000000003,
+   "conj:estatistico+logistica+floresta": 0.49532946,
+   "conj:estatistico+logistica+gradiente": 0.4918606599999999,
+   "conj:estatistico+logistica+rede_neural": 0.4911081,
+   "conj:estatistico+logistica+xgboost": 0.49550766,
+   "conj:estatistico+floresta+gradiente": 0.49518772,
+   "conj:estatistico+floresta+rede_neural": 0.4926528399999999,
+   "conj:estatistico+floresta+xgboost": 0.4985383599999999,
+   "conj:estatistico+gradiente+rede_neural": 0.49062022,
+   "conj:estatistico+gradiente+xgboost": 0.49565154,
+   "conj:estatistico+rede_neural+xgboost": 0.49379678000000005,
+   "conj:logistica+floresta+gradiente": 0.49780897999999996,
+   "conj:logistica+floresta+rede_neural": 0.49454124,
+   "conj:logistica+floresta+xgboost": 0.5002194999999999,
+   "conj:logistica+gradiente+rede_neural": 0.4915542399999999,
+   "conj:logistica+gradiente+xgboost": 0.4973079799999999,
+   "conj:logistica+rede_neural+xgboost": 0.49515944,
+   "conj:floresta+gradiente+rede_neural": 0.49528072,
+   "conj:floresta+gradiente+xgboost": 0.49981255999999996,
+   "conj:floresta+rede_neural+xgboost": 0.49817218,
+   "conj:gradiente+rede_neural+xgboost": 0.49607068,
+   "conj:estatistico+logistica+floresta+gradiente": 0.4946708000000001,
+   "conj:estatistico+logistica+floresta+rede_neural": 0.49253152,
+   "conj:estatistico+logistica+floresta+xgboost": 0.49730404,
+   "conj:estatistico+logistica+gradiente+rede_neural": 0.49036604000000006,
+   "conj:estatistico+logistica+gradiente+xgboost": 0.49453682,
+   "conj:estatistico+logistica+rede_neural+xgboost": 0.49330280000000004,
+   "conj:estatistico+floresta+gradiente+rede_neural": 0.49286272,
+   "conj:estatistico+floresta+gradiente+xgboost": 0.49739876000000005,
+   "conj:estatistico+floresta+rede_neural+xgboost": 0.49568892,
+   "conj:estatistico+gradiente+rede_neural+xgboost": 0.49377489999999996,
+   "conj:logistica+floresta+gradiente+rede_neural": 0.4943485799999999,
+   "conj:logistica+floresta+gradiente+xgboost": 0.49869892,
+   "conj:logistica+floresta+rede_neural+xgboost": 0.49685446,
+   "conj:logistica+gradiente+rede_neural+xgboost": 0.49455491999999995,
+   "conj:floresta+gradiente+rede_neural+xgboost": 0.49720926,
+   "conj:estatistico+logistica+floresta+gradiente+rede_neural": 0.49239064,
+   "conj:estatistico+logistica+floresta+gradiente+xgboost": 0.49636448,
+   "conj:estatistico+logistica+floresta+rede_neural+xgboost": 0.49487852000000004,
+   "conj:estatistico+logistica+gradiente+rede_neural+xgboost": 0.49267914,
+   "conj:estatistico+floresta+gradiente+rede_neural+xgboost": 0.4952571599999999,
+   "conj:logistica+floresta+gradiente+rede_neural+xgboost": 0.49624895999999996,
+   "conj:estatistico+logistica+floresta+gradiente+rede_neural+xgboost": 0.49443912,
+   "_n": 2500
+  },
+  "janela 1000": {
+   "modelo:estatistico": 0.49142955999999993,
+   "modelo:logistica": 0.49989216,
+   "modelo:floresta": 0.50578724,
+   "modelo:gradiente": 0.5012911,
+   "modelo:rede_neural": 0.49666928,
+   "modelo:xgboost": 0.5001541199999999,
+   "conj:estatistico": 0.49142955999999993,
+   "conj:logistica": 0.49989216,
+   "conj:floresta": 0.50578724,
+   "conj:gradiente": 0.5012911,
+   "conj:rede_neural": 0.49666928,
+   "conj:xgboost": 0.5001541199999999,
+   "conj:estatistico+logistica": 0.49427731999999996,
+   "conj:estatistico+floresta": 0.49842636,
+   "conj:estatistico+gradiente": 0.49415820000000005,
+   "conj:estatistico+rede_neural": 0.4920908800000001,
+   "conj:estatistico+xgboost": 0.49414656000000007,
+   "conj:logistica+floresta": 0.50442628,
+   "conj:logistica+gradiente": 0.50141368,
+   "conj:logistica+rede_neural": 0.49936391999999996,
+   "conj:logistica+xgboost": 0.50064234,
+   "conj:floresta+gradiente": 0.50414852,
+   "conj:floresta+rede_neural": 0.50120846,
+   "conj:floresta+xgboost": 0.5035084799999999,
+   "conj:gradiente+rede_neural": 0.49765746,
+   "conj:gradiente+xgboost": 0.5014761000000001,
+   "conj:rede_neural+xgboost": 0.49776336,
+   "conj:estatistico+logistica+floresta": 0.4995110200000001,
+   "conj:estatistico+logistica+gradiente": 0.49638485999999993,
+   "conj:estatistico+logistica+rede_neural": 0.49454850000000006,
+   "conj:estatistico+logistica+xgboost": 0.4962946,
+   "conj:estatistico+floresta+gradiente": 0.49911787999999996,
+   "conj:estatistico+floresta+rede_neural": 0.49690608,
+   "conj:estatistico+floresta+xgboost": 0.49884843999999995,
+   "conj:estatistico+gradiente+rede_neural": 0.49329878,
+   "conj:estatistico+gradiente+xgboost": 0.4963424000000001,
+   "conj:estatistico+rede_neural+xgboost": 0.4937648,
+   "conj:logistica+floresta+gradiente": 0.5039516,
+   "conj:logistica+floresta+rede_neural": 0.5017219,
+   "conj:logistica+floresta+xgboost": 0.5033888799999999,
+   "conj:logistica+gradiente+rede_neural": 0.49953812,
+   "conj:logistica+gradiente+xgboost": 0.50172304,
+   "conj:logistica+rede_neural+xgboost": 0.49884646000000005,
+   "conj:floresta+gradiente+rede_neural": 0.50123686,
+   "conj:floresta+gradiente+xgboost": 0.50339492,
+   "conj:floresta+rede_neural+xgboost": 0.5014991200000001,
+   "conj:gradiente+rede_neural+xgboost": 0.49928675999999994,
+   "conj:estatistico+logistica+floresta+gradiente": 0.5001952,
+   "conj:estatistico+logistica+floresta+rede_neural": 0.4982061,
+   "conj:estatistico+logistica+floresta+xgboost": 0.49986620000000004,
+   "conj:estatistico+logistica+gradiente+rede_neural": 0.49568958,
+   "conj:estatistico+logistica+gradiente+xgboost": 0.49791996,
+   "conj:estatistico+logistica+rede_neural+xgboost": 0.49558500000000005,
+   "conj:estatistico+floresta+gradiente+rede_neural": 0.49767338,
+   "conj:estatistico+floresta+gradiente+xgboost": 0.49967188000000007,
+   "conj:estatistico+floresta+rede_neural+xgboost": 0.49799344,
+   "conj:estatistico+gradiente+rede_neural+xgboost": 0.4952289199999999,
+   "conj:logistica+floresta+gradiente+rede_neural": 0.50212188,
+   "conj:logistica+floresta+gradiente+xgboost": 0.5033612199999999,
+   "conj:logistica+floresta+rede_neural+xgboost": 0.50151856,
+   "conj:logistica+gradiente+rede_neural+xgboost": 0.49998528000000003,
+   "conj:floresta+gradiente+rede_neural+xgboost": 0.5016364600000001,
+   "conj:estatistico+logistica+floresta+gradiente+rede_neural": 0.4989078799999999,
+   "conj:estatistico+logistica+floresta+gradiente+xgboost": 0.50040836,
+   "conj:estatistico+logistica+floresta+rede_neural+xgboost": 0.4988358399999999,
+   "conj:estatistico+logistica+gradiente+rede_neural+xgboost": 0.4968204,
+   "conj:estatistico+floresta+gradiente+rede_neural+xgboost": 0.49873368,
+   "conj:logistica+floresta+gradiente+rede_neural+xgboost": 0.5020562,
+   "conj:estatistico+logistica+floresta+gradiente+rede_neural+xgboost": 0.49951564,
+   "_n": 2500
+  },
+  "janela 4000": {
+   "modelo:estatistico": 0.49142955999999993,
+   "modelo:logistica": 0.49249192,
+   "modelo:floresta": 0.48971044,
+   "modelo:gradiente": 0.49672986,
+   "modelo:rede_neural": 0.49391084,
+   "modelo:xgboost": 0.49245972,
+   "conj:estatistico": 0.49142955999999993,
+   "conj:logistica": 0.49249192,
+   "conj:floresta": 0.48971044,
+   "conj:gradiente": 0.49672986,
+   "conj:rede_neural": 0.49391084,
+   "conj:xgboost": 0.49245972,
+   "conj:estatistico+logistica": 0.49199573999999996,
+   "conj:estatistico+floresta": 0.4906110000000001,
+   "conj:estatistico+gradiente": 0.49451498,
+   "conj:estatistico+rede_neural": 0.49120195999999994,
+   "conj:estatistico+xgboost": 0.49137036,
+   "conj:logistica+floresta": 0.49000116,
+   "conj:logistica+gradiente": 0.49468305999999995,
+   "conj:logistica+rede_neural": 0.49277551999999997,
+   "conj:logistica+xgboost": 0.49119748,
+   "conj:floresta+gradiente": 0.49169904000000003,
+   "conj:floresta+rede_neural": 0.4912187,
+   "conj:floresta+xgboost": 0.49061316000000005,
+   "conj:gradiente+rede_neural": 0.49467564,
+   "conj:gradiente+xgboost": 0.4943619799999999,
+   "conj:rede_neural+xgboost": 0.49268073999999995,
+   "conj:estatistico+logistica+floresta": 0.4904188,
+   "conj:estatistico+logistica+gradiente": 0.49381417999999994,
+   "conj:estatistico+logistica+rede_neural": 0.49181182,
+   "conj:estatistico+logistica+xgboost": 0.49069418000000004,
+   "conj:estatistico+floresta+gradiente": 0.49182876,
+   "conj:estatistico+floresta+rede_neural": 0.48954306,
+   "conj:estatistico+floresta+xgboost": 0.49001084,
+   "conj:estatistico+gradiente+rede_neural": 0.49292547999999997,
+   "conj:estatistico+gradiente+xgboost": 0.4936342200000001,
+   "conj:estatistico+rede_neural+xgboost": 0.49019668,
+   "conj:logistica+floresta+gradiente": 0.49160006,
+   "conj:logistica+floresta+rede_neural": 0.4906382600000001,
+   "conj:logistica+floresta+xgboost": 0.49006345999999995,
+   "conj:logistica+gradiente+rede_neural": 0.49323012,
+   "conj:logistica+gradiente+xgboost": 0.49349331999999996,
+   "conj:logistica+rede_neural+xgboost": 0.4914088,
+   "conj:floresta+gradiente+rede_neural": 0.49118382,
+   "conj:floresta+gradiente+xgboost": 0.491588,
+   "conj:floresta+rede_neural+xgboost": 0.49051545999999996,
+   "conj:gradiente+rede_neural+xgboost": 0.49333478,
+   "conj:estatistico+logistica+floresta+gradiente": 0.4916195,
+   "conj:estatistico+logistica+floresta+rede_neural": 0.49028004000000003,
+   "conj:estatistico+logistica+floresta+xgboost": 0.48985858,
+   "conj:estatistico+logistica+gradiente+rede_neural": 0.49276026,
+   "conj:estatistico+logistica+gradiente+xgboost": 0.49299452,
+   "conj:estatistico+logistica+rede_neural+xgboost": 0.4904536400000001,
+   "conj:estatistico+floresta+gradiente+rede_neural": 0.49097932,
+   "conj:estatistico+floresta+gradiente+xgboost": 0.49119588000000003,
+   "conj:estatistico+floresta+rede_neural+xgboost": 0.4891935600000001,
+   "conj:estatistico+gradiente+rede_neural+xgboost": 0.49230380000000007,
+   "conj:logistica+floresta+gradiente+rede_neural": 0.49107952000000005,
+   "conj:logistica+floresta+gradiente+xgboost": 0.4912738800000001,
+   "conj:logistica+floresta+rede_neural+xgboost": 0.49012824,
+   "conj:logistica+gradiente+rede_neural+xgboost": 0.49257052,
+   "conj:floresta+gradiente+rede_neural+xgboost": 0.49106862,
+   "conj:estatistico+logistica+floresta+gradiente+rede_neural": 0.49103865999999996,
+   "conj:estatistico+logistica+floresta+gradiente+xgboost": 0.49111596,
+   "conj:estatistico+logistica+floresta+rede_neural+xgboost": 0.48959812,
+   "conj:estatistico+logistica+gradiente+rede_neural+xgboost": 0.49211284000000005,
+   "conj:estatistico+floresta+gradiente+rede_neural+xgboost": 0.49054336000000004,
+   "conj:logistica+floresta+gradiente+rede_neural+xgboost": 0.49088048,
+   "conj:estatistico+logistica+floresta+gradiente+rede_neural+xgboost": 0.49067795999999997,
+   "_n": 2500
+  },
+  "atributos reduzidos": {
+   "modelo:estatistico": 0.49142955999999993,
+   "modelo:logistica": 0.49738392000000003,
+   "modelo:floresta": 0.49182322000000006,
+   "modelo:gradiente": 0.49814347999999997,
+   "modelo:rede_neural": 0.49650592,
+   "modelo:xgboost": 0.49001180000000005,
+   "conj:estatistico": 0.49142955999999993,
+   "conj:logistica": 0.49738392000000003,
+   "conj:floresta": 0.49182322000000006,
+   "conj:gradiente": 0.49814347999999997,
+   "conj:rede_neural": 0.49650592,
+   "conj:xgboost": 0.49001180000000005,
+   "conj:estatistico+logistica": 0.49331237999999994,
+   "conj:estatistico+floresta": 0.48834817999999997,
+   "conj:estatistico+gradiente": 0.49250662,
+   "conj:estatistico+rede_neural": 0.49253986000000005,
+   "conj:estatistico+xgboost": 0.48896898,
+   "conj:logistica+floresta": 0.49380446,
+   "conj:logistica+gradiente": 0.49737011999999997,
+   "conj:logistica+rede_neural": 0.49527624,
+   "conj:logistica+xgboost": 0.49247698,
+   "conj:floresta+gradiente": 0.49326467999999996,
+   "conj:floresta+rede_neural": 0.49104987999999994,
+   "conj:floresta+xgboost": 0.4892112,
+   "conj:gradiente+rede_neural": 0.4945995000000001,
+   "conj:gradiente+xgboost": 0.49197928,
+   "conj:rede_neural+xgboost": 0.49094350000000003,
+   "conj:estatistico+logistica+floresta": 0.49052908000000006,
+   "conj:estatistico+logistica+gradiente": 0.49349622,
+   "conj:estatistico+logistica+rede_neural": 0.49267564,
+   "conj:estatistico+logistica+xgboost": 0.49055128000000003,
+   "conj:estatistico+floresta+gradiente": 0.49013155999999997,
+   "conj:estatistico+floresta+rede_neural": 0.48828136000000005,
+   "conj:estatistico+floresta+xgboost": 0.48760538000000003,
+   "conj:estatistico+gradiente+rede_neural": 0.49156272,
+   "conj:estatistico+gradiente+xgboost": 0.48958302000000004,
+   "conj:estatistico+rede_neural+xgboost": 0.4898692000000001,
+   "conj:logistica+floresta+gradiente": 0.4944105599999999,
+   "conj:logistica+floresta+rede_neural": 0.49289126000000005,
+   "conj:logistica+floresta+xgboost": 0.49150146000000006,
+   "conj:logistica+gradiente+rede_neural": 0.49526274000000003,
+   "conj:logistica+gradiente+xgboost": 0.49318332,
+   "conj:logistica+rede_neural+xgboost": 0.49245226000000003,
+   "conj:floresta+gradiente+rede_neural": 0.4916707,
+   "conj:floresta+gradiente+xgboost": 0.49093842000000004,
+   "conj:floresta+rede_neural+xgboost": 0.48949244,
+   "conj:gradiente+rede_neural+xgboost": 0.49134125999999995,
+   "conj:estatistico+logistica+floresta+gradiente": 0.49148110000000006,
+   "conj:estatistico+logistica+floresta+rede_neural": 0.4903568799999999,
+   "conj:estatistico+logistica+floresta+xgboost": 0.48940823999999994,
+   "conj:estatistico+logistica+gradiente+rede_neural": 0.49258845999999995,
+   "conj:estatistico+logistica+gradiente+xgboost": 0.49108252,
+   "conj:estatistico+logistica+rede_neural+xgboost": 0.49080697999999995,
+   "conj:estatistico+floresta+gradiente+rede_neural": 0.48906093999999994,
+   "conj:estatistico+floresta+gradiente+xgboost": 0.48896360000000005,
+   "conj:estatistico+floresta+rede_neural+xgboost": 0.4879455,
+   "conj:estatistico+gradiente+rede_neural+xgboost": 0.48972322,
+   "conj:logistica+floresta+gradiente+rede_neural": 0.49315662000000005,
+   "conj:logistica+floresta+gradiente+xgboost": 0.49226559999999997,
+   "conj:logistica+floresta+rede_neural+xgboost": 0.49137776000000005,
+   "conj:logistica+gradiente+rede_neural+xgboost": 0.49280231999999996,
+   "conj:floresta+gradiente+rede_neural+xgboost": 0.49036435999999994,
+   "conj:estatistico+logistica+floresta+gradiente+rede_neural": 0.49073047999999997,
+   "conj:estatistico+logistica+floresta+gradiente+xgboost": 0.49033364,
+   "conj:estatistico+logistica+floresta+rede_neural+xgboost": 0.48959078,
+   "conj:estatistico+logistica+gradiente+rede_neural+xgboost": 0.49097119999999994,
+   "conj:estatistico+floresta+gradiente+rede_neural+xgboost": 0.48865512,
+   "conj:logistica+floresta+gradiente+rede_neural+xgboost": 0.49177867999999997,
+   "conj:estatistico+logistica+floresta+gradiente+rede_neural+xgboost": 0.4900516,
+   "_n": 2500
+  },
+  "atributos ampliados (250 + estabilidade)": {
+   "modelo:estatistico": 0.49142955999999993,
+   "modelo:logistica": 0.49265535999999993,
+   "modelo:floresta": 0.49469888,
+   "modelo:gradiente": 0.4967652,
+   "modelo:rede_neural": 0.49230919999999995,
+   "modelo:xgboost": 0.48964063999999996,
+   "conj:estatistico": 0.49142955999999993,
+   "conj:logistica": 0.49265535999999993,
+   "conj:floresta": 0.49469888,
+   "conj:gradiente": 0.4967652,
+   "conj:rede_neural": 0.49230919999999995,
+   "conj:xgboost": 0.48964063999999996,
+   "conj:estatistico+logistica": 0.4897242399999999,
+   "conj:estatistico+floresta": 0.49180124,
+   "conj:estatistico+gradiente": 0.49244889999999997,
+   "conj:estatistico+rede_neural": 0.49047307999999995,
+   "conj:estatistico+xgboost": 0.48832021999999997,
+   "conj:logistica+floresta": 0.49213490000000004,
+   "conj:logistica+gradiente": 0.49398812,
+   "conj:logistica+rede_neural": 0.49136826,
+   "conj:logistica+xgboost": 0.48938464000000004,
+   "conj:floresta+gradiente": 0.49422000000000005,
+   "conj:floresta+rede_neural": 0.49245606,
+   "conj:floresta+xgboost": 0.49086992000000007,
+   "conj:gradiente+rede_neural": 0.49266952,
+   "conj:gradiente+xgboost": 0.49184898000000005,
+   "conj:rede_neural+xgboost": 0.4897596600000001,
+   "conj:estatistico+logistica+floresta": 0.49018952,
+   "conj:estatistico+logistica+gradiente": 0.49101622000000006,
+   "conj:estatistico+logistica+rede_neural": 0.48905156,
+   "conj:estatistico+logistica+xgboost": 0.48742519999999995,
+   "conj:estatistico+floresta+gradiente": 0.4920293600000001,
+   "conj:estatistico+floresta+rede_neural": 0.4911593999999999,
+   "conj:estatistico+floresta+xgboost": 0.4891312400000001,
+   "conj:estatistico+gradiente+rede_neural": 0.49015976,
+   "conj:estatistico+gradiente+xgboost": 0.48918190000000006,
+   "conj:estatistico+rede_neural+xgboost": 0.488304,
+   "conj:logistica+floresta+gradiente": 0.49300828,
+   "conj:logistica+floresta+rede_neural": 0.49135418,
+   "conj:logistica+floresta+xgboost": 0.49013315999999996,
+   "conj:logistica+gradiente+rede_neural": 0.49212158,
+   "conj:logistica+gradiente+xgboost": 0.49133825999999997,
+   "conj:logistica+rede_neural+xgboost": 0.48885303999999996,
+   "conj:floresta+gradiente+rede_neural": 0.4929862,
+   "conj:floresta+gradiente+xgboost": 0.4917094000000001,
+   "conj:floresta+rede_neural+xgboost": 0.49008836,
+   "conj:gradiente+rede_neural+xgboost": 0.49075488000000006,
+   "conj:estatistico+logistica+floresta+gradiente": 0.49104568,
+   "conj:estatistico+logistica+floresta+rede_neural": 0.48982128,
+   "conj:estatistico+logistica+floresta+xgboost": 0.48847708,
+   "conj:estatistico+logistica+gradiente+rede_neural": 0.48961142,
+   "conj:estatistico+logistica+gradiente+xgboost": 0.48899588000000005,
+   "conj:estatistico+logistica+rede_neural+xgboost": 0.48719752000000005,
+   "conj:estatistico+floresta+gradiente+rede_neural": 0.49125559999999996,
+   "conj:estatistico+floresta+gradiente+xgboost": 0.48992880000000005,
+   "conj:estatistico+floresta+rede_neural+xgboost": 0.48909504,
+   "conj:estatistico+gradiente+rede_neural+xgboost": 0.4885382,
+   "conj:logistica+floresta+gradiente+rede_neural": 0.49205923999999995,
+   "conj:logistica+floresta+gradiente+xgboost": 0.4912781599999999,
+   "conj:logistica+floresta+rede_neural+xgboost": 0.48951391999999994,
+   "conj:logistica+gradiente+rede_neural+xgboost": 0.49027838,
+   "conj:floresta+gradiente+rede_neural+xgboost": 0.4910295599999999,
+   "conj:estatistico+logistica+floresta+gradiente+rede_neural": 0.4904152,
+   "conj:estatistico+logistica+floresta+gradiente+xgboost": 0.48957816000000004,
+   "conj:estatistico+logistica+floresta+rede_neural+xgboost": 0.48833968000000005,
+   "conj:estatistico+logistica+gradiente+rede_neural+xgboost": 0.4882869599999999,
+   "conj:estatistico+floresta+gradiente+rede_neural+xgboost": 0.48960484,
+   "conj:logistica+floresta+gradiente+rede_neural+xgboost": 0.4905226,
+   "conj:estatistico+logistica+floresta+gradiente+rede_neural+xgboost": 0.48918584,
+   "_n": 2500
+  },
+  "parâmetros simples": {
+   "modelo:estatistico": 0.49142955999999993,
+   "modelo:logistica": 0.49365403999999996,
+   "modelo:floresta": 0.48791866,
+   "modelo:gradiente": 0.49296048000000003,
+   "modelo:rede_neural": 0.49535524000000003,
+   "modelo:xgboost": 0.49173238,
+   "conj:estatistico": 0.49142955999999993,
+   "conj:logistica": 0.49365403999999996,
+   "conj:floresta": 0.48791866,
+   "conj:gradiente": 0.49296048000000003,
+   "conj:rede_neural": 0.49535524000000003,
+   "conj:xgboost": 0.49173238,
+   "conj:estatistico+logistica": 0.49053178,
+   "conj:estatistico+floresta": 0.48748038,
+   "conj:estatistico+gradiente": 0.48985712000000003,
+   "conj:estatistico+rede_neural": 0.49137250000000005,
+   "conj:estatistico+xgboost": 0.48992222,
+   "conj:logistica+floresta": 0.48899162000000007,
+   "conj:logistica+gradiente": 0.49215426000000007,
+   "conj:logistica+rede_neural": 0.49258351999999994,
+   "conj:logistica+xgboost": 0.49136484,
+   "conj:floresta+gradiente": 0.48842425999999994,
+   "conj:floresta+rede_neural": 0.48844086,
+   "conj:floresta+xgboost": 0.48851715999999995,
+   "conj:gradiente+rede_neural": 0.49164272000000003,
+   "conj:gradiente+xgboost": 0.49097032,
+   "conj:rede_neural+xgboost": 0.49155586,
+   "conj:estatistico+logistica+floresta": 0.48756525999999994,
+   "conj:estatistico+logistica+gradiente": 0.48973518000000005,
+   "conj:estatistico+logistica+rede_neural": 0.49051293999999995,
+   "conj:estatistico+logistica+xgboost": 0.4895334800000001,
+   "conj:estatistico+floresta+gradiente": 0.48623026,
+   "conj:estatistico+floresta+rede_neural": 0.4869012000000001,
+   "conj:estatistico+floresta+xgboost": 0.48697602000000006,
+   "conj:estatistico+gradiente+rede_neural": 0.48911552,
+   "conj:estatistico+gradiente+xgboost": 0.48903194000000005,
+   "conj:estatistico+rede_neural+xgboost": 0.4896031,
+   "conj:logistica+floresta+gradiente": 0.48898717999999997,
+   "conj:logistica+floresta+rede_neural": 0.4891360199999999,
+   "conj:logistica+floresta+xgboost": 0.4890063,
+   "conj:logistica+gradiente+rede_neural": 0.49136958,
+   "conj:logistica+gradiente+xgboost": 0.49116679999999996,
+   "conj:logistica+rede_neural+xgboost": 0.49149416,
+   "conj:floresta+gradiente+rede_neural": 0.48848924,
+   "conj:floresta+gradiente+xgboost": 0.48874979999999996,
+   "conj:floresta+rede_neural+xgboost": 0.48840785999999997,
+   "conj:gradiente+rede_neural+xgboost": 0.4905167200000001,
+   "conj:estatistico+logistica+floresta+gradiente": 0.4872286399999999,
+   "conj:estatistico+logistica+floresta+rede_neural": 0.48781116,
+   "conj:estatistico+logistica+floresta+xgboost": 0.48753181999999995,
+   "conj:estatistico+logistica+gradiente+rede_neural": 0.48941818000000004,
+   "conj:estatistico+logistica+gradiente+xgboost": 0.48939288,
+   "conj:estatistico+logistica+rede_neural+xgboost": 0.4897875,
+   "conj:estatistico+floresta+gradiente+rede_neural": 0.48628474000000005,
+   "conj:estatistico+floresta+gradiente+xgboost": 0.48707892,
+   "conj:estatistico+floresta+rede_neural+xgboost": 0.48696712,
+   "conj:estatistico+gradiente+rede_neural+xgboost": 0.48858364000000004,
+   "conj:logistica+floresta+gradiente+rede_neural": 0.48894946,
+   "conj:logistica+floresta+gradiente+xgboost": 0.48917443999999993,
+   "conj:logistica+floresta+rede_neural+xgboost": 0.48905486,
+   "conj:logistica+gradiente+rede_neural+xgboost": 0.49074717999999995,
+   "conj:floresta+gradiente+rede_neural+xgboost": 0.48857083999999995,
+   "conj:estatistico+logistica+floresta+gradiente+rede_neural": 0.48739908000000004,
+   "conj:estatistico+logistica+floresta+gradiente+xgboost": 0.4876965999999999,
+   "conj:estatistico+logistica+floresta+rede_neural+xgboost": 0.48777968,
+   "conj:estatistico+logistica+gradiente+rede_neural+xgboost": 0.48923315999999994,
+   "conj:estatistico+floresta+gradiente+rede_neural+xgboost": 0.48693872,
+   "conj:logistica+floresta+gradiente+rede_neural+xgboost": 0.4890772,
+   "conj:estatistico+logistica+floresta+gradiente+rede_neural+xgboost": 0.4878116400000001,
+   "_n": 2500
+  },
+  "parâmetros complexos": {
+   "modelo:estatistico": 0.49142955999999993,
+   "modelo:logistica": 0.4936949200000001,
+   "modelo:floresta": 0.48848307999999996,
+   "modelo:gradiente": 0.49870914000000005,
+   "modelo:rede_neural": 0.49460452000000005,
+   "modelo:xgboost": 0.4918366,
+   "conj:estatistico": 0.49142955999999993,
+   "conj:logistica": 0.4936949200000001,
+   "conj:floresta": 0.48848307999999996,
+   "conj:gradiente": 0.49870914000000005,
+   "conj:rede_neural": 0.49460452000000005,
+   "conj:xgboost": 0.4918366,
+   "conj:estatistico+logistica": 0.49058942,
+   "conj:estatistico+floresta": 0.48712358000000006,
+   "conj:estatistico+gradiente": 0.49306733999999997,
+   "conj:estatistico+rede_neural": 0.49103896,
+   "conj:estatistico+xgboost": 0.48959834,
+   "conj:logistica+floresta": 0.48999066,
+   "conj:logistica+gradiente": 0.49562519999999993,
+   "conj:logistica+rede_neural": 0.4920045,
+   "conj:logistica+xgboost": 0.49069824,
+   "conj:floresta+gradiente": 0.49330419999999997,
+   "conj:floresta+rede_neural": 0.48863056,
+   "conj:floresta+xgboost": 0.4886942000000001,
+   "conj:gradiente+rede_neural": 0.4954732400000001,
+   "conj:gradiente+xgboost": 0.4934304,
+   "conj:rede_neural+xgboost": 0.49112856,
+   "conj:estatistico+logistica+floresta": 0.48784642000000006,
+   "conj:estatistico+logistica+gradiente": 0.49182286000000003,
+   "conj:estatistico+logistica+rede_neural": 0.49064940000000007,
+   "conj:estatistico+logistica+xgboost": 0.48899786000000006,
+   "conj:estatistico+floresta+gradiente": 0.49046474,
+   "conj:estatistico+floresta+rede_neural": 0.4873618,
+   "conj:estatistico+floresta+xgboost": 0.48746939999999994,
+   "conj:estatistico+gradiente+rede_neural": 0.49163148,
+   "conj:estatistico+gradiente+xgboost": 0.49093078000000007,
+   "conj:estatistico+rede_neural+xgboost": 0.48916666000000003,
+   "conj:logistica+floresta+gradiente": 0.49276225999999995,
+   "conj:logistica+floresta+rede_neural": 0.48883314,
+   "conj:logistica+floresta+xgboost": 0.48894214,
+   "conj:logistica+gradiente+rede_neural": 0.4935686600000001,
+   "conj:logistica+gradiente+xgboost": 0.49211928000000005,
+   "conj:logistica+rede_neural+xgboost": 0.48979556,
+   "conj:floresta+gradiente+rede_neural": 0.4920875,
+   "conj:floresta+gradiente+xgboost": 0.4911107,
+   "conj:floresta+rede_neural+xgboost": 0.48819727999999996,
+   "conj:gradiente+rede_neural+xgboost": 0.49199552,
+   "conj:estatistico+logistica+floresta+gradiente": 0.49026102,
+   "conj:estatistico+logistica+floresta+rede_neural": 0.48749084000000004,
+   "conj:estatistico+logistica+floresta+xgboost": 0.4875192,
+   "conj:estatistico+logistica+gradiente+rede_neural": 0.49101096,
+   "conj:estatistico+logistica+gradiente+xgboost": 0.4901751200000001,
+   "conj:estatistico+logistica+rede_neural+xgboost": 0.48883346,
+   "conj:estatistico+floresta+gradiente+rede_neural": 0.48967636000000003,
+   "conj:estatistico+floresta+gradiente+xgboost": 0.48934979999999995,
+   "conj:estatistico+floresta+rede_neural+xgboost": 0.48726139999999996,
+   "conj:estatistico+gradiente+rede_neural+xgboost": 0.48995807999999996,
+   "conj:logistica+floresta+gradiente+rede_neural": 0.49135084000000007,
+   "conj:logistica+floresta+gradiente+xgboost": 0.4908587,
+   "conj:logistica+floresta+rede_neural+xgboost": 0.48810468,
+   "conj:logistica+gradiente+rede_neural+xgboost": 0.4909827600000001,
+   "conj:floresta+gradiente+rede_neural+xgboost": 0.49007684,
+   "conj:estatistico+logistica+floresta+gradiente+rede_neural": 0.4893869199999999,
+   "conj:estatistico+logistica+floresta+gradiente+xgboost": 0.48924544000000003,
+   "conj:estatistico+logistica+floresta+rede_neural+xgboost": 0.48717762000000003,
+   "conj:estatistico+logistica+gradiente+rede_neural+xgboost": 0.48955879999999996,
+   "conj:estatistico+floresta+gradiente+rede_neural+xgboost": 0.48877536,
+   "conj:logistica+floresta+gradiente+rede_neural+xgboost": 0.48988552,
+   "conj:estatistico+logistica+floresta+gradiente+rede_neural+xgboost": 0.48863886,
+   "_n": 2500
+  }
+ },
+ "selecao": {
+  "variante": {
+   "nome": "padrão do motor",
+   "janela": 2000,
+   "atributos": "atual",
+   "hiper": "atual",
+   "negativos": 15
+  },
+  "combinacao": "conj:estatistico+floresta+rede_neural+xgboost",
+  "media_ajuste": 0.4853679,
+  "pesos_aprendidos": {
+   "estatistico": 0.008570440000000068,
+   "logistica": 0.006314199999999992,
+   "floresta": 0.008738040000000002,
+   "gradiente": 0.0036952600000000335,
+   "rede_neural": 0.007021160000000082,
+   "xgboost": 0.014404739999999971
+  },
+  "obs_pesos": null
+ },
+ "teste_final": {
+  "contra_acaso": {
+   "modelo:estatistico": {
+    "n": 5000,
+    "media": 0.49432702,
+    "ic95": [
+     0.4862897820447411,
+     0.5023642579552589
+    ],
+    "z": -1.38959063210141,
+    "p": 0.08232661101866495,
+    "milhar_no_top10": 7,
+    "milhar_no_top10_esperado": 5.0,
+    "p_top10": 0.2378165370270613,
+    "p_holm": 0.8591360402508578
+   },
+   "modelo:logistica": {
+    "n": 5000,
+    "media": 0.49621504000000005,
+    "ic95": [
+     0.4881684709961511,
+     0.504261609003849
+    ],
+    "z": -0.9271220696844492,
+    "p": 0.17693157931915782,
+    "milhar_no_top10": 3,
+    "milhar_no_top10_esperado": 5.0,
+    "p_top10": 0.8753479805169189,
+    "p_holm": 1.0
+   },
+   "modelo:floresta": {
+    "n": 5000,
+    "media": 0.49661439,
+    "ic95": [
+     0.48856379452288135,
+     0.5046649854771187
+    ],
+    "z": -0.8293016968064115,
+    "p": 0.20346685549026833,
+    "milhar_no_top10": 4,
+    "milhar_no_top10_esperado": 5.0,
+    "p_top10": 0.7349740847026385,
+    "p_holm": 1.0
+   },
+   "modelo:gradiente": {
+    "n": 5000,
+    "media": 0.49516127,
+    "ic95": [
+     0.4872174423359424,
+     0.5031050976640575
+    ],
+    "z": -1.185241950309728,
+    "p": 0.11796089895769485,
+    "milhar_no_top10": 5,
+    "milhar_no_top10_esperado": 5.0,
+    "p_top10": 0.5595067149347879,
+    "p_holm": 1.0
+   },
+   "modelo:rede_neural": {
+    "n": 5000,
+    "media": 0.50004496,
+    "ic95": [
+     0.49202455052831007,
+     0.5080653694716899
+    ],
+    "z": 0.011012905883548954,
+    "p": 0.504393424978087,
+    "milhar_no_top10": 5,
+    "milhar_no_top10_esperado": 5.0,
+    "p_top10": 0.5595067149347879,
+    "p_holm": 1.0
+   },
+   "modelo:xgboost": {
+    "n": 5000,
+    "media": 0.49967655000000005,
+    "ic95": [
+     0.4915792521238361,
+     0.507773847876164
+    ],
+    "z": -0.07922874573030901,
+    "p": 0.46842534033343103,
+    "milhar_no_top10": 5,
+    "milhar_no_top10_esperado": 5.0,
+    "p_top10": 0.5595067149347879,
+    "p_holm": 1.0
+   },
+   "padrão do motor (conjunto, peso igual)": {
+    "n": 5000,
+    "media": 0.49421125999999993,
+    "ic95": [
+     0.4861842151679358,
+     0.5022383048320641
+    ],
+    "z": -1.4179459253638866,
+    "p": 0.07810327638644161,
+    "milhar_no_top10": 5,
+    "milhar_no_top10_esperado": 5.0,
+    "p_top10": 0.5595067149347879,
+    "p_holm": 0.8591360402508578
+   },
+   "configuração escolhida no ajuste": {
+    "n": 5000,
+    "media": 0.49643215999999996,
+    "ic95": [
+     0.4883966976212889,
+     0.504467622378711
+    ],
+    "z": -0.8739387483891644,
+    "p": 0.19107580569648813,
+    "milhar_no_top10": 6,
+    "milhar_no_top10_esperado": 5.0,
+    "p_top10": 0.384039345166937,
+    "p_holm": 1.0
+   },
+   "escolhida com pesos aprendidos no ajuste": {
+    "n": 5000,
+    "media": 0.49553312000000005,
+    "ic95": [
+     0.48749365157656827,
+     0.5035725884234318
+    ],
+    "z": -1.0941576742243204,
+    "p": 0.13694291557928867,
+    "milhar_no_top10": 3,
+    "milhar_no_top10_esperado": 5.0,
+    "p_top10": 0.8753479805169189,
+    "p_holm": 1.0
+   },
+   "ref_aleatorio": {
+    "n": 5000,
+    "media": 0.5017988800000001,
+    "ic95": [
+     0.4938418999643092,
+     0.5097558600356908
+    ],
+    "z": 0.44063381084979464,
+    "p": 0.6702609393399814,
+    "milhar_no_top10": 3,
+    "milhar_no_top10_esperado": 5.0,
+    "p_top10": 0.8753479805169189,
+    "p_holm": null
+   },
+   "ref_freq_historica": {
+    "n": 5000,
+    "media": 0.49391387000000003,
+    "ic95": [
+     0.48583486992104485,
+     0.5019928700789552
+    ],
+    "z": -1.4907913008244906,
+    "p": 0.06800814820483275,
+    "milhar_no_top10": 4,
+    "milhar_no_top10_esperado": 5.0,
+    "p_top10": 0.7349740847026385,
+    "p_holm": 0.816097778457993
+   },
+   "ref_freq_recente": {
+    "n": 5000,
+    "media": 0.4930945299999999,
+    "ic95": [
+     0.48502397176972534,
+     0.5011650882302745
+    ],
+    "z": -1.691487793409715,
+    "p": 0.045371838592717484,
+    "milhar_no_top10": 11,
+    "milhar_no_top10_esperado": 5.0,
+    "p_top10": 0.013695268598382914,
+    "p_holm": 0.5898339017053273
+   },
+   "ref_ausencia": {
+    "n": 5000,
+    "media": 0.50761237,
+    "ic95": [
+     0.4996593754896886,
+     0.5155653645103114
+    ],
+    "z": 1.864642223327047,
+    "p": 0.9688842148645993,
+    "milhar_no_top10": 4,
+    "milhar_no_top10_esperado": 5.0,
+    "p_top10": 0.7349740847026385,
+    "p_holm": 1.0
+   },
+   "ref_estrutura": {
+    "n": 5000,
+    "media": 0.49746819999999997,
+    "ic95": [
+     0.4943572654580924,
+     0.5005791345419075
+    ],
+    "z": -0.6201618130778521,
+    "p": 0.26757562987119976,
+    "milhar_no_top10": 0,
+    "milhar_no_top10_esperado": 5.0,
+    "p_top10": 1.0,
+    "p_holm": 1.0
+   }
+  },
+  "comparacoes": {
+   "padrão do motor (conjunto, peso igual) × Seleção aleatória": {
+    "n": 5000,
+    "diferenca": -0.007587619999999998,
+    "ic95": [
+     -0.0187752086022442,
+     0.003599968602244206
+    ],
+    "z": -1.3293065850684536,
+    "p": 0.18374684262198526,
+    "p_holm": 1.0
+   },
+   "padrão do motor (conjunto, peso igual) × Frequência histórica (todo o passado)": {
+    "n": 5000,
+    "diferenca": 0.00029739000000000057,
+    "ic95": [
+     -0.009663643768527984,
+     0.010258423768527983
+    ],
+    "z": 0.058516456579198836,
+    "p": 0.9533372545007792,
+    "p_holm": 1.0
+   },
+   "padrão do motor (conjunto, peso igual) × Frequência recente (100/500/1000)": {
+    "n": 5000,
+    "diferenca": 0.001116730000000001,
+    "ic95": [
+     -0.008403080208994128,
+     0.010636540208994131
+    ],
+    "z": 0.22991958368372467,
+    "p": 0.818154258369004,
+    "p_holm": 1.0
+   },
+   "padrão do motor (conjunto, peso igual) × Intervalo de ausência (mais atrasados primeiro)": {
+    "n": 5000,
+    "diferenca": -0.013401109999999999,
+    "ic95": [
+     -0.026104600255315177,
+     -0.0006976197446848225
+    ],
+    "z": -2.067634569090975,
+    "p": 0.038674398860275704,
+    "p_holm": 1.0
+   },
+   "padrão do motor (conjunto, peso igual) × Estrutura do universo (bilhetes válidos por milhar)": {
+    "n": 5000,
+    "diferenca": -0.0032569399999999972,
+    "ic95": [
+     -0.011185615734153016,
+     0.00467173573415302
+    ],
+    "z": -0.8051284494461576,
+    "p": 0.42074556019815545,
+    "p_holm": 1.0
+   },
+   "configuração escolhida no ajuste × Seleção aleatória": {
+    "n": 5000,
+    "diferenca": -0.005366719999999999,
+    "ic95": [
+     -0.016581117341677696,
+     0.0058476773416776965
+    ],
+    "z": -0.9379702608634669,
+    "p": 0.348259693464388,
+    "p_holm": 1.0
+   },
+   "configuração escolhida no ajuste × Frequência histórica (todo o passado)": {
+    "n": 5000,
+    "diferenca": 0.0025182900000000003,
+    "ic95": [
+     -0.006825542253884562,
+     0.011862122253884562
+    ],
+    "z": 0.528246683575467,
+    "p": 0.5973281315805803,
+    "p_holm": 1.0
+   },
+   "configuração escolhida no ajuste × Frequência recente (100/500/1000)": {
+    "n": 5000,
+    "diferenca": 0.0033376299999999994,
+    "ic95": [
+     -0.005753264236898677,
+     0.012428524236898676
+    ],
+    "z": 0.7195942037745775,
+    "p": 0.47177488181389116,
+    "p_holm": 1.0
+   },
+   "configuração escolhida no ajuste × Intervalo de ausência (mais atrasados primeiro)": {
+    "n": 5000,
+    "diferenca": -0.011180210000000003,
+    "ic95": [
+     -0.0241097691995384,
+     0.0017493491995383935
+    ],
+    "z": -1.6948150560911883,
+    "p": 0.09011051040588647,
+    "p_holm": 1.0
+   },
+   "configuração escolhida no ajuste × Estrutura do universo (bilhetes válidos por milhar)": {
+    "n": 5000,
+    "diferenca": -0.0010360399999999987,
+    "ic95": [
+     -0.009163353543616653,
+     0.0070912735436166555
+    ],
+    "z": -0.24985358188806425,
+    "p": 0.8027005811373625,
+    "p_holm": 1.0
+   },
+   "configuração escolhida no ajuste × padrão do motor (conjunto, peso igual)": {
+    "n": 5000,
+    "diferenca": 0.0022208999999999996,
+    "ic95": [
+     -0.0009959239606623861,
+     0.005437723960662385
+    ],
+    "z": 1.3531868865785455,
+    "p": 0.17599593350765952,
+    "p_holm": 1.0
+   },
+   "escolhida com pesos aprendidos no ajuste × Seleção aleatória": {
+    "n": 5000,
+    "diferenca": -0.00626576,
+    "ic95": [
+     -0.017483331321817293,
+     0.004951811321817292
+    ],
+    "z": -1.0947904183247437,
+    "p": 0.27360846513814463,
+    "p_holm": 1.0
+   },
+   "escolhida com pesos aprendidos no ajuste × Frequência histórica (todo o passado)": {
+    "n": 5000,
+    "diferenca": 0.0016192500000000002,
+    "ic95": [
+     -0.008347777432561886,
+     0.011586277432561888
+    ],
+    "z": 0.31842292212736856,
+    "p": 0.7501641530888754,
+    "p_holm": 1.0
+   },
+   "escolhida com pesos aprendidos no ajuste × Frequência recente (100/500/1000)": {
+    "n": 5000,
+    "diferenca": 0.00243859,
+    "ic95": [
+     -0.007166196100627325,
+     0.012043376100627324
+    ],
+    "z": 0.49763069681352134,
+    "p": 0.6187443634576958,
+    "p_holm": 1.0
+   },
+   "escolhida com pesos aprendidos no ajuste × Intervalo de ausência (mais atrasados primeiro)": {
+    "n": 5000,
+    "diferenca": -0.01207925,
+    "ic95": [
+     -0.024722931253179224,
+     0.0005644312531792265
+    ],
+    "z": -1.8725029147699281,
+    "p": 0.06113705902625237,
+    "p_holm": 1.0
+   },
+   "escolhida com pesos aprendidos no ajuste × Estrutura do universo (bilhetes válidos por milhar)": {
+    "n": 5000,
+    "diferenca": -0.001935079999999998,
+    "ic95": [
+     -0.009921626002212358,
+     0.0060514660022123615
+    ],
+    "z": -0.4748932515945393,
+    "p": 0.6348630617122636,
+    "p_holm": 1.0
+   },
+   "escolhida com pesos aprendidos no ajuste × padrão do motor (conjunto, peso igual)": {
+    "n": 5000,
+    "diferenca": 0.0013218600000000002,
+    "ic95": [
+     -0.00040059532436891965,
+     0.0030443153243689203
+    ],
+    "z": 1.5041583740055753,
+    "p": 0.13254059288927714,
+    "p_holm": 1.0
+   },
+   "Índice estatístico (sem aprendizado) × Seleção aleatória": {
+    "n": 5000,
+    "diferenca": -0.0074718599999999994,
+    "ic95": [
+     -0.018665208816552425,
+     0.0037214888165524257
+    ],
+    "z": -1.3083524725275775,
+    "p": 0.19075378509285723,
+    "p_holm": 1.0
+   },
+   "Índice estatístico (sem aprendizado) × Estrutura do universo (bilhetes válidos por milhar)": {
+    "n": 5000,
+    "diferenca": -0.0031411799999999986,
+    "ic95": [
+     -0.011728231416766073,
+     0.005445871416766076
+    ],
+    "z": -0.7169763520897428,
+    "p": 0.4733886882791859,
+    "p_holm": 1.0
+   },
+   "Regressão Logística × Seleção aleatória": {
+    "n": 5000,
+    "diferenca": -0.00558384,
+    "ic95": [
+     -0.01679864804372736,
+     0.005630968043727362
+    ],
+    "z": -0.9758817411165011,
+    "p": 0.3291230713549015,
+    "p_holm": 1.0
+   },
+   "Regressão Logística × Estrutura do universo (bilhetes válidos por milhar)": {
+    "n": 5000,
+    "diferenca": -0.0012531599999999975,
+    "ic95": [
+     -0.009262158621590648,
+     0.006755838621590652
+    ],
+    "z": -0.3066792386976558,
+    "p": 0.7590875338953313,
+    "p_holm": 1.0
+   },
+   "Random Forest × Seleção aleatória": {
+    "n": 5000,
+    "diferenca": -0.005184490000000001,
+    "ic95": [
+     -0.0164165990383678,
+     0.006047619038367798
+    ],
+    "z": -0.9046921077144957,
+    "p": 0.36562852339524765,
+    "p_holm": 1.0
+   },
+   "Random Forest × Estrutura do universo (bilhetes válidos por milhar)": {
+    "n": 5000,
+    "diferenca": -0.0008538099999999975,
+    "ic95": [
+     -0.008844987884141672,
+     0.007137367884141676
+    ],
+    "z": -0.20941438474557758,
+    "p": 0.8341247643076132,
+    "p_holm": 1.0
+   },
+   "Gradient Boosting (HistGradientBoosting) × Seleção aleatória": {
+    "n": 5000,
+    "diferenca": -0.00663761,
+    "ic95": [
+     -0.017801005036546927,
+     0.004525785036546926
+    ],
+    "z": -1.165390596445665,
+    "p": 0.24386092196038167,
+    "p_holm": 1.0
+   },
+   "Gradient Boosting (HistGradientBoosting) × Estrutura do universo (bilhetes válidos por milhar)": {
+    "n": 5000,
+    "diferenca": -0.002306929999999998,
+    "ic95": [
+     -0.010165242662291255,
+     0.005551382662291258
+    ],
+    "z": -0.5753885082350024,
+    "p": 0.5650285743754906,
+    "p_holm": 1.0
+   },
+   "Rede neural experimental (MLP) × Seleção aleatória": {
+    "n": 5000,
+    "diferenca": -0.0017539200000000008,
+    "ic95": [
+     -0.01297833964029643,
+     0.009470499640296429
+    ],
+    "z": -0.3062682357008896,
+    "p": 0.7594004221368886,
+    "p_holm": 1.0
+   },
+   "Rede neural experimental (MLP) × Estrutura do universo (bilhetes válidos por milhar)": {
+    "n": 5000,
+    "diferenca": 0.002576760000000002,
+    "ic95": [
+     -0.005980086752476136,
+     0.011133606752476141
+    ],
+    "z": 0.5902232149405421,
+    "p": 0.5550410101731158,
+    "p_holm": 1.0
+   },
+   "XGBoost × Seleção aleatória": {
+    "n": 5000,
+    "diferenca": -0.0021223299999999982,
+    "ic95": [
+     -0.013476001887177807,
+     0.00923134188717781
+    ],
+    "z": -0.3663807481258817,
+    "p": 0.7140809833195969,
+    "p_holm": 1.0
+   },
+   "XGBoost × Estrutura do universo (bilhetes válidos por milhar)": {
+    "n": 5000,
+    "diferenca": 0.0022083500000000013,
+    "ic95": [
+     -0.005979514642523366,
+     0.010396214642523369
+    ],
+    "z": 0.5286318459053165,
+    "p": 0.597060864223163,
+    "p_holm": 1.0
+   }
+  },
+  "por_periodo": [
+   {
+    "de": 5098,
+    "ate": 5347,
+    "modelo:estatistico": {
+     "media": 0.47752379999999994,
+     "ic95": [
+      0.4612824043428508,
+      0.4937651956571491
+     ],
+     "p": 0.002954750404536098
+    },
+    "modelo:logistica": {
+     "media": 0.48535528000000006,
+     "ic95": [
+      0.4691960236596421,
+      0.501514536340358
+     ],
+     "p": 0.036438153196375986
+    },
+    "modelo:floresta": {
+     "media": 0.4901285600000001,
+     "ic95": [
+      0.4737898740575431,
+      0.5064672459424572
+     ],
+     "p": 0.11333150887597493
+    },
+    "modelo:gradiente": {
+     "media": 0.48619556000000014,
+     "ic95": [
+      0.47025165733049795,
+      0.5021394626695024
+     ],
+     "p": 0.04544784929572172
+    },
+    "modelo:rede_neural": {
+     "media": 0.5111064000000001,
+     "ic95": [
+      0.49536748610187725,
+      0.5268453138981228
+     ],
+     "p": 0.9131246893824292
+    },
+    "modelo:xgboost": {
+     "media": 0.49718248000000004,
+     "ic95": [
+      0.48059151139567563,
+      0.5137734486043245
+     ],
+     "p": 0.3650192504901366
+    },
+    "padrão do motor (conjunto, peso igual)": {
+     "media": 0.48617752000000003,
+     "ic95": [
+      0.47005145723938657,
+      0.5023035827606135
+     ],
+     "p": 0.04523714230022886
+    },
+    "configuração escolhida no ajuste": {
+     "media": 0.49098544,
+     "ic95": [
+      0.4750538600780392,
+      0.5069170199219608
+     ],
+     "p": 0.1347849408976589
+    },
+    "escolhida com pesos aprendidos no ajuste": {
+     "media": 0.4878394399999999,
+     "ic95": [
+      0.4716633463750875,
+      0.5040155336249124
+     ],
+     "p": 0.06819651510562144
+    },
+    "ref_aleatorio": {
+     "media": 0.49986783999999995,
+     "ic95": [
+      0.4840135484616134,
+      0.5157221315383865
+     ],
+     "p": 0.4935429111569916
+    },
+    "ref_freq_historica": {
+     "media": 0.48705868,
+     "ic95": [
+      0.47094068112365794,
+      0.5031766788763421
+     ],
+     "p": 0.05648526541138512
+    },
+    "ref_freq_recente": {
+     "media": 0.48346996,
+     "ic95": [
+      0.46746311600904855,
+      0.4994768039909514
+     ],
+     "p": 0.021458946033038866
+    },
+    "ref_ausencia": {
+     "media": 0.51395864,
+     "ic95": [
+      0.49814915108993435,
+      0.5297681289100657
+     ],
+     "p": 0.9563279645749718
+    },
+    "ref_estrutura": {
+     "media": 0.48965,
+     "ic95": [
+      0.4795881374814663,
+      0.49971186251853367
+     ],
+     "p": 0.10246846124980075
+    }
+   },
+   {
+    "de": 5348,
+    "ate": 5615,
+    "modelo:estatistico": {
+     "media": 0.48548796,
+     "ic95": [
+      0.46911675655862467,
+      0.5018591634413753
+     ],
+     "p": 0.03775495311415694
+    },
+    "modelo:logistica": {
+     "media": 0.48906232,
+     "ic95": [
+      0.4728479298429595,
+      0.5052767101570406
+     ],
+     "p": 0.09018986718726452
+    },
+    "modelo:floresta": {
+     "media": 0.48758248000000004,
+     "ic95": [
+      0.47142293380480105,
+      0.503742026195199
+     ],
+     "p": 0.0641513280626527
+    },
+    "modelo:gradiente": {
+     "media": 0.48763992,
+     "ic95": [
+      0.47213425627700867,
+      0.5031455837229913
+     ],
+     "p": 0.06503898920712223
+    },
+    "modelo:rede_neural": {
+     "media": 0.4968264,
+     "ic95": [
+      0.48082185735512956,
+      0.5128309426448705
+     ],
+     "p": 0.3487545779418205
+    },
+    "modelo:xgboost": {
+     "media": 0.49052068,
+     "ic95": [
+      0.4743313362144772,
+      0.5067100237855228
+     ],
+     "p": 0.12282606257595596
+    },
+    "padrão do motor (conjunto, peso igual)": {
+     "media": 0.48235328,
+     "ic95": [
+      0.4664224440815765,
+      0.4982841159184235
+     ],
+     "p": 0.015337129357751679
+    },
+    "configuração escolhida no ajuste": {
+     "media": 0.48384040000000006,
+     "ic95": [
+      0.4677289804596255,
+      0.4999518195403746
+     ],
+     "p": 0.023900194901906275
+    },
+    "escolhida com pesos aprendidos no ajuste": {
+     "media": 0.48354504,
+     "ic95": [
+      0.4675113001541176,
+      0.49957877984588234
+     ],
+     "p": 0.021935942983629622
+    },
+    "ref_aleatorio": {
+     "media": 0.49975544,
+     "ic95": [
+      0.48366140986155937,
+      0.5158494701384406
+     ],
+     "p": 0.4880525234299027
+    },
+    "ref_freq_historica": {
+     "media": 0.48663675999999995,
+     "ic95": [
+      0.47052900060832464,
+      0.5027445193916752
+     ],
+     "p": 0.050851187348732646
+    },
+    "ref_freq_recente": {
+     "media": 0.49560116,
+     "ic95": [
+      0.47908538504086673,
+      0.5121169349591332
+     ],
+     "p": 0.295031177141059
+    },
+    "ref_ausencia": {
+     "media": 0.50431544,
+     "ic95": [
+      0.4880650682469033,
+      0.5205658117530966
+     ],
+     "p": 0.7014346859607432
+    },
+    "ref_estrutura": {
+     "media": 0.5003768,
+     "ic95": [
+      0.4935405511573525,
+      0.5072130488426474
+     ],
+     "p": 0.5184040099943938
+    }
+   },
+   {
+    "de": 5616,
+    "ate": 5865,
+    "modelo:estatistico": {
+     "media": 0.5028823200000001,
+     "ic95": [
+      0.4867819704383959,
+      0.5189826695616043
+     ],
+     "p": 0.6379597769846251
+    },
+    "modelo:logistica": {
+     "media": 0.51391672,
+     "ic95": [
+      0.4981199227676989,
+      0.5297135172323011
+     ],
+     "p": 0.9558508353240365
+    },
+    "modelo:floresta": {
+     "media": 0.5039744,
+     "ic95": [
+      0.48800433485856765,
+      0.5199444651414324
+     ],
+     "p": 0.6867867120199949
+    },
+    "modelo:gradiente": {
+     "media": 0.50276268,
+     "ic95": [
+      0.4868237159223285,
+      0.5187016440776716
+     ],
+     "p": 0.6324532204045059
+    },
+    "modelo:rede_neural": {
+     "media": 0.50297648,
+     "ic95": [
+      0.48704725083923617,
+      0.5189057091607637
+     ],
+     "p": 0.6422736632350655
+    },
+    "modelo:xgboost": {
+     "media": 0.50965708,
+     "ic95": [
+      0.4936733974316451,
+      0.5256407625683548
+     ],
+     "p": 0.881545070412188
+    },
+    "padrão do motor (conjunto, peso igual)": {
+     "media": 0.5069096799999999,
+     "ic95": [
+      0.49096415582338115,
+      0.5228552041766187
+     ],
+     "p": 0.8012960060876163
+    },
+    "configuração escolhida no ajuste": {
+     "media": 0.50761792,
+     "ic95": [
+      0.49148846552474923,
+      0.5237473744752507
+     ],
+     "p": 0.8245902339850477
+    },
+    "escolhida com pesos aprendidos no ajuste": {
+     "media": 0.5084012000000001,
+     "ic95": [
+      0.4923942992784123,
+      0.5244081007215879
+     ],
+     "p": 0.8482443404325423
+    },
+    "ref_aleatorio": {
+     "media": 0.4949188,
+     "ic95": [
+      0.4789547235154667,
+      0.5108828764845332
+     ],
+     "p": 0.26686660282214636
+    },
+    "ref_freq_historica": {
+     "media": 0.49374156,
+     "ic95": [
+      0.4773299036349839,
+      0.5101532163650162
+     ],
+     "p": 0.2216896551376183
+    },
+    "ref_freq_recente": {
+     "media": 0.4965216,
+     "ic95": [
+      0.48044554949734725,
+      0.5125976505026528
+     ],
+     "p": 0.33504836467681687
+    },
+    "ref_ausencia": {
+     "media": 0.50075036,
+     "ic95": [
+      0.48479943082307886,
+      0.516701289176921
+     ],
+     "p": 0.5366112368564003
+    },
+    "ref_estrutura": {
+     "media": 0.500896,
+     "ic95": [
+      0.4985552773000302,
+      0.5032367226999699
+     ],
+     "p": 0.5436910777815628
+    }
+   },
+   {
+    "de": 5866,
+    "ate": 6115,
+    "modelo:estatistico": {
+     "media": 0.5114139999999999,
+     "ic95": [
+      0.49589229339231766,
+      0.5269357066076822
+     ],
+     "p": 0.9189320240268529
+    },
+    "modelo:logistica": {
+     "media": 0.49652584000000005,
+     "ic95": [
+      0.4803540297987513,
+      0.5126976502012488
+     ],
+     "p": 0.3352375814956445
+    },
+    "modelo:floresta": {
+     "media": 0.50477212,
+     "ic95": [
+      0.48884296636399965,
+      0.5207012736360004
+     ],
+     "p": 0.7205455572615832
+    },
+    "modelo:gradiente": {
+     "media": 0.5040469200000001,
+     "ic95": [
+      0.48789914502223936,
+      0.5201946949777607
+     ],
+     "p": 0.6899273575688318
+    },
+    "modelo:rede_neural": {
+     "media": 0.48927056,
+     "ic95": [
+      0.4727945561883797,
+      0.5057465638116204
+     ],
+     "p": 0.0944091941652293
+    },
+    "modelo:xgboost": {
+     "media": 0.50134596,
+     "ic95": [
+      0.4853376950928135,
+      0.5173542249071864
+     ],
+     "p": 0.5654673075625658
+    },
+    "padrão do motor (conjunto, peso igual)": {
+     "media": 0.50140456,
+     "ic95": [
+      0.4852129895789957,
+      0.5175961304210043
+     ],
+     "p": 0.5682901843111727
+    },
+    "configuração escolhida no ajuste": {
+     "media": 0.5032848799999999,
+     "ic95": [
+      0.48718959262608175,
+      0.5193801673739181
+     ],
+     "p": 0.6562735212290032
+    },
+    "escolhida com pesos aprendidos no ajuste": {
+     "media": 0.5023468,
+     "ic95": [
+      0.4862686801575849,
+      0.518424919842415
+     ],
+     "p": 0.6131058222063839
+    },
+    "ref_aleatorio": {
+     "media": 0.51265344,
+     "ic95": [
+      0.49690973012986855,
+      0.5283971498701315
+     ],
+     "p": 0.9393960613481023
+    },
+    "ref_freq_historica": {
+     "media": 0.50821848,
+     "ic95": [
+      0.49223655795912913,
+      0.5242004020408709
+     ],
+     "p": 0.8429254549007118
+    },
+    "ref_freq_recente": {
+     "media": 0.49678539999999993,
+     "ic95": [
+      0.4808180329706656,
+      0.5127527670293343
+     ],
+     "p": 0.3468988759742673
+    },
+    "ref_ausencia": {
+     "media": 0.5114250400000001,
+     "ic95": [
+      0.4958104274793815,
+      0.5270396525206188
+     ],
+     "p": 0.9191348703255138
+    },
+    "ref_estrutura": {
+     "media": 0.49895,
+     "ic95": [
+      0.4978417005084318,
+      0.5000582994915682
+     ],
+     "p": 0.44883779078854
+    }
+   }
+  ]
+ },
+ "aprovacao": {
+  "configuração escolhida no ajuste": {
+   "abaixo_do_acaso": false,
+   "melhor_que_padrao": false,
+   "melhor_que_estrutura": false,
+   "aprovada": false
+  },
+  "escolhida com pesos aprendidos no ajuste": {
+   "abaixo_do_acaso": false,
+   "melhor_que_padrao": false,
+   "melhor_que_estrutura": false,
+   "aprovada": false
+  }
+ },
+ "algum_modelo_supera_acaso": false,
+ "abaixo_de_05_sem_controle_estrutural": [],
+ "variantes": [
+  {
+   "nome": "padrão do motor",
+   "janela": 2000,
+   "atributos": "atual",
+   "hiper": "atual",
+   "negativos": 15
+  },
+  {
+   "nome": "janela 500",
+   "janela": 500,
+   "atributos": "atual",
+   "hiper": "atual",
+   "negativos": 15
+  },
+  {
+   "nome": "janela 1000",
+   "janela": 1000,
+   "atributos": "atual",
+   "hiper": "atual",
+   "negativos": 15
+  },
+  {
+   "nome": "janela 4000",
+   "janela": 4000,
+   "atributos": "atual",
+   "hiper": "atual",
+   "negativos": 15
+  },
+  {
+   "nome": "atributos reduzidos",
+   "janela": 2000,
+   "atributos": "reduzido",
+   "hiper": "atual",
+   "negativos": 15
+  },
+  {
+   "nome": "atributos ampliados (250 + estabilidade)",
+   "janela": 2000,
+   "atributos": "ampliado",
+   "hiper": "atual",
+   "negativos": 15
+  },
+  {
+   "nome": "parâmetros simples",
+   "janela": 2000,
+   "atributos": "atual",
+   "hiper": "simples",
+   "negativos": 15
+  },
+  {
+   "nome": "parâmetros complexos",
+   "janela": 2000,
+   "atributos": "atual",
+   "hiper": "complexo",
+   "negativos": 15
+  }
+ ]
+}
