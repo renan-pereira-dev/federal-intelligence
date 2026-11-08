@@ -93,6 +93,8 @@ federal-intelligence/
 │   ├── statistics.py
 │   ├── oficial.py
 │   ├── oficial_interface.py
+│   ├── monitoramento.py
+│   ├── monitoramento_interface.py
 │   └── preditivo/
 │       ├── atributos.py
 │       ├── modelos.py
@@ -117,6 +119,8 @@ database.py: acesso ao SQLite.
 statistics.py: cálculos estatísticos.
 oficial.py: importação do resultado oficial pelo serviço da CAIXA.
 oficial_interface.py: tela de busca, prévia e confirmação do resultado oficial.
+monitoramento.py: testes de justiça do sorteio por bloco de concursos.
+monitoramento_interface.py: tela "Monitoramento do sorteio".
 atributos.py: engenharia de atributos.
 modelos.py: treinamento dos modelos.
 backtest.py: validação cronológica.
@@ -264,7 +268,18 @@ Depois de gravar, as previsões do concurso são conferidas automaticamente.
 Sem internet, nada muda e o restante do aplicativo continua funcionando.
 O serviço não informa o tipo de extração (QUARTOU, Domingo, ENRICOU); o campo fica vazio, como no restante do histórico.
 
-11. Banco de dados
+11. Monitoramento do sorteio
+
+A tela "Monitoramento do sorteio" confere se o sorteio continua uniforme e independente. Não prevê resultados.
+O histórico é dividido em blocos de 250 concursos, contados a partir do mais recente.
+Em cada bloco são feitos 6 testes: unidade, dezena, algarismos da 3ª e 4ª posição, unidade igual nos 5 prêmios e independência entre concursos seguidos, com correção de Holm.
+Normal: nada significativo no bloco mais recente.
+Atenção: algum teste significativo no bloco mais recente, sem repetição (acontece em cerca de 5% dos blocos por acaso).
+Alerta: o mesmo teste significativo em dois blocos seguidos.
+As posições 1 e 2 ficam de fora porque dependem da quantidade de bilhetes de cada época.
+Situação em 08/11/2026: normal; 24 blocos, 9 de 144 testes com p < 0,05 (7,2 esperados por acaso), nenhum alerta em todo o histórico.
+
+12. Banco de dados
 
 O projeto utiliza SQLite para armazenar histórico, candidatos, importações e previsões.
 
@@ -278,11 +293,11 @@ O banco definitivo deve ser preservado.
 
 Alterações estruturais devem ser acompanhadas de backup e verificação de integridade.
 
-12. Testes
+13. Testes
 
 O projeto utiliza Pytest.
 
-Última validação registrada: 277 testes aprovados.
+Última validação registrada: 297 testes aprovados.
 
 Para executar:
 
@@ -292,7 +307,7 @@ pytest -v
 
 Os testes cobrem geração, estatística, modelos, backtesting, persistência, integridade e interface.
 
-13. Ética e limitações
+14. Ética e limitações
 
 O Federal Intelligence é um laboratório experimental.
 
@@ -303,7 +318,7 @@ Não manipula resultados de backtesting.
 Não inventa dados históricos.
 Não declara vantagem sem evidência estatística.
 Não considera coincidências parciais como prêmio principal.
-14. Próximas implementações
+15. Próximas implementações
 Melhorar a estabilidade do inicializador.
 Monitorar o desempenho real das previsões.
 Aperfeiçoar os relatórios estatísticos.

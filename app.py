@@ -22,6 +22,7 @@ from src.importer import DESCRICAO_AJUSTES
 from src.preditivo.interface import pagina_previsao
 from src.preditivo.laboratorio import pagina_laboratorio
 from src.oficial_interface import secao_resultados_oficiais
+from src.monitoramento_interface import pagina_monitoramento
 from src.probability import (
     CHANCE_DERIVADOS_TEXTO,
     DATA_CONSULTA,
@@ -230,6 +231,7 @@ def pagina_inicio() -> None:
 - **Conferência**: digite os cinco números premiados de um concurso e compare com seus candidatos.
 - **Probabilidades**: as chances oficiais da CAIXA e o porquê de cada uma.
 - **Taxa histórica**: quanto cada tipo de coincidência aconteceu desde 1962, comparado com a teoria.
+- **Monitoramento do sorteio**: confere, bloco a bloco, se o sorteio continua uniforme e independente.
 - **Previsão do próximo sorteio**: motor experimental (estatística e aprendizado de máquina) que ordena
   candidatos e mostra, separadamente, a probabilidade oficial e o desempenho real do modelo no backtest.
 - **Fontes e regras**: de onde vieram as regras usadas pelo aplicativo.
@@ -1041,6 +1043,7 @@ PAGINAS = {
     "Conferência": pagina_conferencia,
     "Probabilidades": pagina_probabilidades,
     "Taxa histórica": pagina_taxa_historica,
+    "Monitoramento do sorteio": pagina_monitoramento,
     "Previsão do próximo sorteio": pagina_previsao,
     "Laboratório de estratégias": pagina_laboratorio,
     "Fontes e regras": pagina_fontes,
