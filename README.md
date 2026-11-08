@@ -91,6 +91,8 @@ federal-intelligence/
 ├── src/
 │   ├── database.py
 │   ├── statistics.py
+│   ├── oficial.py
+│   ├── oficial_interface.py
 │   └── preditivo/
 │       ├── atributos.py
 │       ├── modelos.py
@@ -113,6 +115,8 @@ Principais módulos
 app.py: interface e navegação.
 database.py: acesso ao SQLite.
 statistics.py: cálculos estatísticos.
+oficial.py: importação do resultado oficial pelo serviço da CAIXA.
+oficial_interface.py: tela de busca, prévia e confirmação do resultado oficial.
 atributos.py: engenharia de atributos.
 modelos.py: treinamento dos modelos.
 backtest.py: validação cronológica.
@@ -250,7 +254,17 @@ Executar:
 bash
 streamlit run app.py
 
-10. Banco de dados
+10. Resultado oficial automático
+
+Nas telas Histórico e Previsão do próximo sorteio, o botão "Buscar resultados oficiais" consulta o serviço da CAIXA.
+Antes de gravar, o sistema mostra a prévia: concursos novos, já gravados e conflitos.
+A gravação só acontece depois de "Confirmar e gravar".
+Nada é sobrescrito: se um concurso já gravado vier diferente, nada é gravado.
+Depois de gravar, as previsões do concurso são conferidas automaticamente.
+Sem internet, nada muda e o restante do aplicativo continua funcionando.
+O serviço não informa o tipo de extração (QUARTOU, Domingo, ENRICOU); o campo fica vazio, como no restante do histórico.
+
+11. Banco de dados
 
 O projeto utiliza SQLite para armazenar histórico, candidatos, importações e previsões.
 
@@ -264,11 +278,11 @@ O banco definitivo deve ser preservado.
 
 Alterações estruturais devem ser acompanhadas de backup e verificação de integridade.
 
-11. Testes
+12. Testes
 
 O projeto utiliza Pytest.
 
-Última validação registrada: 255 testes aprovados.
+Última validação registrada: 277 testes aprovados.
 
 Para executar:
 
@@ -278,7 +292,7 @@ pytest -v
 
 Os testes cobrem geração, estatística, modelos, backtesting, persistência, integridade e interface.
 
-12. Ética e limitações
+13. Ética e limitações
 
 O Federal Intelligence é um laboratório experimental.
 
@@ -289,7 +303,7 @@ Não manipula resultados de backtesting.
 Não inventa dados históricos.
 Não declara vantagem sem evidência estatística.
 Não considera coincidências parciais como prêmio principal.
-13. Próximas implementações
+14. Próximas implementações
 Melhorar a estabilidade do inicializador.
 Monitorar o desempenho real das previsões.
 Aperfeiçoar os relatórios estatísticos.

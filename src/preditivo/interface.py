@@ -98,6 +98,9 @@ def pagina_previsao() -> None:
         return
 
     alvo = _secao_alvo(*ultimo)
+    with st.expander("Buscar resultado oficial na CAIXA e conferir as previsões"):
+        from src.oficial_interface import secao_resultados_oficiais
+        secao_resultados_oficiais("previsao")
     _secao_botoes(alvo)
 
     previsoes = armazenamento.listar_previsoes()

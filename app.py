@@ -21,6 +21,7 @@ from src.importer import ErroImportacao, importar, modelo_csv, normalizar_numero
 from src.importer import DESCRICAO_AJUSTES
 from src.preditivo.interface import pagina_previsao
 from src.preditivo.laboratorio import pagina_laboratorio
+from src.oficial_interface import secao_resultados_oficiais
 from src.probability import (
     CHANCE_DERIVADOS_TEXTO,
     DATA_CONSULTA,
@@ -399,8 +400,12 @@ def pagina_historico() -> None:
             "CSV com resultados oficiais."
         )
         secao_importacao()
+        with st.expander("Buscar o último resultado oficial (CAIXA)"):
+            secao_resultados_oficiais("historico_vazio")
         return
 
+    with st.expander("Buscar resultados oficiais (CAIXA)"):
+        secao_resultados_oficiais("historico")
     with st.expander("Importar mais resultados"):
         secao_importacao()
 
