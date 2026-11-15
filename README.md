@@ -332,3 +332,8 @@ Novas estratégias só devem ser incorporadas após avaliação estatística ind
 FEDERAL INTELLIGENCE
 
 Análise de dados, estatística e Machine Learning aplicados ao estudo dos resultados históricos da Loteria Federal.
+
+## 🚀 Acesso ao Aplicativo
+Você pode testar a versão online do Federal Intelligence clicando no link abaixo:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://federal-intelligence-uajnhukcptexo8w5rnfu4v.streamlit.app/)
